@@ -45,12 +45,7 @@ package logParser;
  *      Tam Glau: [Tell] 3) there seems to be an error about the total attempts being larger than the sum of the actual hits+autohits+total misses, which shouldn't be
  *      Tam Glau: [Tell] 4) display spell DC
  *      Tam Glau: [Tell] 5) divide by number of times killed for average HP
- *      Tam Glau: [Tell] 6).. I know I had something else...... ah well....
  *
- * - Restrictions:
- *      (DONE!) Only for friends
- *      (DONE!) Checks against nwnplayer.ini
- * - Check against server on startup (every minute?)
  * - Send input to server
  */
 import java.io.File;
@@ -65,7 +60,6 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-import javax.swing.JOptionPane;
 import javax.swing.text.Document;
 
 public class Parser {
@@ -92,6 +86,8 @@ public class Parser {
 //    private final ParserListener listener6;
     private volatile boolean shouldStop = false;
     private static UptimeStopwatch stopWatch = null;
+    private String loginRegex1 = "\\[.*]\\s\\[.*]\\s";
+    private String loginRegex2 = "\\shas\\sjoined\\sas\\sa\\splayer\\.+";
 
     public interface ParserListener {
         void dataUpdated(ArrayList<Attacker> attackers);
@@ -139,8 +135,7 @@ public class Parser {
     private class ParserThread extends Thread {
 
         private File nwClientLogFile;
-        private boolean correctLoginServer;
-        private boolean correctLoginINI;
+        private String playername_from_inifile;
 
         private ParserThread(File file) {
             this.nwClientLogFile = file;
@@ -152,11 +147,7 @@ public class Parser {
             try {
                 long pos = 0;
                 long oldLength = 0;
-                int readLines = 0;
-                int loginLineLimit = 20;
-                correctLoginINI = JFrameParser.checkLoginINI(loginName);
-                if(!correctLoginINI) correctLoginINI = JFrameParser.checkLoginINI(loginName2);
-                correctLoginServer = false;
+                playername_from_inifile = JFrameParser.checkLoginINI();
 
                 RandomAccessFile fileIn;
                 while (!shouldStop) {
@@ -178,84 +169,61 @@ public class Parser {
 //                            Since the stopwatch is triggered on the first server message, this must be here.
 //                            This means that the clock will start and continue to run before the trueLogin check.
 //                            To stop the watch a stop method has been added just before the return statement.
-                            if(lineString.matches(lalaLoginMessage)) startStopwatch(lineString);
-//                            If incorrect login, display message and stop reading.
-                            if (!correctLoginServer) {
-                                if (lineString.contains(illegalLogin) || lineString.contains(illegalLogin2) || lineString.contains(illegalLogin3) || lineString.contains(illegalLogin4) || lineString.contains(illegalLogin5)) {
-                                    JOptionPane.showMessageDialog(null, "You do not get to use this.\n~Halgroth");
-                                    return;
-                                } else if (lineString.contains("[Tell]") || lineString.contains("[Whisper]") || lineString.contains("[Talk]") || lineString.contains("[Party]")) {
-                                    readLines++;
-                                    continue;
-                                } else if (readLines <= loginLineLimit && lineString.matches(loginRegex1 + loginName + loginRegex2) && correctLoginINI) {
-                                    correctLoginServer = true;
-                                } else if (readLines <= loginLineLimit && lineString.matches(loginRegex1 + loginName2 + loginRegex2) && correctLoginINI) {
-                                    correctLoginServer = true;
-                                } else if (readLines > loginLineLimit) {
-                                    if(stopWatch != null) stopStopwatch();
-                                    if("NOT_IN_USE".equals(loginName2))
-                                        JOptionPane.showMessageDialog(null, "Illegal login! Either restart nwn, or ask for your own version of Halgroth's log parser.\nCorrect login: " + loginName);
-                                    else
-                                        JOptionPane.showMessageDialog(null, "Illegal login! Either restart nwn, or ask for your own version of Halgroth's log parser.\nCorrect login: " + loginName + " or " + loginName2);
-                                    return;
-                                } else {
-                                    readLines++;
-                                }
-                            } else {
-                                if (lineString.contains("[Tell]") || lineString.contains("[Whisper]") || lineString.contains("[Talk]")) {
-                                    continue;
-                                } else if (lineString.isEmpty()) {
-                                    continue;
-                                } else if (lineString.matches(".*\\].*\\]\\s+.*:\\s\\[Party\\].*")) {
-                                    if (JFrameParser.jCheckBoxAutoCheckParty.isSelected()) {
+                            if(lineString.matches(loginRegex1 + playername_from_inifile + loginRegex2)) startStopwatch(lineString);
+                            
+                            if (lineString.contains("[Tell]") || lineString.contains("[Whisper]") || lineString.contains("[Talk]")) {
+                                continue;
+                            } else if (lineString.isEmpty()) {
+                                continue;
+                            } else if (lineString.matches(".*\\].*\\]\\s+.*:\\s\\[Party\\].*")) {
+                                if (JFrameParser.jCheckBoxAutoCheckParty.isSelected()) {
 //                                        System.out.println(lineString);
-                                        setPartyMember(lineString);
-                                    } else {
-                                        continue;
-                                    }
-                                } else if (lineString.contains("BONUS XP:")) {
-                                    numberOfUniques++;
-                                } else if (lineString.matches(".*\\].*\\]\\s+(.*)\\s+has\\sjust\\slooted\\s+(.*)")) {
-//                                    System.out.println(lineString);
-                                    lootParser(lineString);
-                                } else if (lineString.matches(".*\\].*\\]\\s!!\\sLFP\\s!!")) {
-                                    serverInfoLFPNotificationParser(lineString);
-                                } else if (lineString.matches(".*\\].*\\]\\s\\(LFP\\)\\s+.*\\s+\\(\\d+\\)\\sis\\slooking\\sfor\\sa\\sparty\\.\\s+Party\\sType\\:.*")) {
-                                    serverInfoLFPRequestParser(lineString);
-                                } //                                Bottleneck to avoid getting chat input into parsers. Might be unnecessary for attacks, damages, killed and attempts.
-                                else if (!lineString.contains("attacks") && !lineString.contains("damage") && !lineString.contains("Damage") && !lineString.contains("kill") && !lineString.contains("xp") && !lineString.contains("attempts") && !lineString.contains("Save") && !lineString.contains("casts")) {
-//                                    System.out.println(lineString);
+                                    setPartyMember(lineString);
+                                } else {
                                     continue;
-                                } else if (lineString.matches(".*\\].*\\]\\s(.*)\\s+attacks\\s(.*)\\*(.*)\\*(.*)")) {
+                                }
+                            } else if (lineString.contains("BONUS XP:")) {
+                                numberOfUniques++;
+                            } else if (lineString.matches(".*\\].*\\]\\s+(.*)\\s+has\\sjust\\slooted\\s+(.*)")) {
 //                                    System.out.println(lineString);
-                                    attackParser(lineString);
-                                } else if (lineString.matches(".*\\].*\\]\\s.*\\s+damages\\s.*:\\s\\d+\\s\\(.*\\)")) {
+                                lootParser(lineString);
+                            } else if (lineString.matches(".*\\].*\\]\\s!!\\sLFP\\s!!")) {
+                                serverInfoLFPNotificationParser(lineString);
+                            } else if (lineString.matches(".*\\].*\\]\\s\\(LFP\\)\\s+.*\\s+\\(\\d+\\)\\sis\\slooking\\sfor\\sa\\sparty\\.\\s+Party\\sType\\:.*")) {
+                                serverInfoLFPRequestParser(lineString);
+                            } //                                Bottleneck to avoid getting chat input into parsers. Might be unnecessary for attacks, damages, killed and attempts.
+                            else if (!lineString.contains("attacks") && !lineString.contains("damage") && !lineString.contains("Damage") && !lineString.contains("kill") && !lineString.contains("xp") && !lineString.contains("attempts") && !lineString.contains("Save") && !lineString.contains("casts")) {
+//                                    System.out.println(lineString);
+                                continue;
+                            } else if (lineString.matches(".*\\].*\\]\\s(.*)\\s+attacks\\s(.*)\\*(.*)\\*(.*)")) {
+//                                    System.out.println(lineString);
+                                attackParser(lineString);
+                            } else if (lineString.matches(".*\\].*\\]\\s.*\\s+damages\\s.*:\\s\\d+\\s\\(.*\\)")) {
 //                                    damageParser2 uses regex and sets damage taken. damageParser is the orignal crappy version.
-                                    damageParser2(lineString);
+                                damageParser2(lineString);
 //                                    System.out.println(lineString);
-                                } else if (lineString.matches(".*\\].*\\]\\s+.*\\s+\\:\\sDamage\\sResistance\\sabsorbs\\s\\d+\\sdamage")) {
-                                    dmgResistanceParser(lineString);
-                                } else if (lineString.matches(".*\\].*\\]\\s+.*\\s+\\:\\sDamage\\sReduction\\sabsorbs\\s\\d+\\sdamage")) {
-                                    dmgReductionParser(lineString);
-                                } else if (lineString.matches(".*\\].*\\]\\s+.*\\s+\\:\\sDamage\\sImmunity\\sabsorbs\\s\\d+\\spoint\\(s\\)\\sof\\s.*")) {
-                                    dmgImmunityParser(lineString);
-                                } else if (lineString.matches(".*\\].*\\]\\s.*\\s+killed\\s+.*")) {
+                            } else if (lineString.matches(".*\\].*\\]\\s+.*\\s+\\:\\sDamage\\sResistance\\sabsorbs\\s\\d+\\sdamage")) {
+                                dmgResistanceParser(lineString);
+                            } else if (lineString.matches(".*\\].*\\]\\s+.*\\s+\\:\\sDamage\\sReduction\\sabsorbs\\s\\d+\\sdamage")) {
+                                dmgReductionParser(lineString);
+                            } else if (lineString.matches(".*\\].*\\]\\s+.*\\s+\\:\\sDamage\\sImmunity\\sabsorbs\\s\\d+\\spoint\\(s\\)\\sof\\s.*")) {
+                                dmgImmunityParser(lineString);
+                            } else if (lineString.matches(".*\\].*\\]\\s.*\\s+killed\\s+.*")) {
 //                                    killParser2 uses regex and sets both kill and death. killParser is the original crappy version.
-                                    killParser2(lineString);
-                                } else if (lineString.matches(".*\\].*\\]\\s.*\\s:\\s(Reflex|Will|Fortitude)\\sSave.*:\\s\\*(success|failure).*")) {
-                                    savingThrowParser(lineString);
+                                killParser2(lineString);
+                            } else if (lineString.matches(".*\\].*\\]\\s.*\\s:\\s(Reflex|Will|Fortitude)\\sSave.*:\\s\\*(success|failure).*")) {
+                                savingThrowParser(lineString);
 //                                    System.out.println(lineString);
-                                } else if (lineString.contains("casts")) {
+                            } else if (lineString.contains("casts")) {
 //                                    System.out.println(lineString);
-                                    printToSpellTextArea(lineString);
-                                } else if (lineString.contains("xp)")) {
-                                    xpParser(lineString);
+                                printToSpellTextArea(lineString);
+                            } else if (lineString.contains("xp)")) {
+                                xpParser(lineString);
 //                                    System.out.println(lineString);
-                                } else if (lineString.matches(".*\\].*\\]\\s(.*)\\s+attempts\\s(.*)\\*(.*)\\*(.*)") && !lineString.contains("resist spell")) {
+                            } else if (lineString.matches(".*\\].*\\]\\s(.*)\\s+attempts\\s(.*)\\*(.*)\\*(.*)") && !lineString.contains("resist spell")) {
 //                                else if(lineString.contains("attempts") && !lineString.contains("resist spell")) {
 //                                    System.out.println(lineString);
-                                    attemptParser(lineString);
-                                }
+                                attemptParser(lineString);
                             }
                         }
                         fireDataChanged();

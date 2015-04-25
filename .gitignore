@@ -18,6 +18,7 @@ hs_err_pid*
 ##############################
 *.swp
 logparser.sublime-workspace
+nbproject/private
 
 # OS generated files #
 ##############################

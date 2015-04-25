@@ -590,7 +590,7 @@ public class JFrameParser extends javax.swing.JFrame implements ListDataListener
      * Needs the loginName parameter to be correct to be effective.
      * @return true if it's a match, otherwise false.
      */    
-    public static boolean checkLoginINI(String login) throws FileNotFoundException, IOException{
+    public static String checkLoginINI() throws FileNotFoundException, IOException{
 //        Should not leave traces for anyone to pick up, so I avoided making new properties entry for the file location and did this instead.
 //        No need to load NWNLogsFolder properties because they're already loaded and stored in inputFileLocation
         
@@ -608,10 +608,8 @@ public class JFrameParser extends javax.swing.JFrame implements ListDataListener
 //            Retrieves property "Player"
             String iniLogin = defaultProperties.getProperty(PROPERTY_INI_PLAYERNAME);
 //            Properties delimit at \s, so iniLogin becomes Name=loginName. Substring removes "Name=" from the string.
-            iniLogin=iniLogin.substring(5);
-            if(iniLogin.matches(login)) return true;
-            else return false;
-        } else return false;
+            return iniLogin.substring(5);
+        } else return null;
     }
 
     private void jButtonStartActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonStartActionPerformed
