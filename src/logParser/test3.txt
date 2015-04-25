@@ -1,0 +1,1659 @@
+[CHAT WINDOW TEXT] [Tue Dec 07 15:34:14] Acquired Item: PC Properties
+[CHAT WINDOW TEXT] [Tue Dec 07 15:34:14] (LTS) LTS Initialized.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:34:14] Your subrace is not recognized by La-La Land.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:34:14] Your journal has been updated. 10. Nerfs & Beefs
+[CHAT WINDOW TEXT] [Tue Dec 07 15:34:14] Your journal has been updated. 9. Staff
+[CHAT WINDOW TEXT] [Tue Dec 07 15:34:14] Your journal has been updated. 8. Pick Pocketing
+[CHAT WINDOW TEXT] [Tue Dec 07 15:34:16] Halgroth has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 15:34:19] (LWS) Your patron deity is Malar, who is an official deity of La-La Land's Worship System.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:34:19] (LWS) The Church of Malar is growing in power. Current power of Malar: 10%.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:34:19] You sense suppressed energies in this place. Magic may be impossible to use here.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:34:19] [Server] You are now in a No PVP area.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:34:20] Your journal has been updated. 7. Guild System v1.0
+[CHAT WINDOW TEXT] [Tue Dec 07 15:34:20] Your journal has been updated. 6. Token System v1.3
+[CHAT WINDOW TEXT] [Tue Dec 07 15:34:20] Your journal has been updated. 5. La-La Website and Forums
+[CHAT WINDOW TEXT] [Tue Dec 07 15:34:20] Your journal has been updated. 4. Donations
+[CHAT WINDOW TEXT] [Tue Dec 07 15:34:20] Your journal has been updated. 3. What's New (12/03/2010) 
+[CHAT WINDOW TEXT] [Tue Dec 07 15:34:20] Your journal has been updated. 2. Bugs & Exploits
+[CHAT WINDOW TEXT] [Tue Dec 07 15:34:22] Your journal has been updated. 1. PvP System
+[CHAT WINDOW TEXT] [Tue Dec 07 15:34:22] (-MESSAGES-) Logging to avoid death is unacceptable.  You will be banned and/or vaultwiped when caught. Yes, we know the difference between this and crashing - dont test us.  Many have already been nailed - we are always watching! muahahahaha!
+[CHAT WINDOW TEXT] [Tue Dec 07 15:34:22] (-MESSAGES-) Please consider contributing to our hosting bill.  Visit http://nwnlalaland.com/ to subscribe
+[CHAT WINDOW TEXT] [Tue Dec 07 15:34:23] mancalledhorse has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 15:34:24] Wizard of La-La Land: My greetings.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:34:26] (LWS) The Church of Bane is growing in power. Current power of Bane: 20%.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:34:31] Wizard of La-La Land: My greetings.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:34:48] mancalledhorse has left as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 15:34:51] You have received a Party Invitation from ~Drekana Darkstorm~.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:34:53] Grrr'ark Bloodpaw has joined the party.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:34:54] BunnytheFierce has left as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 15:35:06] BunnytheFierce has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 15:35:07] (LWS) The Church of Torm is growing in power. Current power of Torm: 10%.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:35:12] ~Drekana Darkstorm~ : [Party] one sec gotta start my laundry, think about what you want to do if with huor or drekana
+[CHAT WINDOW TEXT] [Tue Dec 07 15:35:13] Wizard of La-La Land: My greetings.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:35:14] Castiel: My greetings to you.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:35:20] mancalledhorse has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 15:35:29] Wizard of La-La Land: My greetings.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:35:37] mancalledhorse has left as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 15:36:03] T'ien Lung has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 15:36:06] (LWS) The Church of Mystra is growing in power. Current power of Mystra: 10%.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:36:11] Wizard of La-La Land: My greetings.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:36:11] Demosword has left as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 15:36:37] mancalledhorse has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 15:36:45] Wizard of La-La Land: My greetings.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:36:59] Marc of Montrose has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 15:37:09] Wizard of La-La Land: My greetings.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:37:21] Godenai has left as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 15:37:26] ~Drekana Darkstorm~ : [Party] ok back
+[CHAT WINDOW TEXT] [Tue Dec 07 15:37:32] Binky, Leader of The Knights of Stardust, King of The Mountain Faeries: who wants some stuff?
+[CHAT WINDOW TEXT] [Tue Dec 07 15:37:35] Shree: Welcome.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:37:43] ~Drekana Darkstorm~: I do
+[CHAT WINDOW TEXT] [Tue Dec 07 15:37:44] Binky, Leader of The Knights of Stardust, King of The Mountain Faeries: Hello then. Hello.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:38:12] T'ien Lung has left as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 15:38:32] ~Drekana Darkstorm~: are you selling?
+[CHAT WINDOW TEXT] [Tue Dec 07 15:38:52] GreaseNevwinter has left as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 15:38:59] Binky, Leader of The Knights of Stardust, King of The Mountain Faeries: taking or what??
+[CHAT WINDOW TEXT] [Tue Dec 07 15:39:02] ~Drekana Darkstorm~ has just looted Ring of Invisibility.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:39:02] ~Drekana Darkstorm~ has just looted Archer’s Belt.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:39:02] ~Drekana Darkstorm~ has just looted Lesser Belt of Guiding Light.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:39:02] ~Drekana Darkstorm~ has just looted Belt of Guiding Light.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:39:02] ~Drekana Darkstorm~ has just looted Ring of Elemental Resistance.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:39:02] ~Drekana Darkstorm~ has just looted Ring of the Greater Ghost.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:39:02] ~Drekana Darkstorm~ has just looted Ring of Divinity III.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:39:02] ~Drekana Darkstorm~ has just looted Ring of Fortitude +3.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:39:10] Binky, Leader of The Knights of Stardust, King of The Mountain Faeries: Bet that pile a goodies shocked you
+[CHAT WINDOW TEXT] [Tue Dec 07 15:39:14] Binky, Leader of The Knights of Stardust, King of The Mountain Faeries: aye!
+[CHAT WINDOW TEXT] [Tue Dec 07 15:39:19] Binky, Leader of The Knights of Stardust, King of The Mountain Faeries: Muahahahaha!
+[CHAT WINDOW TEXT] [Tue Dec 07 15:39:31] Grrr'ark Bloodpaw: [Tell] is he giving you that stuff?
+[CHAT WINDOW TEXT] [Tue Dec 07 15:39:41] ~Drekana Darkstorm~: you're fast
+[CHAT WINDOW TEXT] [Tue Dec 07 15:39:44] Binky, Leader of The Knights of Stardust, King of The Mountain Faeries: AC +5 on the floor!!!!!!
+[CHAT WINDOW TEXT] [Tue Dec 07 15:39:49] ~Drekana Darkstorm~ has just looted Blinky' s Rags (magical)
+[CHAT WINDOW TEXT] [Tue Dec 07 15:39:55] ~Drekana Darkstorm~: wow he's fast
+[CHAT WINDOW TEXT] [Tue Dec 07 15:40:00] Grrr'ark Bloodpaw: [Party] what are you doing, Marc?
+[CHAT WINDOW TEXT] [Tue Dec 07 15:40:05] urchin wilde has left as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 15:40:08] Karesz has left as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 15:40:11] Binky, Leader of The Knights of Stardust, King of The Mountain Faeries: KNOCK DOWN IMMUNITY HELM!
+[CHAT WINDOW TEXT] [Tue Dec 07 15:40:14] Grrr'ark Bloodpaw: what are you doing Marc?
+[CHAT WINDOW TEXT] [Tue Dec 07 15:40:21] ~Drekana Darkstorm~: oh man
+[CHAT WINDOW TEXT] [Tue Dec 07 15:40:23] Binky, Leader of The Knights of Stardust, King of The Mountain Faeries: I never play anymore
+[CHAT WINDOW TEXT] [Tue Dec 07 15:40:25] ~Drekana Darkstorm~: I Want that!
+[CHAT WINDOW TEXT] [Tue Dec 07 15:40:27] ~Drekana Darkstorm~: helm!!!
+[CHAT WINDOW TEXT] [Tue Dec 07 15:40:31] Grrr'ark Bloodpaw: marc
+[CHAT WINDOW TEXT] [Tue Dec 07 15:40:33] Binky, Leader of The Knights of Stardust, King of The Mountain Faeries: gonna give all me loot away
+[CHAT WINDOW TEXT] [Tue Dec 07 15:40:33] Grrr'ark Bloodpaw: really=
+[CHAT WINDOW TEXT] [Tue Dec 07 15:40:36] Grrr'ark Bloodpaw: ?*
+[CHAT WINDOW TEXT] [Tue Dec 07 15:40:48] Binky, Leader of The Knights of Stardust, King of The Mountain Faeries: haste items and lots of other neat old stuff
+[CHAT WINDOW TEXT] [Tue Dec 07 15:41:01] Grrr'ark Bloodpaw: you're quitting?
+[CHAT WINDOW TEXT] [Tue Dec 07 15:41:08] Binky, Leader of The Knights of Stardust, King of The Mountain Faeries: i guess so
+[CHAT WINDOW TEXT] [Tue Dec 07 15:41:11] Binky, Leader of The Knights of Stardust, King of The Mountain Faeries: : (
+[CHAT WINDOW TEXT] [Tue Dec 07 15:41:22] Binky, Leader of The Knights of Stardust, King of The Mountain Faeries: Why are you guys not grabbing stuff?!
+[CHAT WINDOW TEXT] [Tue Dec 07 15:41:32] ~Drekana Darkstorm~: I really want that thieves hood :(
+[CHAT WINDOW TEXT] [Tue Dec 07 15:41:38] Binky, Leader of The Knights of Stardust, King of The Mountain Faeries: Why Drek getting everything
+[CHAT WINDOW TEXT] [Tue Dec 07 15:41:40] Shree: because we'd rather you stay? :)
+[CHAT WINDOW TEXT] [Tue Dec 07 15:41:49] ~Drekana Darkstorm~: yeah I'd rather you stay too actually
+[CHAT WINDOW TEXT] [Tue Dec 07 15:42:02] Binky, Leader of The Knights of Stardust, King of The Mountain Faeries: That's sweet but seriously i just can't get motivated to do the long slog of RPG anymore
+[CHAT WINDOW TEXT] [Tue Dec 07 15:42:15] T'ien Lung has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 15:42:31] Binky, Leader of The Knights of Stardust, King of The Mountain Faeries: woah - didn't even know i had a greater archer's belt
+[CHAT WINDOW TEXT] [Tue Dec 07 15:42:41] Acquired Item: Greater Archer’s Belt
+[CHAT WINDOW TEXT] [Tue Dec 07 15:42:41] Grrr'ark Bloodpaw has just looted Greater Archer’s Belt.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:42:42] Shree: :O
+[CHAT WINDOW TEXT] [Tue Dec 07 15:42:47] Grrr'ark Bloodpaw: wow
+[CHAT WINDOW TEXT] [Tue Dec 07 15:42:48] ~Drekana Darkstorm~: can I have that helm please 
+[CHAT WINDOW TEXT] [Tue Dec 07 15:43:12] T'ien Lung has left as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 15:43:15] Shree: ok :)
+[CHAT WINDOW TEXT] [Tue Dec 07 15:43:16] Grrr'ark Bloodpaw: seriously
+[CHAT WINDOW TEXT] [Tue Dec 07 15:43:19] Binky, Leader of The Knights of Stardust, King of The Mountain Faeries: you got it already
+[CHAT WINDOW TEXT] [Tue Dec 07 15:43:20] Acquired Item: Boots of the Sun Soul +4
+[CHAT WINDOW TEXT] [Tue Dec 07 15:43:20] Acquired Item: Galdor's Ring
+[CHAT WINDOW TEXT] [Tue Dec 07 15:43:20] Acquired Item: Lesser Ring of Regeneration
+[CHAT WINDOW TEXT] [Tue Dec 07 15:43:20] Acquired Item: Belt of Fire Giant Strength
+[CHAT WINDOW TEXT] [Tue Dec 07 15:43:20] Grrr'ark Bloodpaw has just looted Boots of the Sun Soul +4 (magical)
+[CHAT WINDOW TEXT] [Tue Dec 07 15:43:20] Grrr'ark Bloodpaw has just looted Galdor's Ring.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:43:20] (PvP) That item was marked as non-pickpocketable. Item returned to owner.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:43:20] Grrr'ark Bloodpaw has just looted Belt of Fire Giant Strength.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:43:21] Lost Item: Lesser Ring of Regeneration
+[CHAT WINDOW TEXT] [Tue Dec 07 15:43:24] Grrr'ark Bloodpaw: are you leaving for good?
+[CHAT WINDOW TEXT] [Tue Dec 07 15:43:30] ~Drekana Darkstorm~ has just looted Thieves' Hood.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:43:31] Binky, Leader of The Knights of Stardust, King of The Mountain Faeries: u got it off the floor duh!
+[CHAT WINDOW TEXT] [Tue Dec 07 15:43:34] ~Drekana Darkstorm~: wow thanks!
+[CHAT WINDOW TEXT] [Tue Dec 07 15:43:48] ~Drekana Darkstorm~: Marc if you come back, you ask for your gear back
+[CHAT WINDOW TEXT] [Tue Dec 07 15:43:50] Binky, Leader of The Knights of Stardust, King of The Mountain Faeries: You know what I'm wearing?
+[CHAT WINDOW TEXT] [Tue Dec 07 15:43:54] ~Drekana Darkstorm~: I won't trade it
+[CHAT WINDOW TEXT] [Tue Dec 07 15:44:09] Shree: yes likewise
+[CHAT WINDOW TEXT] [Tue Dec 07 15:44:14] Grrr'ark Bloodpaw: the ring is pp'ed
+[CHAT WINDOW TEXT] [Tue Dec 07 15:44:20] Binky, Leader of The Knights of Stardust, King of The Mountain Faeries: oh
+[CHAT WINDOW TEXT] [Tue Dec 07 15:44:21] Barter cancelled
+[CHAT WINDOW TEXT] [Tue Dec 07 15:44:26] NuNrg has left as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 15:44:27] Binky, Leader of The Knights of Stardust, King of The Mountain Faeries: shouldn't be
+[CHAT WINDOW TEXT] [Tue Dec 07 15:44:34] Grrr'ark Bloodpaw: it has the tag on it
+[CHAT WINDOW TEXT] [Tue Dec 07 15:44:37] NuNrg has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 15:44:37] Grrr'ark Bloodpaw: for some reason
+[CHAT WINDOW TEXT] [Tue Dec 07 15:44:40] Binky, Leader of The Knights of Stardust, King of The Mountain Faeries: Shree, you want Dark Moon Robes?
+[CHAT WINDOW TEXT] [Tue Dec 07 15:44:51] Shree: wow yes please :)
+[CHAT WINDOW TEXT] [Tue Dec 07 15:44:55] You have sent a Party Invitation to ~Drekana Darkstorm~.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:44:56] ~Drekana Darkstorm~ has joined the party.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:45:10] Grrr'ark Bloodpaw: [Tell] he's giving darkmoons to horse there
+[CHAT WINDOW TEXT] [Tue Dec 07 15:45:15] ~Drekana Darkstorm~ : [Tell] I see, 
+[CHAT WINDOW TEXT] [Tue Dec 07 15:45:15] Shree: i'll consider myself the guardian of them until you come back ;)
+[CHAT WINDOW TEXT] [Tue Dec 07 15:45:18] Binky, Leader of The Knights of Stardust, King of The Mountain Faeries: You'll have to dye them a decent color *LOL*
+[CHAT WINDOW TEXT] [Tue Dec 07 15:45:23] ~Drekana Darkstorm~: haha
+[CHAT WINDOW TEXT] [Tue Dec 07 15:45:25] TheDevil'sWater has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 15:45:34] Grrr'ark Bloodpaw: [Party] hehe
+[CHAT WINDOW TEXT] [Tue Dec 07 15:45:35] Binky, Leader of The Knights of Stardust, King of The Mountain Faeries: and +5 gloves of hurting other people!
+[CHAT WINDOW TEXT] [Tue Dec 07 15:45:39] Wizard of La-La Land: My greetings.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:45:52] Tom70 has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 15:45:52] Aeln: Well hello there.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:46:06] Wizard of La-La Land: My greetings.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:46:12] ~Drekana Darkstorm~ has just looted Periapt of Wisdom +4.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:46:15] Genar Brulitlus: whats going on here?
+[CHAT WINDOW TEXT] [Tue Dec 07 15:46:20] Binky, Leader of The Knights of Stardust, King of The Mountain Faeries: greedy guts! *LMAO*
+[CHAT WINDOW TEXT] [Tue Dec 07 15:46:33] kimho has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 15:46:40] (LWS) The Church of Lloth is growing in power. Current power of Lloth: 10%.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:46:45] Grrr'ark Bloodpaw: Marc decided to leave
+[CHAT WINDOW TEXT] [Tue Dec 07 15:46:45] Wizard of La-La Land: My greetings.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:46:47] Genar Brulitlus: So ah, thanks and all.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:46:49] Grrr'ark Bloodpaw: convince him to stay!
+[CHAT WINDOW TEXT] [Tue Dec 07 15:46:59] Genar Brulitlus: convince who to stay?
+[CHAT WINDOW TEXT] [Tue Dec 07 15:47:05] Grrr'ark Bloodpaw: Blinky there
+[CHAT WINDOW TEXT] [Tue Dec 07 15:47:15] Grrr'ark Bloodpaw: he's gone nuts
+[CHAT WINDOW TEXT] [Tue Dec 07 15:47:16] Genar Brulitlus: why does he want to go?
+[CHAT WINDOW TEXT] [Tue Dec 07 15:47:25] ~Drekana Darkstorm~ has just looted Magic Bag.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:47:25] ~Drekana Darkstorm~ has just looted Healer's Kit +3.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:47:25] ~Drekana Darkstorm~ has just looted Healer's Kit +3.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:47:25] ~Drekana Darkstorm~ has just looted Healer's Kit +3.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:47:25] ~Drekana Darkstorm~ has just looted Healer's Kit +3.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:47:25] ~Drekana Darkstorm~ has just looted Potion of Cure Serious Wounds.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:47:25] ~Drekana Darkstorm~ has just looted Potion of Cure Serious Wounds.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:47:25] ~Drekana Darkstorm~ has just looted Healer's Kit +1.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:47:25] ~Drekana Darkstorm~ has just looted Healer's Kit +3.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:47:25] ~Drekana Darkstorm~ has just looted Potion of Cure Critical Wounds.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:47:25] ~Drekana Darkstorm~ has just looted Potion of Cure Serious Wounds.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:47:25] ~Drekana Darkstorm~ has just looted Healer's Kit +3.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:47:25] ~Drekana Darkstorm~ has just looted Healer's Kit +3.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:47:42] ~Drekana Darkstorm~ has just looted Dwarven Bag.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:47:42] ~Drekana Darkstorm~ has just looted Potion of Barkskin.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:47:42] ~Drekana Darkstorm~ has just looted Potion of Lore.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:47:42] ~Drekana Darkstorm~ has just looted Healer's Kit +10.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:47:42] ~Drekana Darkstorm~ has just looted Potion of Endurance.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:47:42] ~Drekana Darkstorm~ has just looted Potion of Bless.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:47:42] ~Drekana Darkstorm~ has just looted Healer's Kit +6.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:47:42] ~Drekana Darkstorm~ has just looted Potion of Remove Curse.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:47:42] ~Drekana Darkstorm~ has just looted Potion of Lesser Restoration.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:47:42] ~Drekana Darkstorm~ has just looted Restoration.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:47:42] ~Drekana Darkstorm~ has just looted Potion of Speed.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:47:42] ~Drekana Darkstorm~ has just looted Sanctuary.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:47:42] ~Drekana Darkstorm~ has just looted Raise Dead.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:47:42] ~Drekana Darkstorm~ has just looted Potion of Lesser Restoration.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:47:47] Acquired Item: Hard White Leather Boots
+[CHAT WINDOW TEXT] [Tue Dec 07 15:47:47] Acquired Item: Hard Black Leather Boots
+[CHAT WINDOW TEXT] [Tue Dec 07 15:48:01] Rodolaka has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 15:48:21] Genar Brulitlus: why are you giving all this stuff away?
+[CHAT WINDOW TEXT] [Tue Dec 07 15:48:29] Grrr'ark Bloodpaw: [Tell] decdide to come back and it's all yours again.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:48:39] Binky, Leader of The Knights of Stardust, King of The Mountain Faeries: [Tell] ; )
+[CHAT WINDOW TEXT] [Tue Dec 07 15:48:42] ~Drekana Darkstorm~ has just looted Magic Bag.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:48:42] ~Drekana Darkstorm~ has just looted  some gloves.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:48:42] ~Drekana Darkstorm~ has just looted  a trap kit.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:48:42] ~Drekana Darkstorm~ has just looted  a healer's kit.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:48:42] ~Drekana Darkstorm~ has just looted  a healer's kit.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:48:42] ~Drekana Darkstorm~ has just looted Emerald.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:48:42] ~Drekana Darkstorm~ has just looted Alchemy for Dummies.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:48:42] ~Drekana Darkstorm~ has just looted Phenalope.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:48:54] Genar Brulitlus: [Tell] wth is going on? Who is Blinky?
+[CHAT WINDOW TEXT] [Tue Dec 07 15:49:05] Acquired Item: Galdor's Bow
+[CHAT WINDOW TEXT] [Tue Dec 07 15:49:05] Grrr'ark Bloodpaw has just looted Galdor's Bow (magical)
+[CHAT WINDOW TEXT] [Tue Dec 07 15:49:12] Grrr'ark Bloodpaw: [Tell] it's Marc of Montrose
+[CHAT WINDOW TEXT] [Tue Dec 07 15:49:23] Acquired 22000GP
+[CHAT WINDOW TEXT] [Tue Dec 07 15:49:31] Genar Brulitlus: [Tell] hhhmmmm he has been here awhile. Why is he leaving?
+[CHAT WINDOW TEXT] [Tue Dec 07 15:49:31] Binky, Leader of The Knights of Stardust, King of The Mountain Faeries: FAREWELL FOREVER!
+[CHAT WINDOW TEXT] [Tue Dec 07 15:49:35] Marc of Montrose has left as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 15:49:37] Shree: Goodbye.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:49:38] Grrr'ark Bloodpaw: wow..
+[CHAT WINDOW TEXT] [Tue Dec 07 15:49:39] ~Drekana Darkstorm~: noooooooooooooooooooooooooo
+[CHAT WINDOW TEXT] [Tue Dec 07 15:49:50] Marc of Montrose has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 15:49:51] ~Drekana Darkstorm~ has just looted Magic Bag.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:49:51] ~Drekana Darkstorm~ has just looted Skinning Knife.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:49:51] ~Drekana Darkstorm~ has just looted Skinning Knife.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:49:51] ~Drekana Darkstorm~ has just looted Skinning Knife.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:49:51] ~Drekana Darkstorm~ has just looted Oil Flask.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:49:51] ~Drekana Darkstorm~ has just looted Skinning Knife.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:49:51] ~Drekana Darkstorm~ has just looted Oil Flask.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:49:51] ~Drekana Darkstorm~ has just looted Oil Flask.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:49:51] ~Drekana Darkstorm~ has just looted Skinning Knife.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:49:51] ~Drekana Darkstorm~ has just looted Cooked Steaks.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:49:57] Wizard of La-La Land: My greetings.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:50:05] ~Drekana Darkstorm~ has just looted Cloak of Protection +4 (magical)
+[CHAT WINDOW TEXT] [Tue Dec 07 15:50:17] Genar Brulitlus: HA! HA! HAAA! 
+[CHAT WINDOW TEXT] [Tue Dec 07 15:50:22] Grrr'ark Bloodpaw: oh oh, bad
+[CHAT WINDOW TEXT] [Tue Dec 07 15:50:43] Dracko: You have my attention for the moment.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:50:49] Grrr'ark Bloodpaw: shouldn't use below lvl 11 chars to pick stuff like that up
+[CHAT WINDOW TEXT] [Tue Dec 07 15:51:01] Dracko: Goodbye, then.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:51:03] Marc of Montrose has left as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 15:51:15] Genar Brulitlus: I need  healin'!
+[CHAT WINDOW TEXT] [Tue Dec 07 15:51:18] Marc of Montrose has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 15:51:20] Genar Brulitlus: why is that?
+[CHAT WINDOW TEXT] [Tue Dec 07 15:51:23] TheDevil'sWater has left as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 15:51:29] Grrr'ark Bloodpaw: you just got frozen...
+[CHAT WINDOW TEXT] [Tue Dec 07 15:51:42] Genar Brulitlus: hhhmmm how long will one be frozen lke this?
+[CHAT WINDOW TEXT] [Tue Dec 07 15:51:54] TheDevil'sWater has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 15:52:00] (LWS) The Church of Brandobaris is growing in power. Current power of Brandobaris: 10%.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:52:00] Shree: permanently until you see a dm
+[CHAT WINDOW TEXT] [Tue Dec 07 15:52:05] Wizard of La-La Land: My greetings.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:52:15] msowby2 has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 15:52:26] Wizard of La-La Land: My greetings.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:52:31] luguvalium has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 15:52:33] Grrr'ark Bloodpaw: [Tell] Seriously man, are you sure about this?
+[CHAT WINDOW TEXT] [Tue Dec 07 15:52:36] (LWS) The Church of Waukeen is growing in power. Current power of Waukeen: 10%.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:52:41] Wizard of La-La Land: My greetings.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:52:55] Grrr'ark Bloodpaw: [Tell] GAB completes my collection... wow..
+[CHAT WINDOW TEXT] [Tue Dec 07 15:53:00] Genar Brulitlus: hhhmmmm brb
+[CHAT WINDOW TEXT] [Tue Dec 07 15:53:01] ~Drekana Darkstorm~ : [Tell] great
+[CHAT WINDOW TEXT] [Tue Dec 07 15:53:03] Tom70 has left as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 15:53:13] Tom70 has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 15:53:35] Acquired Item: PC Properties
+[CHAT WINDOW TEXT] [Tue Dec 07 15:53:35] (LTS) LTS Initialized.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:53:35] [Subraces] Your subrace field has been interpreted as 'Lightfoot Halfling' and your abilities have been set accordingly.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:53:35] Your journal has been updated. 10. Nerfs & Beefs
+[CHAT WINDOW TEXT] [Tue Dec 07 15:53:35] Your journal has been updated. 9. Staff
+[CHAT WINDOW TEXT] [Tue Dec 07 15:53:37] (LWS) You have not chosen a patron deity on character creation. You are able to choose a patron deity in game by visiting its temple.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:53:37] You sense suppressed energies in this place. Magic may be impossible to use here.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:53:37] [Server] You are now in a No PVP area.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:53:38] Your journal has been updated. 8. Pick Pocketing
+[CHAT WINDOW TEXT] [Tue Dec 07 15:53:38] Your journal has been updated. 7. Guild System v1.0
+[CHAT WINDOW TEXT] [Tue Dec 07 15:53:38] Your journal has been updated. 6. Token System v1.3
+[CHAT WINDOW TEXT] [Tue Dec 07 15:53:38] Your journal has been updated. 5. La-La Website and Forums
+[CHAT WINDOW TEXT] [Tue Dec 07 15:53:39] Your journal has been updated. 4. Donations
+[CHAT WINDOW TEXT] [Tue Dec 07 15:53:40] Your journal has been updated. 3. What's New (12/03/2010) 
+[CHAT WINDOW TEXT] [Tue Dec 07 15:53:41] Your journal has been updated. 2. Bugs & Exploits
+[CHAT WINDOW TEXT] [Tue Dec 07 15:53:42] Your journal has been updated. 1. PvP System
+[CHAT WINDOW TEXT] [Tue Dec 07 15:53:42] ~Drekana Darkstorm~: yes 
+[CHAT WINDOW TEXT] [Tue Dec 07 15:53:43] Wizard of La-La Land: If I may…
+[CHAT WINDOW TEXT] [Tue Dec 07 15:53:43] (-MESSAGES-) Logging to avoid death is unacceptable.  You will be banned and/or vaultwiped when caught. Yes, we know the difference between this and crashing - dont test us.  Many have already been nailed - we are always watching! muahahahaha!
+[CHAT WINDOW TEXT] [Tue Dec 07 15:53:43] (-MESSAGES-) Please consider contributing to our hosting bill.  Visit http://nwnlalaland.com/ to subscribe
+[CHAT WINDOW TEXT] [Tue Dec 07 15:53:50] Lil Angel: [Whisper] Welcome to La-La Land and the Land of Nordock. READ the Journal Entries that were just placed in your journal. It will save your arse from getting banned. If you ask a DM a question that is answered in your journal, you will be killed without warning or answer. Thank you, please drive thru :)
+[CHAT WINDOW TEXT] [Tue Dec 07 15:53:57] Server Guide: Welcome, traveller, to the La La Land of Nordock! What would you like to know?
+[CHAT WINDOW TEXT] [Tue Dec 07 15:53:58] Lil Angel: Send me in!
+[CHAT WINDOW TEXT] [Tue Dec 07 15:53:58] Server Guide: Where to then?
+[CHAT WINDOW TEXT] [Tue Dec 07 15:53:59] Lil Angel: Normal Start Location
+[CHAT WINDOW TEXT] [Tue Dec 07 15:54:04] Tom70 has left as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 15:54:04] You sense suppressed energies in this place. Magic may be impossible to use here.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:54:04] [Server] You are now in a No PVP area.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:54:22] Acquired Item: PC Properties
+[CHAT WINDOW TEXT] [Tue Dec 07 15:54:22] (ICS) ICS Initialized.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:54:22] (LTS) LTS Initialized.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:54:22] Grrr'ark Bloodpaw has just looted PC Properties.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:54:22] Your subrace is not recognized by La-La Land.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:54:22] Tom70 has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 15:54:25] You sense suppressed energies in this place. Magic may be impossible to use here.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:54:25] [Server] You are now in a No PVP area.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:54:27] Wizard of La-La Land: My greetings.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:54:30] (-MESSAGES-) Logging to avoid death is unacceptable.  You will be banned and/or vaultwiped when caught. Yes, we know the difference between this and crashing - dont test us.  Many have already been nailed - we are always watching! muahahahaha!
+[CHAT WINDOW TEXT] [Tue Dec 07 15:54:30] (-MESSAGES-) Please consider contributing to our hosting bill.  Visit http://nwnlalaland.com/ to subscribe
+[CHAT WINDOW TEXT] [Tue Dec 07 15:54:34] mancalledhorse has left as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 15:54:54] LoL: now why did that guy decide to leave?
+[CHAT WINDOW TEXT] [Tue Dec 07 15:55:10] Grrr'ark Bloodpaw: said he had no time for the game anymore
+[CHAT WINDOW TEXT] [Tue Dec 07 15:55:19] ~Drekana Darkstorm~ : [Tell] he gave me a ring of elemental res
+[CHAT WINDOW TEXT] [Tue Dec 07 15:55:22] LoL: everyone has 24 hours a day
+[CHAT WINDOW TEXT] [Tue Dec 07 15:55:30] Grrr'ark Bloodpaw: [Tell] the 15/- type?
+[CHAT WINDOW TEXT] [Tue Dec 07 15:55:31] ~Drekana Darkstorm~ : [Tell] ring of greater ghost
+[CHAT WINDOW TEXT] [Tue Dec 07 15:55:33] LoL: no time? You gotta make time
+[CHAT WINDOW TEXT] [Tue Dec 07 15:55:34] ~Drekana Darkstorm~ : [Tell] yes
+[CHAT WINDOW TEXT] [Tue Dec 07 15:55:45] Grrr'ark Bloodpaw: [Tell] ring of greater ghost is sweet
+[CHAT WINDOW TEXT] [Tue Dec 07 15:55:49] ~Drekana Darkstorm~ : [Tell] ring of divinity, cleric spells 3
+[CHAT WINDOW TEXT] [Tue Dec 07 15:55:52] mancalledhorse has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 15:56:03] Grrr'ark Bloodpaw: [Tell] you can tank alot with etheral visage, while it lasts
+[CHAT WINDOW TEXT] [Tue Dec 07 15:56:08] LoL: so um tell me about this picking up items and freezing thing
+[CHAT WINDOW TEXT] [Tue Dec 07 15:56:18] Grrr'ark Bloodpaw: [Tell] don't put the divinity ring in a chest. It will get deleted
+[CHAT WINDOW TEXT] [Tue Dec 07 15:56:18] LoL: I have never been frozen b4
+[CHAT WINDOW TEXT] [Tue Dec 07 15:56:18] ~Drekana Darkstorm~ : [Tell] and blinky's rags, modded, :(
+[CHAT WINDOW TEXT] [Tue Dec 07 15:56:24] LoL: is this new?
+[CHAT WINDOW TEXT] [Tue Dec 07 15:56:29] Grrr'ark Bloodpaw: [Tell] hehe, yeah
+[CHAT WINDOW TEXT] [Tue Dec 07 15:56:42] ~Drekana Darkstorm~ : [Tell] I have to hold onto that one, for memory sake
+[CHAT WINDOW TEXT] [Tue Dec 07 15:56:43] Grrr'ark Bloodpaw: are you frozen on that char too?
+[CHAT WINDOW TEXT] [Tue Dec 07 15:56:51] LoL: no just Genar
+[CHAT WINDOW TEXT] [Tue Dec 07 15:56:54] Grrr'ark Bloodpaw: it's bad
+[CHAT WINDOW TEXT] [Tue Dec 07 15:56:59] LoL: He is under 10
+[CHAT WINDOW TEXT] [Tue Dec 07 15:57:06] LoL: Why does it happen?
+[CHAT WINDOW TEXT] [Tue Dec 07 15:58:01] Grrr'ark Bloodpaw: it's an old script, added to prevent people from twinking pick pocketed items to a char below the pvp range
+[CHAT WINDOW TEXT] [Tue Dec 07 15:58:09] Grrr'ark Bloodpaw: among other things..
+[CHAT WINDOW TEXT] [Tue Dec 07 15:58:13] LoL: Where is the warning about it?
+[CHAT WINDOW TEXT] [Tue Dec 07 15:58:33] (LWS) The Church of Tymora is growing in power. Current power of Tymora: 70%.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:58:57] ~Drekana Darkstorm~ : [Tell] hard white winter boots too, couple of decent belts, wisdom +4 ammy
+[CHAT WINDOW TEXT] [Tue Dec 07 15:59:07] Grrr'ark Bloodpaw: somewhere in the journal
+[CHAT WINDOW TEXT] [Tue Dec 07 15:59:07] msowby2 has left as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 15:59:13] dox74 has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 15:59:22] Wizard of La-La Land: My greetings.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:59:23] LoL: rather obscure I think.
+[CHAT WINDOW TEXT] [Tue Dec 07 15:59:26] Grrr'ark Bloodpaw: [Tell] yeah, I got fire resistance boots
+[CHAT WINDOW TEXT] [Tue Dec 07 15:59:30] LoL: so I need QM's assistance?
+[CHAT WINDOW TEXT] [Tue Dec 07 15:59:36] Grrr'ark Bloodpaw: yes
+[CHAT WINDOW TEXT] [Tue Dec 07 15:59:44] LoL: I wonder if any are on atm
+[CHAT WINDOW TEXT] [Tue Dec 07 16:00:04] Grrr'ark Bloodpaw: [Tell] thieves' hood is sweeet!
+[CHAT WINDOW TEXT] [Tue Dec 07 16:00:19] msowby2 has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 16:00:27] (LWS) The Church of Loviatar is growing in power. Current power of Loviatar: 70%.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:00:58] Acquired Item: PC Properties
+[CHAT WINDOW TEXT] [Tue Dec 07 16:00:58] (LTS) LTS Initialized.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:00:58] [Subraces] Your subrace field has been interpreted as 'Dark Elf (Drow)' and your abilities have been set accordingly.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:00:58] Your journal has been updated. 10. Nerfs & Beefs
+[CHAT WINDOW TEXT] [Tue Dec 07 16:00:58] Your journal has been updated. 9. Staff
+[CHAT WINDOW TEXT] [Tue Dec 07 16:00:59] (LWS) Your patron deity is Lolth. Lolth isn't supported by La-La Land's Worship System.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:00:59] (LWS) The Church of Lolth is growing in power. Current power of Lolth: 10%.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:00:59] You sense suppressed energies in this place. Magic may be impossible to use here.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:00:59] [Server] You are now in a No PVP area.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:01:01] Your journal has been updated. 8. Pick Pocketing
+[CHAT WINDOW TEXT] [Tue Dec 07 16:01:01] Your journal has been updated. 7. Guild System v1.0
+[CHAT WINDOW TEXT] [Tue Dec 07 16:01:01] Your journal has been updated. 6. Token System v1.3
+[CHAT WINDOW TEXT] [Tue Dec 07 16:01:01] Your journal has been updated. 5. La-La Website and Forums
+[CHAT WINDOW TEXT] [Tue Dec 07 16:01:02] Your journal has been updated. 4. Donations
+[CHAT WINDOW TEXT] [Tue Dec 07 16:01:03] Your journal has been updated. 3. What's New (12/03/2010) 
+[CHAT WINDOW TEXT] [Tue Dec 07 16:01:04] Your journal has been updated. 2. Bugs & Exploits
+[CHAT WINDOW TEXT] [Tue Dec 07 16:01:04] Wizard of La-La Land: My greetings.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:01:05] Your journal has been updated. 1. PvP System
+[CHAT WINDOW TEXT] [Tue Dec 07 16:01:06] (-MESSAGES-) Logging to avoid death is unacceptable.  You will be banned and/or vaultwiped when caught. Yes, we know the difference between this and crashing - dont test us.  Many have already been nailed - we are always watching! muahahahaha!
+[CHAT WINDOW TEXT] [Tue Dec 07 16:01:06] (-MESSAGES-) Please consider contributing to our hosting bill.  Visit http://nwnlalaland.com/ to subscribe
+[CHAT WINDOW TEXT] [Tue Dec 07 16:01:14] Server Guide: Welcome, traveller, to the La La Land of Nordock! What would you like to know?
+[CHAT WINDOW TEXT] [Tue Dec 07 16:01:15] Kilena: What races and subraces are there?
+[CHAT WINDOW TEXT] [Tue Dec 07 16:01:15] Server Guide: What do you want to know?
+[CHAT WINDOW TEXT] [Tue Dec 07 16:01:16] Kilena: [Back]
+[CHAT WINDOW TEXT] [Tue Dec 07 16:01:16] Server Guide: Welcome, traveller, to the La La Land of Nordock! What would you like to know?
+[CHAT WINDOW TEXT] [Tue Dec 07 16:01:17] Marc of Montrose has left as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 16:01:17] Kilena: Send me in!
+[CHAT WINDOW TEXT] [Tue Dec 07 16:01:17] Server Guide: Where to then?
+[CHAT WINDOW TEXT] [Tue Dec 07 16:01:18] Kilena: Normal Start Location
+[CHAT WINDOW TEXT] [Tue Dec 07 16:01:20] Tom70 has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 16:01:21] [Server] You are now in a Party PVP area.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:01:29] Dorn B'Dinn: Bah! I usually like warmer weather. What do you want?
+[CHAT WINDOW TEXT] [Tue Dec 07 16:01:30] Kilena: I would like to buy supplies.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:01:41] Marc of Montrose has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 16:01:54] Acquired Item: PC Properties
+[CHAT WINDOW TEXT] [Tue Dec 07 16:01:54] (ICS) ICS Initialized.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:01:54] (LTS) LTS Initialized.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:01:54] Grrr'ark Bloodpaw has just looted PC Properties.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:01:54] Your subrace is not recognized by La-La Land.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:01:54] (LWS) The Church of Lloth is growing in power. Current power of Lloth: 30%.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:01:56] You sense suppressed energies in this place. Magic may be impossible to use here.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:01:56] [Server] You are now in a No PVP area.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:01:56] Jet: What do you want?
+[CHAT WINDOW TEXT] [Tue Dec 07 16:02:02] (-MESSAGES-) Logging to avoid death is unacceptable.  You will be banned and/or vaultwiped when caught. Yes, we know the difference between this and crashing - dont test us.  Many have already been nailed - we are always watching! muahahahaha!
+[CHAT WINDOW TEXT] [Tue Dec 07 16:02:02] (-MESSAGES-) Please consider contributing to our hosting bill.  Visit http://nwnlalaland.com/ to subscribe
+[CHAT WINDOW TEXT] [Tue Dec 07 16:02:03] Wizard of La-La Land: My greetings.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:02:33] Messenger Urchin Alexander of  the Cutting Ladymist Stormwalker Stars: oooh.  i can haz!
+[CHAT WINDOW TEXT] [Tue Dec 07 16:02:47] TheDevil'sWater has left as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 16:02:59] Messenger Urchin Alexander of  the Cutting Ladymist Stormwalker Stars: thanks!
+[CHAT WINDOW TEXT] [Tue Dec 07 16:03:01] Jet: I'll see you soon.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:03:05] Shree: Goodbye.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:03:09] Marc of Montrose has left as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 16:03:28] Messenger Urchin Alexander of  the Cutting Ladymist Stormwalker Stars: what's that about?
+[CHAT WINDOW TEXT] [Tue Dec 07 16:03:40] kimho has left as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 16:03:48] Marc of Montrose has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 16:03:55] Wizard of La-La Land: My greetings.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:04:05] Messenger Urchin Alexander of  the Cutting Ladymist Stormwalker Stars: what's that about?
+[CHAT WINDOW TEXT] [Tue Dec 07 16:04:16] TheDevil'sWater has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 16:04:21] msowby2 has left as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 16:04:27] Grrr'ark Bloodpaw: [Tell] he was on another char.. some bard pm. That's one of his old ones, and he probably left a lot of stuff somehwere
+[CHAT WINDOW TEXT] [Tue Dec 07 16:04:28] Wizard of La-La Land: My greetings.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:04:40] ~Drekana Darkstorm~ : [Tell] somewhere or gateway?
+[CHAT WINDOW TEXT] [Tue Dec 07 16:04:58] Grrr'ark Bloodpaw: [Tell] be sure not to drop pp'ed stuff or anything that can freeze noobs
+[CHAT WINDOW TEXT] [Tue Dec 07 16:05:08] ~Drekana Darkstorm~ : [Tell] gave me a ring of invis too
+[CHAT WINDOW TEXT] [Tue Dec 07 16:05:31] Grrr'ark Bloodpaw: [Tell] those are nice
+[CHAT WINDOW TEXT] [Tue Dec 07 16:05:33] Jet Jin: [Tell] i have no idea what's pp'd =- i never pick pocketted so technically none of it shold be pp
+[CHAT WINDOW TEXT] [Tue Dec 07 16:05:48] Grrr'ark Bloodpaw: [Tell] yeah, that's weird
+[CHAT WINDOW TEXT] [Tue Dec 07 16:06:01] Grrr'ark Bloodpaw: [Tell] don't know what was up with that ring
+[CHAT WINDOW TEXT] [Tue Dec 07 16:06:51] Genar Brulitlus: [Tell] I am I suppose to know this sling was stolen?
+[CHAT WINDOW TEXT] [Tue Dec 07 16:07:24] Marc of Montrose has left as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 16:07:28] Grrr'ark Bloodpaw: [Tell] no, but this stuff is serious. I did it too once, years ago, and I lost the char. I was told I should have known better.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:07:40] Marc of Montrose has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 16:07:48] Wizard of La-La Land: My greetings.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:08:05] Rodolaka has left as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 16:08:27] Jin: this robe is SWEEEET
+[CHAT WINDOW TEXT] [Tue Dec 07 16:08:28] Grrr'ark Bloodpaw: [Tell] ooh, another darkmoon char
+[CHAT WINDOW TEXT] [Tue Dec 07 16:08:35] Jin: who wants it
+[CHAT WINDOW TEXT] [Tue Dec 07 16:08:36] Genar Brulitlus: [Tell] HHHHMMMM Thats weird. How could you have known better? This is a trap to me. If I see somethign on te ground I pick it up if not for me but to decrease lag. Seems anyone could freeze someone if they do this.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:08:44] Boppi Ydonis: me plz
+[CHAT WINDOW TEXT] [Tue Dec 07 16:08:55] Messenger Urchin Alexander of  the Cutting Ladymist Stormwalker Stars: what robes?
+[CHAT WINDOW TEXT] [Tue Dec 07 16:09:02] Jin: Dark Maiden
+[CHAT WINDOW TEXT] [Tue Dec 07 16:09:11] NuNrg has left as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 16:09:13] Grrr'ark Bloodpaw: very cool robe, yes
+[CHAT WINDOW TEXT] [Tue Dec 07 16:09:17] Jin: Where are you Boppi?
+[CHAT WINDOW TEXT] [Tue Dec 07 16:09:17] Messenger Urchin Alexander of  the Cutting Ladymist Stormwalker Stars: ah.  the one pair i don't have
+[CHAT WINDOW TEXT] [Tue Dec 07 16:09:21] NuNrg has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 16:09:24] (LWS) The Church of Lathander is growing in power. Current power of Lathander: 10%.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:09:29] Wizard of La-La Land: My greetings.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:09:34] Boppi Ydonis: part of thecouch
+[CHAT WINDOW TEXT] [Tue Dec 07 16:09:55] Genar Brulitlus: [Tell] could you not PP something drop it and then wait till another unknowing character picks it up? I cry foul!
+[CHAT WINDOW TEXT] [Tue Dec 07 16:09:57] Jin: Are you going to be here in la la for a long time?
+[CHAT WINDOW TEXT] [Tue Dec 07 16:10:01] Boppi Ydonis: Well hello there.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:10:10] Grrr'ark Bloodpaw: [Tell] yes, but that's how it is
+[CHAT WINDOW TEXT] [Tue Dec 07 16:10:20] Boppi Ydonis: i pLn on ir
+[CHAT WINDOW TEXT] [Tue Dec 07 16:10:39] Jin: sorry this stuff is for la la landers
+[CHAT WINDOW TEXT] [Tue Dec 07 16:10:42] Genar Brulitlus: [Tell] Well perhaps I can do something about changing it. I will discuss it with teh staff. ^_-
+[CHAT WINDOW TEXT] [Tue Dec 07 16:10:54] Messenger Urchin Alexander of  the Cutting Ladymist Stormwalker Stars: [waves]
+[CHAT WINDOW TEXT] [Tue Dec 07 16:10:59] Genar Brulitlus: [Tell] How many levels was the character you lost because of this freezing?
+[CHAT WINDOW TEXT] [Tue Dec 07 16:10:59] Boppi Ydonis: //ack..i planon it
+[CHAT WINDOW TEXT] [Tue Dec 07 16:11:01] Messenger Urchin Alexander of  the Cutting Ladymist Stormwalker Stars: lala lander
+[CHAT WINDOW TEXT] [Tue Dec 07 16:11:03] Grrr'ark Bloodpaw: [Tell] huor will be here for a long time, I can assure you
+[CHAT WINDOW TEXT] [Tue Dec 07 16:11:17] ~Huor~ : [Tell] whats a la la lander?
+[CHAT WINDOW TEXT] [Tue Dec 07 16:11:30] Grrr'ark Bloodpaw: [Tell] someone who lives in lala ;)
+[CHAT WINDOW TEXT] [Tue Dec 07 16:11:30] Genar Brulitlus: [Tell] I know have 2 PC properties. I hope they can be removed.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:11:35] luguvalium has left as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 16:11:36] BlaZin11 has left as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 16:11:54] Grrr'ark Bloodpaw: [Tell] man, log out and get some of the staff to help you out¨
+[CHAT WINDOW TEXT] [Tue Dec 07 16:12:22] Genar Brulitlus: [Tell] ok
+[CHAT WINDOW TEXT] [Tue Dec 07 16:12:27] Grrr'ark Bloodpaw: [Tell] did he give you another? :P
+[CHAT WINDOW TEXT] [Tue Dec 07 16:12:30] Jin: Any monks here?
+[CHAT WINDOW TEXT] [Tue Dec 07 16:12:37] Genar Brulitlus: [Tell] there is no staff on atm though
+[CHAT WINDOW TEXT] [Tue Dec 07 16:12:37] Messenger Urchin Alexander of  the Cutting Ladymist Stormwalker Stars: i have monks
+[CHAT WINDOW TEXT] [Tue Dec 07 16:12:42] NuNrg has left as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 16:12:44] Messenger Urchin Alexander of  the Cutting Ladymist Stormwalker Stars: Three
+[CHAT WINDOW TEXT] [Tue Dec 07 16:12:45] Grrr'ark Bloodpaw: [Tell] then wait it out
+[CHAT WINDOW TEXT] [Tue Dec 07 16:12:54] NuNrg has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 16:12:55] Genar Brulitlus: [Tell] sadly I have to go to work now. >.<
+[CHAT WINDOW TEXT] [Tue Dec 07 16:13:00] ~Jenine~: How's it going?
+[CHAT WINDOW TEXT] [Tue Dec 07 16:13:01] Wizard of La-La Land: My greetings.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:13:02] Genar Brulitlus: [Tell] yes I will wait.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:13:09] Grrr'ark Bloodpaw: [Tell] send chrystal a pm on the forum or something
+[CHAT WINDOW TEXT] [Tue Dec 07 16:13:10] Genar Brulitlus: [Tell] take care.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:13:18] Grrr'ark Bloodpaw: [Tell] kk, later
+[CHAT WINDOW TEXT] [Tue Dec 07 16:13:18] Messenger Urchin Alexander of  the Cutting Ladymist Stormwalker Stars: thank you
+[CHAT WINDOW TEXT] [Tue Dec 07 16:13:23] ~Jenine~: *looks up at the big man*
+[CHAT WINDOW TEXT] [Tue Dec 07 16:13:28] Jin: Huar?
+[CHAT WINDOW TEXT] [Tue Dec 07 16:13:31] ~Jenine~: yes
+[CHAT WINDOW TEXT] [Tue Dec 07 16:13:37] Jin: Enjoy!
+[CHAT WINDOW TEXT] [Tue Dec 07 16:13:37] Tom70 has left as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 16:13:44] ~Jenine~: *smiles
+[CHAT WINDOW TEXT] [Tue Dec 07 16:13:49] Shree : [Tell] dark moons and then dark maidens. what a crazy day :/
+[CHAT WINDOW TEXT] [Tue Dec 07 16:13:54] Grrr'ark Bloodpaw: [Tell] did you get it?
+[CHAT WINDOW TEXT] [Tue Dec 07 16:13:59] ~Jenine~ : [Tell] gloves :(
+[CHAT WINDOW TEXT] [Tue Dec 07 16:14:04] Grrr'ark Bloodpaw: [Tell] yeah, I kinda feel bad about this..
+[CHAT WINDOW TEXT] [Tue Dec 07 16:14:16] Weapon equipped as a one-handed weapon.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:14:23] Weapon equipped as a two-handed weapon.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:14:33] Messenger Urchin Alexander of  the Cutting Ladymist Stormwalker Stars: now people know
+[CHAT WINDOW TEXT] [Tue Dec 07 16:14:35] Jin: just give em to that gal w the longt name she wants em
+[CHAT WINDOW TEXT] [Tue Dec 07 16:14:53] ~Jenine~: miss, would you like these gloves?
+[CHAT WINDOW TEXT] [Tue Dec 07 16:14:54] Jin: Enjoy the gloves Messenger
+[CHAT WINDOW TEXT] [Tue Dec 07 16:15:00] Messenger Urchin Alexander of  the Cutting Ladymist Stormwalker Stars: sure
+[CHAT WINDOW TEXT] [Tue Dec 07 16:15:05] Jin: But use them for GOOD not for evil!
+[CHAT WINDOW TEXT] [Tue Dec 07 16:15:06] Shree : [Tell] me too but hes absolutely determined. i remember he came back a few months ago with plans to revive theelmites and then disappeared straight away. kinda had a feeling that he'd used all his energy :(
+[CHAT WINDOW TEXT] [Tue Dec 07 16:15:13] Messenger Urchin Alexander of  the Cutting Ladymist Stormwalker Stars: i have good intentions
+[CHAT WINDOW TEXT] [Tue Dec 07 16:15:24] Jin: damn - i wish i'd kept my dark moon robes now
+[CHAT WINDOW TEXT] [Tue Dec 07 16:15:34] Jin: that way i could keep one charcter on the server alive
+[CHAT WINDOW TEXT] [Tue Dec 07 16:15:42] ~Jenine~: shree has your robes
+[CHAT WINDOW TEXT] [Tue Dec 07 16:15:50] Jin: he does?
+[CHAT WINDOW TEXT] [Tue Dec 07 16:15:54] ~Jenine~: I think
+[CHAT WINDOW TEXT] [Tue Dec 07 16:16:13] Jin: Dude, would it be Indian-giverish if i got those back? (i'll give you other haste item)
+[CHAT WINDOW TEXT] [Tue Dec 07 16:16:25] Jin: cheers
+[CHAT WINDOW TEXT] [Tue Dec 07 16:16:32] Jin: what haste item do you want?
+[CHAT WINDOW TEXT] [Tue Dec 07 16:16:42] Jin: i think i have a X-bow
+[CHAT WINDOW TEXT] [Tue Dec 07 16:16:44] Shree: i'll et you decide :)
+[CHAT WINDOW TEXT] [Tue Dec 07 16:16:47] Jin: a blade
+[CHAT WINDOW TEXT] [Tue Dec 07 16:17:01] Jin: and maybe a longbow too
+[CHAT WINDOW TEXT] [Tue Dec 07 16:17:20] Jin: seriously - what do you want... the blade isn't very good it's scimitar of speed
+[CHAT WINDOW TEXT] [Tue Dec 07 16:17:31] Jin: i'll go look for it
+[CHAT WINDOW TEXT] [Tue Dec 07 16:17:36] Grrr'ark Bloodpaw: :O
+[CHAT WINDOW TEXT] [Tue Dec 07 16:17:42] ~Jenine~: *passes out*
+[CHAT WINDOW TEXT] [Tue Dec 07 16:17:47] Jin: actually - can you pass the robe to another character?
+[CHAT WINDOW TEXT] [Tue Dec 07 16:17:49] Grrr'ark Bloodpaw: SoS not very good?
+[CHAT WINDOW TEXT] [Tue Dec 07 16:17:51] Shree: wow thank you  man 
+[CHAT WINDOW TEXT] [Tue Dec 07 16:18:01] Shree: of course#
+[CHAT WINDOW TEXT] [Tue Dec 07 16:18:17] Jin: why do you think sos is good? it's only like +2 or _3
+[CHAT WINDOW TEXT] [Tue Dec 07 16:18:23] Jin: +3 i mean
+[CHAT WINDOW TEXT] [Tue Dec 07 16:18:24] Messenger Urchin Alexander of  the Cutting Ladymist Stormwalker Stars: haaaaaste
+[CHAT WINDOW TEXT] [Tue Dec 07 16:18:25] thekingreturns has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 16:18:26] Grrr'ark Bloodpaw: 1d6 sonic
+[CHAT WINDOW TEXT] [Tue Dec 07 16:18:27] Jin: so?
+[CHAT WINDOW TEXT] [Tue Dec 07 16:18:30] Grrr'ark Bloodpaw: and haste
+[CHAT WINDOW TEXT] [Tue Dec 07 16:18:35] Jin: no good if you can't HIT stuff!
+[CHAT WINDOW TEXT] [Tue Dec 07 16:18:36] Shree: sonic and crit range :)
+[CHAT WINDOW TEXT] [Tue Dec 07 16:18:39] Grrr'ark Bloodpaw: and it's a scimitar
+[CHAT WINDOW TEXT] [Tue Dec 07 16:18:44] Jin: *LOL* ok i look for it
+[CHAT WINDOW TEXT] [Tue Dec 07 16:18:44] Messenger Urchin Alexander of  the Cutting Ladymist Stormwalker Stars: yeah
+[CHAT WINDOW TEXT] [Tue Dec 07 16:18:49] Marc of Montrose has left as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 16:18:56] Shree: lol thank you !:P
+[CHAT WINDOW TEXT] [Tue Dec 07 16:19:00] ~Jenine~: are you taking the blade Shree?
+[CHAT WINDOW TEXT] [Tue Dec 07 16:19:06] Shree: yes
+[CHAT WINDOW TEXT] [Tue Dec 07 16:19:08] ~Jenine~: cool
+[CHAT WINDOW TEXT] [Tue Dec 07 16:19:10] Marc of Montrose has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 16:19:17] (LWS) The Church of Bane is growing in power. Current power of Bane: 30%.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:19:22] Wizard of La-La Land: My greetings.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:19:27] thekingreturns has left as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 16:19:35] Grrr'ark Bloodpaw: [Tell] gc...
+[CHAT WINDOW TEXT] [Tue Dec 07 16:19:41] ~Jenine~ : [Tell] damn
+[CHAT WINDOW TEXT] [Tue Dec 07 16:19:45] ~Jenine~: nice helmet mr
+[CHAT WINDOW TEXT] [Tue Dec 07 16:19:45] The One: hmmmm this guy used to have it... anyone want +4 scimitar
+[CHAT WINDOW TEXT] [Tue Dec 07 16:19:56] Messenger Urchin Alexander of  the Cutting Ladymist Stormwalker Stars: sure
+[CHAT WINDOW TEXT] [Tue Dec 07 16:19:57] thekingreturns has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 16:20:07] Messenger Urchin Alexander of  the Cutting Ladymist Stormwalker Stars: i have a cleric who uses scimmies
+[CHAT WINDOW TEXT] [Tue Dec 07 16:20:25] The One: You'll enjoy the laughing blade too then
+[CHAT WINDOW TEXT] [Tue Dec 07 16:20:34] ~Jenine~: it laughs a lot
+[CHAT WINDOW TEXT] [Tue Dec 07 16:20:37] Messenger Urchin Alexander of  the Cutting Ladymist Stormwalker Stars: :O
+[CHAT WINDOW TEXT] [Tue Dec 07 16:20:42] Krackalackn has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 16:20:51] Wizard of La-La Land: My greetings.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:20:58] thekingreturns has left as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 16:21:17] Messenger Urchin Alexander of  the Cutting Ladymist Stormwalker Stars: thanks :D
+[CHAT WINDOW TEXT] [Tue Dec 07 16:21:23] The One: Oooh Red Dragon Armour!
+[CHAT WINDOW TEXT] [Tue Dec 07 16:21:28] The One: WHo wants it?
+[CHAT WINDOW TEXT] [Tue Dec 07 16:21:46] Messenger Urchin Alexander of  the Cutting Ladymist Stormwalker Stars: oooh
+[CHAT WINDOW TEXT] [Tue Dec 07 16:21:48] Messenger Urchin Alexander of  the Cutting Ladymist Stormwalker Stars: here
+[CHAT WINDOW TEXT] [Tue Dec 07 16:21:53] Messenger Urchin Alexander of  the Cutting Ladymist Stormwalker Stars: i know a build perfect for it
+[CHAT WINDOW TEXT] [Tue Dec 07 16:22:05] Grrr'ark Bloodpaw: [Tell] your helmet, what is it?
+[CHAT WINDOW TEXT] [Tue Dec 07 16:22:27] The One: Helm is NOT a golden circlet
+[CHAT WINDOW TEXT] [Tue Dec 07 16:22:33] Grrr'ark Bloodpaw: hehehe
+[CHAT WINDOW TEXT] [Tue Dec 07 16:22:36] ~Jenine~: hehe
+[CHAT WINDOW TEXT] [Tue Dec 07 16:22:42] LeBadger has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 16:22:44] The One: Thyviean or some such
+[CHAT WINDOW TEXT] [Tue Dec 07 16:22:50] Grrr'ark Bloodpaw: had to ask :P
+[CHAT WINDOW TEXT] [Tue Dec 07 16:22:50] Wizard of La-La Land: If I may…
+[CHAT WINDOW TEXT] [Tue Dec 07 16:22:51] Wizard of La-La Land: Greetings Laknu!  I see you have left the mundane and joined us in La-La Land.  What can I do for you?
+[CHAT WINDOW TEXT] [Tue Dec 07 16:22:56] The One: oooh ring of EVASION!!!!!!!
+[CHAT WINDOW TEXT] [Tue Dec 07 16:22:56] Laknu: I'd like to browse the newbie store.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:22:56] Wizard of La-La Land: Wise counsel.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:23:00] Messenger Urchin Alexander of  the Cutting Ladymist Stormwalker Stars: :O
+[CHAT WINDOW TEXT] [Tue Dec 07 16:23:03] dox74 has left as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 16:23:05] ~Jenine~: O.o
+[CHAT WINDOW TEXT] [Tue Dec 07 16:23:05] The One: FASTEST TO GRAB IT GETS IT!!!!
+[CHAT WINDOW TEXT] [Tue Dec 07 16:23:17] Messenger Urchin Alexander of  the Cutting Ladymist Stormwalker Stars: damn
+[CHAT WINDOW TEXT] [Tue Dec 07 16:23:19] dox74 has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 16:23:27] Wizard of La-La Land: My greetings.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:23:30] ~Jenine~: Yipee! Hooray! Uh… yahoo!
+[CHAT WINDOW TEXT] [Tue Dec 07 16:23:37] thekingreturns has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 16:23:38] The One: TOWER +3
+[CHAT WINDOW TEXT] [Tue Dec 07 16:23:47] Wizard of La-La Land: My greetings.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:23:50] The One: run run run!
+[CHAT WINDOW TEXT] [Tue Dec 07 16:24:03] The One: No one wants a +3 tower shield?!
+[CHAT WINDOW TEXT] [Tue Dec 07 16:24:07] Grrr'ark Bloodpaw: [Tell] sweet ring, put it on huor.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:24:08] Messenger Urchin Alexander of  the Cutting Ladymist Stormwalker Stars: thanks and yes
+[CHAT WINDOW TEXT] [Tue Dec 07 16:24:11] Ice: whats going on?
+[CHAT WINDOW TEXT] [Tue Dec 07 16:24:14] Kama Chameleon: i do lol
+[CHAT WINDOW TEXT] [Tue Dec 07 16:24:15] ~Jenine~ : [Tell] good idea
+[CHAT WINDOW TEXT] [Tue Dec 07 16:24:15] The One: run for it - it's on the floor
+[CHAT WINDOW TEXT] [Tue Dec 07 16:24:21] The One: gone
+[CHAT WINDOW TEXT] [Tue Dec 07 16:24:30] Grrr'ark Bloodpaw: [Tell] not yet
+[CHAT WINDOW TEXT] [Tue Dec 07 16:24:35] TheDevil'sWater has left as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 16:24:35] Kama Chameleon: not to worry i will take the +4 your offering next
+[CHAT WINDOW TEXT] [Tue Dec 07 16:24:36] Barter cancelled
+[CHAT WINDOW TEXT] [Tue Dec 07 16:24:36] Grrr'ark Bloodpaw: [Tell] or.. nvm
+[CHAT WINDOW TEXT] [Tue Dec 07 16:24:37] The One: HOW USES INTELLIGENCE?
+[CHAT WINDOW TEXT] [Tue Dec 07 16:24:54] Grrr'ark Bloodpaw: [Tell] got any +5 intel rings? I've been dieing for one
+[CHAT WINDOW TEXT] [Tue Dec 07 16:24:59] TheDevil'sWater has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 16:25:00] Acquired Item: Ring of Evasion
+[CHAT WINDOW TEXT] [Tue Dec 07 16:25:00] Grrr'ark Bloodpaw has just looted Ring of Evasion.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:25:02] The One: [Tell] nah +4
+[CHAT WINDOW TEXT] [Tue Dec 07 16:25:09] ~Jenine~ : [Tell] log it
+[CHAT WINDOW TEXT] [Tue Dec 07 16:25:11] Wizard of La-La Land: My greetings.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:25:11] Kama Chameleon: is the item better than +2?
+[CHAT WINDOW TEXT] [Tue Dec 07 16:25:13] Messenger Urchin Alexander of  the Cutting Ladymist Stormwalker Stars: my wizard does
+[CHAT WINDOW TEXT] [Tue Dec 07 16:25:16] Grrr'ark Bloodpaw: [Tell] well, can't get everything ;)
+[CHAT WINDOW TEXT] [Tue Dec 07 16:25:17] Ice: Yes, hello to you..
+[CHAT WINDOW TEXT] [Tue Dec 07 16:25:20] The One: +4 intel ring
+[CHAT WINDOW TEXT] [Tue Dec 07 16:25:25] Carene Lannal: Well hello there.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:25:29] oo00O00oo has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 16:25:40] Acquired Item: PC Properties
+[CHAT WINDOW TEXT] [Tue Dec 07 16:25:40] (ICS) ICS Initialized.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:25:40] (LTS) LTS Initialized.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:25:40] Grrr'ark Bloodpaw has just looted PC Properties.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:25:40] Your subrace is not recognized by La-La Land.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:25:43] You sense suppressed energies in this place. Magic may be impossible to use here.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:25:43] [Server] You are now in a No PVP area.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:25:44] Wizard of La-La Land: If I may…
+[CHAT WINDOW TEXT] [Tue Dec 07 16:25:48] (-MESSAGES-) Logging to avoid death is unacceptable.  You will be banned and/or vaultwiped when caught. Yes, we know the difference between this and crashing - dont test us.  Many have already been nailed - we are always watching! muahahahaha!
+[CHAT WINDOW TEXT] [Tue Dec 07 16:25:48] (-MESSAGES-) Please consider contributing to our hosting bill.  Visit http://nwnlalaland.com/ to subscribe
+[CHAT WINDOW TEXT] [Tue Dec 07 16:25:48] urchin wilde has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 16:25:49] Kama Chameleon: you are very kind
+[CHAT WINDOW TEXT] [Tue Dec 07 16:25:50] (LWS) The Church of Shar is growing in power. Current power of Shar: 20%.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:25:56] Wizard of La-La Land: My greetings.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:26:05] Kama Chameleon: are you leaving la la land?
+[CHAT WINDOW TEXT] [Tue Dec 07 16:26:14] The One: Who wants +5 HEAVY armour?
+[CHAT WINDOW TEXT] [Tue Dec 07 16:27:07] Malice Maleficarum: thanks
+[CHAT WINDOW TEXT] [Tue Dec 07 16:27:14] Kama Chameleon: thank you
+[CHAT WINDOW TEXT] [Tue Dec 07 16:27:49] Acquired Item: Lesser Ring of Power
+[CHAT WINDOW TEXT] [Tue Dec 07 16:27:49] Grrr'ark Bloodpaw has just looted Lesser Ring of Power.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:27:49] The One: bags
+[CHAT WINDOW TEXT] [Tue Dec 07 16:28:17] Grrr'ark Bloodpaw: [Tell] thanks man
+[CHAT WINDOW TEXT] [Tue Dec 07 16:28:18] ~Jenine~ : [Tell] thats your ring which you can now have back
+[CHAT WINDOW TEXT] [Tue Dec 07 16:28:23] Magicalman has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 16:28:26] ~Jenine~ : [Tell] he gave me two of those, 
+[CHAT WINDOW TEXT] [Tue Dec 07 16:28:34] Wizard of La-La Land: My greetings.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:28:49] Barter cancelled
+[CHAT WINDOW TEXT] [Tue Dec 07 16:28:55] Grrr'ark Bloodpaw: [Tell] wrong button :P
+[CHAT WINDOW TEXT] [Tue Dec 07 16:29:07] Jearth Shobalar: wut up?
+[CHAT WINDOW TEXT] [Tue Dec 07 16:29:14] Acquired Item: Ring of Clear Thought +4
+[CHAT WINDOW TEXT] [Tue Dec 07 16:29:14] Acquired Item: Belt - Lesser - Purple
+[CHAT WINDOW TEXT] [Tue Dec 07 16:29:14] Acquired Item: Ring of Fortitude +4
+[CHAT WINDOW TEXT] [Tue Dec 07 16:29:14] Acquired Item: Exceptionally Crafted Syenite Chainmail Coif
+[CHAT WINDOW TEXT] [Tue Dec 07 16:29:14] Acquired Item: Miracle Shield of the Holy
+[CHAT WINDOW TEXT] [Tue Dec 07 16:29:14] Acquired Item: Miracle Blade of the Holy
+[CHAT WINDOW TEXT] [Tue Dec 07 16:29:14] Grrr'ark Bloodpaw has just looted Ring of Clear Thought +4.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:29:14] Grrr'ark Bloodpaw has just looted Ring of Fortitude +4.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:29:14] Grrr'ark Bloodpaw has just looted Miracle Shield of the Holy (magical)
+[CHAT WINDOW TEXT] [Tue Dec 07 16:29:14] Grrr'ark Bloodpaw has just looted Miracle Blade of the Holy (magical)
+[CHAT WINDOW TEXT] [Tue Dec 07 16:29:19] Grrr'ark Bloodpaw: [Tell] thanks again
+[CHAT WINDOW TEXT] [Tue Dec 07 16:29:20] Kama Chameleon: not much homee
+[CHAT WINDOW TEXT] [Tue Dec 07 16:29:23] Grrr'ark Bloodpaw: [Tell] most kind
+[CHAT WINDOW TEXT] [Tue Dec 07 16:29:49] The One: BRB with Slade
+[CHAT WINDOW TEXT] [Tue Dec 07 16:29:52] Marc of Montrose has left as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 16:29:56] urchin wilde has left as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 16:29:58] Grrr'ark Bloodpaw: [Tell] you gave me the lesser rop?
+[CHAT WINDOW TEXT] [Tue Dec 07 16:30:02] BunnytheFierce has left as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 16:30:02] ~Jenine~ : [Tell] yes
+[CHAT WINDOW TEXT] [Tue Dec 07 16:30:07] urchin wilde has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 16:30:08] Marc of Montrose has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 16:30:08] Grrr'ark Bloodpaw: [Tell] thought it was him :P But thanks
+[CHAT WINDOW TEXT] [Tue Dec 07 16:30:09] (LWS) The Church of Tymora is growing in power. Current power of Tymora: 80%.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:30:15] Wizard of La-La Land: My greetings.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:30:16] Wizard of La-La Land: My greetings.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:30:33] ~Jenine~ : [Tell] I'm giving you your LROP back
+[CHAT WINDOW TEXT] [Tue Dec 07 16:30:41] Slade: Seeeee it's only PLUS 1 ! ! !
+[CHAT WINDOW TEXT] [Tue Dec 07 16:30:46] Kama Chameleon: /slade do you have any charisma gear please?
+[CHAT WINDOW TEXT] [Tue Dec 07 16:31:12] ~Jenine~: Huor would love charisma items too, 
+[CHAT WINDOW TEXT] [Tue Dec 07 16:31:16] Slade: probably
+[CHAT WINDOW TEXT] [Tue Dec 07 16:31:23] Slade: brb
+[CHAT WINDOW TEXT] [Tue Dec 07 16:31:26] Marc of Montrose has left as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 16:31:47] Marc of Montrose has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 16:31:53] mancalledhorse has left as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 16:31:55] Wizard of La-La Land: My greetings.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:31:56] Jun: What do you want?
+[CHAT WINDOW TEXT] [Tue Dec 07 16:32:19] Jun: hmmm this character is pretty cool....
+[CHAT WINDOW TEXT] [Tue Dec 07 16:32:37] Acquired Item: PC Properties
+[CHAT WINDOW TEXT] [Tue Dec 07 16:32:37] (ICS) ICS Initialized.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:32:37] (LTS) LTS Initialized.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:32:37] Grrr'ark Bloodpaw has just looted PC Properties.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:32:37] Your subrace is not recognized by La-La Land.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:32:40] You sense suppressed energies in this place. Magic may be impossible to use here.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:32:40] [Server] You are now in a No PVP area.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:32:43] Kama Chameleon: if you rteurn to la la you can have these items back
+[CHAT WINDOW TEXT] [Tue Dec 07 16:32:44] (-MESSAGES-) Logging to avoid death is unacceptable.  You will be banned and/or vaultwiped when caught. Yes, we know the difference between this and crashing - dont test us.  Many have already been nailed - we are always watching! muahahahaha!
+[CHAT WINDOW TEXT] [Tue Dec 07 16:32:44] (-MESSAGES-) Please consider contributing to our hosting bill.  Visit http://nwnlalaland.com/ to subscribe
+[CHAT WINDOW TEXT] [Tue Dec 07 16:32:57] Kama Chameleon: just send me a tell
+[CHAT WINDOW TEXT] [Tue Dec 07 16:33:00] mancalledhorse has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 16:33:36] BunnytheFierce has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 16:33:38] (LWS) The Church of Selune is growing in power. Current power of Selune: 10%.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:33:44] Wizard of La-La Land: My greetings.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:33:45] Uniqua casting unknown spell
+[CHAT WINDOW TEXT] [Tue Dec 07 16:33:47] Uniqua casts unknown spell
+[CHAT WINDOW TEXT] [Tue Dec 07 16:33:51] BunnytheFierce has left as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 16:34:04] Jun: This cost me ALL my tokens
+[CHAT WINDOW TEXT] [Tue Dec 07 16:34:06] BunnytheFierce has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 16:34:13] ~Jenine~: what is it?
+[CHAT WINDOW TEXT] [Tue Dec 07 16:34:20] Constantine: Greetings.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:34:23] Shree: Welcome.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:34:31] Kama Chameleon: indeed what is it :0)
+[CHAT WINDOW TEXT] [Tue Dec 07 16:34:35] Grrr'ark Bloodpaw: [Tell] probably that bow, hasted one. Think it's taralash or something
+[CHAT WINDOW TEXT] [Tue Dec 07 16:34:49] Jun: +7 sling there
+[CHAT WINDOW TEXT] [Tue Dec 07 16:35:04] dox74 has left as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 16:35:14] Jun: Sun Soul +4
+[CHAT WINDOW TEXT] [Tue Dec 07 16:35:19] ~Jenine~: oh please!
+[CHAT WINDOW TEXT] [Tue Dec 07 16:35:21] dox74 has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 16:35:27] Kama Chameleon: lol
+[CHAT WINDOW TEXT] [Tue Dec 07 16:35:37] Kimli Amen: you want the boots jenine?
+[CHAT WINDOW TEXT] [Tue Dec 07 16:35:48] ~Jenine~: YES
+[CHAT WINDOW TEXT] [Tue Dec 07 16:35:54] BunnytheFierce has left as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 16:35:56] Jun: what Jenine?>
+[CHAT WINDOW TEXT] [Tue Dec 07 16:35:57] Kama Chameleon: mmmmn na i dont play monk lol
+[CHAT WINDOW TEXT] [Tue Dec 07 16:36:04] Jearth Shobalar: nice old ring
+[CHAT WINDOW TEXT] [Tue Dec 07 16:36:37] Jun: Galdor's Bow!
+[CHAT WINDOW TEXT] [Tue Dec 07 16:36:38] ~Jenine~: //I feel like such a loot whore
+[CHAT WINDOW TEXT] [Tue Dec 07 16:36:55] Kimli Amen: i'll be a loot whore
+[CHAT WINDOW TEXT] [Tue Dec 07 16:37:20] Jun: Sentimental value
+[CHAT WINDOW TEXT] [Tue Dec 07 16:37:27] Acquired Item: Ichthia's Neck-Knife
+[CHAT WINDOW TEXT] [Tue Dec 07 16:37:27] Acquired Item: Glimmering Shortsword of Crimson
+[CHAT WINDOW TEXT] [Tue Dec 07 16:37:27] Grrr'ark Bloodpaw has just looted Ichthia's Neck-Knife (magical)
+[CHAT WINDOW TEXT] [Tue Dec 07 16:37:28] ~Jenine~: Jun, question
+[CHAT WINDOW TEXT] [Tue Dec 07 16:37:29] Grrr'ark Bloodpaw: cool
+[CHAT WINDOW TEXT] [Tue Dec 07 16:37:36] Grrr'ark Bloodpaw: I'll keep them safe
+[CHAT WINDOW TEXT] [Tue Dec 07 16:37:37] Jun: oh wait till you see these!
+[CHAT WINDOW TEXT] [Tue Dec 07 16:37:42] Jearth Shobalar: GL to you Marc, we had some good times here.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:37:49] Kimli Amen: sorry
+[CHAT WINDOW TEXT] [Tue Dec 07 16:37:54] Acquired Item: Dagger +5
+[CHAT WINDOW TEXT] [Tue Dec 07 16:37:54] Acquired Item: Ice Talon
+[CHAT WINDOW TEXT] [Tue Dec 07 16:37:54] Grrr'ark Bloodpaw has just looted Dagger +5 (magical)
+[CHAT WINDOW TEXT] [Tue Dec 07 16:37:54] Grrr'ark Bloodpaw has just looted Ice Talon (magical)
+[CHAT WINDOW TEXT] [Tue Dec 07 16:37:54] ~Jenine~: the blinks robes are moded shining hands robes right?
+[CHAT WINDOW TEXT] [Tue Dec 07 16:38:08] Weapon equipped as a one-handed weapon.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:38:09] Weapon equipped as a one-handed weapon.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:38:18] Jun: i can;t remember - proably yes
+[CHAT WINDOW TEXT] [Tue Dec 07 16:38:20] Kama Chameleon: scavvey lol
+[CHAT WINDOW TEXT] [Tue Dec 07 16:38:26] ~Jenine~: ok so sentimental value then
+[CHAT WINDOW TEXT] [Tue Dec 07 16:38:34] ~Jenine~: something to remember you by
+[CHAT WINDOW TEXT] [Tue Dec 07 16:38:36] Weapon equipped as a one-handed weapon.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:38:37] Weapon equipped as a one-handed weapon.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:38:42] Jun: no no - io meant the blads i gave to Grrrk
+[CHAT WINDOW TEXT] [Tue Dec 07 16:38:50] Jun: yes, that OLD school crimson one
+[CHAT WINDOW TEXT] [Tue Dec 07 16:38:54] Weapon equipped as a one-handed weapon.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:38:58] Jun: neat eh?
+[CHAT WINDOW TEXT] [Tue Dec 07 16:38:59] Grrr'ark Bloodpaw: that one
+[CHAT WINDOW TEXT] [Tue Dec 07 16:39:04] Jun: makes 'em bleed
+[CHAT WINDOW TEXT] [Tue Dec 07 16:39:08] Jun: or at least it used to 
+[CHAT WINDOW TEXT] [Tue Dec 07 16:39:14] Jun: not sure if that still works
+[CHAT WINDOW TEXT] [Tue Dec 07 16:39:32] Jun: if they don't heal, or regen they just keep losing hit points forever
+[CHAT WINDOW TEXT] [Tue Dec 07 16:39:44] Grrr'ark Bloodpaw: it works, but it's not very effective above lower levels
+[CHAT WINDOW TEXT] [Tue Dec 07 16:39:48] Kama Chameleon: Na Jun i dont need those two haste items your just offered me.....you can keep the dragon slippers
+[CHAT WINDOW TEXT] [Tue Dec 07 16:39:57] Kimli Amen: :O
+[CHAT WINDOW TEXT] [Tue Dec 07 16:40:04] Kimli Amen: DRAGON SLIPPERS!
+[CHAT WINDOW TEXT] [Tue Dec 07 16:40:14] Jun: i wish
+[CHAT WINDOW TEXT] [Tue Dec 07 16:40:14] Kimli Amen: perfect for my monk/ranger/wm
+[CHAT WINDOW TEXT] [Tue Dec 07 16:40:21] Weapon equipped as a two-handed weapon.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:40:24] Jun: might not quit if i had those ; )
+[CHAT WINDOW TEXT] [Tue Dec 07 16:40:30] Jun: rod of rez
+[CHAT WINDOW TEXT] [Tue Dec 07 16:40:47] Grrr'ark Bloodpaw: [Tell] hehe, he's dropping a lot of crap too :P
+[CHAT WINDOW TEXT] [Tue Dec 07 16:41:08] choad77 has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 16:41:18] (LWS) The Church of Lloth is growing in power. Current power of Lloth: 40%.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:41:23] Wizard of La-La Land: My greetings.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:41:31] Elithradril the Black: hm hm hm.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:41:32] Jun: guys if the server crashes all that stuff on the ground will be lost - just take it - sell it if you want!
+[CHAT WINDOW TEXT] [Tue Dec 07 16:41:41] Kama Chameleon: ......you can keep the +9 full plate i dont need that
+[CHAT WINDOW TEXT] [Tue Dec 07 16:41:45] Kimli Amen: it won't crash i'm sure
+[CHAT WINDOW TEXT] [Tue Dec 07 16:41:50] Kimli Amen: it already reset
+[CHAT WINDOW TEXT] [Tue Dec 07 16:42:17] Elithradril the Black: I could elevate your suffering to an artform!
+[CHAT WINDOW TEXT] [Tue Dec 07 16:42:32] choad77 has left as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 16:42:42] Jun: back w another char
+[CHAT WINDOW TEXT] [Tue Dec 07 16:42:45] choad77 has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 16:42:49] Jun: oh wait $$$$$$
+[CHAT WINDOW TEXT] [Tue Dec 07 16:42:52] Wizard of La-La Land: My greetings.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:42:53] Jun: who needs gold?
+[CHAT WINDOW TEXT] [Tue Dec 07 16:42:57] Shree: Welcome.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:43:01] Ice : [Tell] how come hes quiting?
+[CHAT WINDOW TEXT] [Tue Dec 07 16:43:02] Sir Ulric the Green: Yes?
+[CHAT WINDOW TEXT] [Tue Dec 07 16:43:12] Kama Chameleon: na i dont need a +9 tower shield
+[CHAT WINDOW TEXT] [Tue Dec 07 16:43:14] Grrr'ark Bloodpaw: [Tell] dunno, said he had no more time. Taralash?
+[CHAT WINDOW TEXT] [Tue Dec 07 16:43:20] Kimli Amen: oh
+[CHAT WINDOW TEXT] [Tue Dec 07 16:43:24] Kimli Amen: this guy does
+[CHAT WINDOW TEXT] [Tue Dec 07 16:43:25] Jun: I'll see you soon.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:43:27] Ice : [Tell] yea
+[CHAT WINDOW TEXT] [Tue Dec 07 16:43:36] Acquired Item: PC Properties
+[CHAT WINDOW TEXT] [Tue Dec 07 16:43:36] (ICS) ICS Initialized.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:43:36] (LTS) LTS Initialized.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:43:36] Grrr'ark Bloodpaw has just looted PC Properties.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:43:36] Your subrace is not recognized by La-La Land.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:43:39] You sense suppressed energies in this place. Magic may be impossible to use here.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:43:39] [Server] You are now in a No PVP area.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:43:42] Sir Ulric the Green: why he doing this?//
+[CHAT WINDOW TEXT] [Tue Dec 07 16:43:44] Kimli Amen: *can get
+[CHAT WINDOW TEXT] [Tue Dec 07 16:43:44] (-MESSAGES-) Logging to avoid death is unacceptable.  You will be banned and/or vaultwiped when caught. Yes, we know the difference between this and crashing - dont test us.  Many have already been nailed - we are always watching! muahahahaha!
+[CHAT WINDOW TEXT] [Tue Dec 07 16:43:44] (-MESSAGES-) Please consider contributing to our hosting bill.  Visit http://nwnlalaland.com/ to subscribe
+[CHAT WINDOW TEXT] [Tue Dec 07 16:43:46] Kimli Amen: he's leaving
+[CHAT WINDOW TEXT] [Tue Dec 07 16:43:47] Marc of Montrose has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 16:43:50] (LWS) The Church of Torm is growing in power. Current power of Torm: 20%.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:43:52] Mantis: I greet you.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:43:55] Wizard of La-La Land: My greetings.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:43:57] BunnytheFierce has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 16:44:02] Mantis: I greet you.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:44:04] Sir Ulric the Green: Yes?
+[CHAT WINDOW TEXT] [Tue Dec 07 16:44:06] Shree: Welcome.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:44:06] Grrr'ark Bloodpaw: [Tell] it's all crazy. He gave out darkmoons, scim of speed, gab, and stuff
+[CHAT WINDOW TEXT] [Tue Dec 07 16:44:09] Mantis: I greet you.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:44:21] Kimli Amen: Greetings and well met.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:44:27] Mantis: bag full of heal kits
+[CHAT WINDOW TEXT] [Tue Dec 07 16:44:29] Ice : [Tell] I know..gave me the bow
+[CHAT WINDOW TEXT] [Tue Dec 07 16:44:58] BunnytheFierce has left as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 16:45:02] Mantis: regen +1 ring? anyone?>
+[CHAT WINDOW TEXT] [Tue Dec 07 16:45:02] Grrr'ark Bloodpaw: [Tell] I'm worried it's a moment of craziness
+[CHAT WINDOW TEXT] [Tue Dec 07 16:45:11] ~Jenine~: sure
+[CHAT WINDOW TEXT] [Tue Dec 07 16:45:27] Ice : [Tell] yep..if he comes back..will give it back to him
+[CHAT WINDOW TEXT] [Tue Dec 07 16:45:30] Mantis: didn't i already give you one of these?
+[CHAT WINDOW TEXT] [Tue Dec 07 16:45:34] Sir Ulric the Green uses item's special power.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:45:37] Drake Bloodbringer has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 16:45:38] ~Jenine~: oh yes
+[CHAT WINDOW TEXT] [Tue Dec 07 16:45:40] ~Jenine~: you did
+[CHAT WINDOW TEXT] [Tue Dec 07 16:45:45] Mantis: you want 2?
+[CHAT WINDOW TEXT] [Tue Dec 07 16:45:49] Kama Chameleon: i will take the +3 regen ring :-)
+[CHAT WINDOW TEXT] [Tue Dec 07 16:45:50] ~Jenine~: I'm ok thank you
+[CHAT WINDOW TEXT] [Tue Dec 07 16:45:50] Kimli Amen: i want one
+[CHAT WINDOW TEXT] [Tue Dec 07 16:45:52] Mantis: i mean that means no more slots
+[CHAT WINDOW TEXT] [Tue Dec 07 16:45:52] Wizard of La-La Land: If I may…
+[CHAT WINDOW TEXT] [Tue Dec 07 16:45:56] †Ðrakes Armor Mule of Tresures!†: Hail the dead.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:45:58] Grrr'ark Bloodpaw: [Tell] yea me too
+[CHAT WINDOW TEXT] [Tue Dec 07 16:46:01] Kimli Amen: Greetings and well met.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:46:04] Mantis: Kim asked 1st you get next one
+[CHAT WINDOW TEXT] [Tue Dec 07 16:46:11] UTAHVAMP2 has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 16:46:30] Wizard of La-La Land: My greetings.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:46:43] †Ðrakes Armor Mule of Tresures!†: Peal the bells!
+[CHAT WINDOW TEXT] [Tue Dec 07 16:46:44] Kimli Amen: Thank you ever so kindly.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:46:45] †Ðrakes Armor Mule of Tresures!†: Shuffle off your mortal coil!
+[CHAT WINDOW TEXT] [Tue Dec 07 16:47:06] Mantis: brb
+[CHAT WINDOW TEXT] [Tue Dec 07 16:47:09] †Ðrakes Armor Mule of Tresures!†: Aye.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:47:13] Mantis: gold
+[CHAT WINDOW TEXT] [Tue Dec 07 16:47:16] Marc of Montrose has left as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 16:47:18] †Ðrakes Armor Mule of Tresures!†: Peal the bells!
+[CHAT WINDOW TEXT] [Tue Dec 07 16:47:23] Kimli Amen: hahaha
+[CHAT WINDOW TEXT] [Tue Dec 07 16:47:23] †Ðrakes Armor Mule of Tresures!†: Lay death at their doorstep…
+[CHAT WINDOW TEXT] [Tue Dec 07 16:47:38] Shree: The Dark River take you!
+[CHAT WINDOW TEXT] [Tue Dec 07 16:47:43] †Ðrakes Armor Mule of Tresures!†: Aye.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:47:44] †Ðrakes Armor Mule of Tresures!†: Nay.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:47:47] †Ðrakes Armor Mule of Tresures!†: Nay.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:47:47] †Ðrakes Armor Mule of Tresures!†: Nay.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:47:48] †Ðrakes Armor Mule of Tresures!†: Nay.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:47:48] †Ðrakes Armor Mule of Tresures!†: Nay.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:47:50] Shree: The Dark River will swallow your soul!
+[CHAT WINDOW TEXT] [Tue Dec 07 16:47:53] †Ðrakes Armor Mule of Tresures!†: Hark, the bell, it tolls for thee!
+[CHAT WINDOW TEXT] [Tue Dec 07 16:48:06] Shree: You will drown in your own blood!
+[CHAT WINDOW TEXT] [Tue Dec 07 16:48:10] †Ðrakes Armor Mule of Tresures!†: Aye.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:48:17] Marc of Montrose has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 16:48:25] Wizard of La-La Land: My greetings.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:48:30] †Ðrakes Armor Mule of Tresures!†: Peal the bells!
+[CHAT WINDOW TEXT] [Tue Dec 07 16:48:34] Shree: Welcome.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:48:39] Grrr'ark Bloodpaw: [Tell] got any cool scythes btw?
+[CHAT WINDOW TEXT] [Tue Dec 07 16:48:45] Paxus III: WTF, why have i got like 3 Paxus'?!?!
+[CHAT WINDOW TEXT] [Tue Dec 07 16:48:52] Paxus III : [Tell] gave my +4 away, sorry
+[CHAT WINDOW TEXT] [Tue Dec 07 16:48:57] Shree: :P
+[CHAT WINDOW TEXT] [Tue Dec 07 16:49:00] Grrr'ark Bloodpaw: [Tell] kk, no worries :P
+[CHAT WINDOW TEXT] [Tue Dec 07 16:49:14] Grrr'ark Bloodpaw: [Tell] don't be sorry, you're giving stuff away. It's all crazy
+[CHAT WINDOW TEXT] [Tue Dec 07 16:49:15] Paxus III: gave my +4 away, sorry
+[CHAT WINDOW TEXT] [Tue Dec 07 16:49:27] †Ðrakes Armor Mule of Tresures!†: *raises hand* you can give me somethings ;) *smiles*
+[CHAT WINDOW TEXT] [Tue Dec 07 16:49:32] †Ðrakes Armor Mule of Tresures!†: Peal the bells!
+[CHAT WINDOW TEXT] [Tue Dec 07 16:49:43] Paxus III: +1
+[CHAT WINDOW TEXT] [Tue Dec 07 16:49:45] BunnytheFierce has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 16:49:47] (LWS) The Church of Gruumsh is growing in power. Current power of Gruumsh: 10%.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:49:53] Wizard of La-La Land: My greetings.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:50:05] Moe: //crap, my goblin has somehow become invalid
+[CHAT WINDOW TEXT] [Tue Dec 07 16:50:08] BunnytheFierce has left as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 16:50:16] Paxus III: BTW - ANYTHING ON THE GROUND IS FREE FOR ALL!
+[CHAT WINDOW TEXT] [Tue Dec 07 16:50:25] Paxus III: incase that wasn't obvious
+[CHAT WINDOW TEXT] [Tue Dec 07 16:50:30] BunnytheFierce has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 16:50:32] (LWS) The Church of Malar is growing in power. Current power of Malar: 20%.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:50:38] Wizard of La-La Land: My greetings.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:50:49] Paxus III: pots
+[CHAT WINDOW TEXT] [Tue Dec 07 16:50:54] BunnytheFierce has left as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 16:50:57] NuNrg has left as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 16:51:04] Paxus III: few kits
+[CHAT WINDOW TEXT] [Tue Dec 07 16:51:05] BunnytheFierce has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 16:51:08] NuNrg has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 16:51:13] Wizard of La-La Land: My greetings.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:51:16] Wizard of La-La Land: My greetings.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:51:25] BunnytheFierce has left as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 16:51:27] Paxus III: anyone want Galdor's ring?
+[CHAT WINDOW TEXT] [Tue Dec 07 16:51:32] †Ðrakes Armor Mule of Tresures!†: Peal the bells!
+[CHAT WINDOW TEXT] [Tue Dec 07 16:51:36] (LWS) The Church of Bane is growing in numbers.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:51:36] (LWS) The Church of Bane is growing in power. Current power of Bane: 50%.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:51:36] †Ðrakes Armor Mule of Tresures!†: Aye.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:51:38] Paxus III: Sir?
+[CHAT WINDOW TEXT] [Tue Dec 07 16:51:41] †Ðrakes Armor Mule of Tresures!†: ill take it
+[CHAT WINDOW TEXT] [Tue Dec 07 16:51:47] †Ðrakes Armor Mule of Tresures!†: for a spare if needed
+[CHAT WINDOW TEXT] [Tue Dec 07 16:51:48] BunnytheFierce has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 16:51:56] Wizard of La-La Land: My greetings.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:51:58] Paxus III: a spare?!?!!?!?!
+[CHAT WINDOW TEXT] [Tue Dec 07 16:52:05] BunnytheFierce has left as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 16:52:06] Paxus III: *rolls eyes*
+[CHAT WINDOW TEXT] [Tue Dec 07 16:52:10] †Ðrakes Armor Mule of Tresures!†: *sigh* 
+[CHAT WINDOW TEXT] [Tue Dec 07 16:52:13] Paxus III: go one then
+[CHAT WINDOW TEXT] [Tue Dec 07 16:52:13] (LWS) The Church of Lloth is growing in power. Current power of Lloth: 50%.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:52:20] †Ðrakes Armor Mule of Tresures!†: Aye.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:52:32] BunnytheFierce has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 16:52:36] oo00O00oo has left as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 16:52:38] BunnytheFierce has left as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 16:52:40] Wizard of La-La Land: If I may…
+[CHAT WINDOW TEXT] [Tue Dec 07 16:52:53] oo00O00oo has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 16:53:02] Wizard of La-La Land: If I may…
+[CHAT WINDOW TEXT] [Tue Dec 07 16:53:10] Grrr'ark Bloodpaw: [Tell] btw, you logged a char that wasn't in the gateway. A bard or something. Did you drop stuff around with that guy too?
+[CHAT WINDOW TEXT] [Tue Dec 07 16:53:19] Paxus III : [Tell] not sure
+[CHAT WINDOW TEXT] [Tue Dec 07 16:53:23] BunnytheFierce has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 16:53:26] (LWS) The Church of Silvanus is growing in power. Current power of Silvanus: 10%.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:53:31] Grrr'ark Bloodpaw: [Tell] the second char you logged. Bard/PM
+[CHAT WINDOW TEXT] [Tue Dec 07 16:53:31] Wizard of La-La Land: My greetings.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:53:32] BunnytheFierce has left as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 16:53:43] Paxus III: BRB
+[CHAT WINDOW TEXT] [Tue Dec 07 16:53:46] BunnytheFierce has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 16:53:47] Shree: Victory!
+[CHAT WINDOW TEXT] [Tue Dec 07 16:53:54] Wizard of La-La Land: My greetings.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:53:57] Paxus III : [Tell] yeh probably emptied it totally
+[CHAT WINDOW TEXT] [Tue Dec 07 16:53:58] Shree: Welcome.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:54:02] Marc of Montrose has left as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 16:54:03] Drugrin Decadence: Hello then. Hello.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:54:04] Player not found.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:54:06] BunnytheFierce has left as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 16:54:30] Marc of Montrose has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 16:54:33] BunnytheFierce has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 16:54:35] (LWS) The Church of Callarduran Smoothhands is growing in power. Current power of Callarduran Smoothhands: 10%.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:54:38] Wizard of La-La Land: My greetings.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:54:41] Wizard of La-La Land: My greetings.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:54:43] BunnytheFierce has left as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 16:54:47] Sir Ulric the Green: Yes?
+[CHAT WINDOW TEXT] [Tue Dec 07 16:54:48] Marc of Montrose has left as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 16:54:51] Player not found.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:54:53] BunnytheFierce has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 16:55:10] Marc of Montrose has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 16:55:18] Wizard of La-La Land: My greetings.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:55:20] Marc of Montrose has left as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 16:55:52] Constantine: [Whisper] What you guys doing?
+[CHAT WINDOW TEXT] [Tue Dec 07 16:55:57] Marc of Montrose has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 16:56:12] Paxus III: I forgot the gold - who's short on cash?
+[CHAT WINDOW TEXT] [Tue Dec 07 16:56:17] Ice: me
+[CHAT WINDOW TEXT] [Tue Dec 07 16:56:19] †Ðrakes Armor Mule of Tresures!†: [Whisper] *keeps quiet*
+[CHAT WINDOW TEXT] [Tue Dec 07 16:56:32] †Ðrakes Armor Mule of Tresures!†: [Whisper] ice short on money?
+[CHAT WINDOW TEXT] [Tue Dec 07 16:56:35] †Ðrakes Armor Mule of Tresures!†: [Whisper] XD hahha
+[CHAT WINDOW TEXT] [Tue Dec 07 16:56:37] Paxus III: Ice or Ulric
+[CHAT WINDOW TEXT] [Tue Dec 07 16:57:05] †Ðrakes Armor Mule of Tresures!†: lol
+[CHAT WINDOW TEXT] [Tue Dec 07 16:57:07] Grrr'ark Bloodpaw: [Tell] marc is leaving. He's giving out stuff
+[CHAT WINDOW TEXT] [Tue Dec 07 16:57:34] Grrr'ark Bloodpaw: [Tell] darkmoons, SoS, taralash, GAB given out already
+[CHAT WINDOW TEXT] [Tue Dec 07 16:57:36] lord cotton has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 16:57:44] Constantine : [Tell] woah
+[CHAT WINDOW TEXT] [Tue Dec 07 16:57:47] Wizard of La-La Land: My greetings.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:57:51] Marc of Montrose has left as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 16:58:01] Grrr'ark Bloodpaw: [Tell] horse got the sos if you're still looking for one ;)
+[CHAT WINDOW TEXT] [Tue Dec 07 16:58:13] Marc of Montrose has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 16:58:18] Constantine : [Tell] i am, but doubt he'll sell it
+[CHAT WINDOW TEXT] [Tue Dec 07 16:58:21] Wizard of La-La Land: My greetings.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:58:31] Grrr'ark Bloodpaw: [Tell] yea, doubt it
+[CHAT WINDOW TEXT] [Tue Dec 07 16:58:36] Pollux: THIS is the helm you thought you were looking at before
+[CHAT WINDOW TEXT] [Tue Dec 07 16:58:44] Grrr'ark Bloodpaw: :O
+[CHAT WINDOW TEXT] [Tue Dec 07 16:58:52] †Ðrakes Armor Mule of Tresures!†: *calls dibs*
+[CHAT WINDOW TEXT] [Tue Dec 07 16:59:11] Pollux: Ok the best stuff here is Ring of Evasion and Golden Circlet
+[CHAT WINDOW TEXT] [Tue Dec 07 16:59:15] Constantine sings.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:59:21] †Ðrakes Armor Mule of Tresures!†: calls dibs on golden
+[CHAT WINDOW TEXT] [Tue Dec 07 16:59:21] ~Rakk'nnar~: GC please!!!
+[CHAT WINDOW TEXT] [Tue Dec 07 16:59:24] Pollux: Mightty Composite +4 is all it is
+[CHAT WINDOW TEXT] [Tue Dec 07 16:59:26] Constantine: [Whisper] crazy
+[CHAT WINDOW TEXT] [Tue Dec 07 16:59:27] †Ðrakes Armor Mule of Tresures!†: i got it first!
+[CHAT WINDOW TEXT] [Tue Dec 07 16:59:32] †Ðrakes Armor Mule of Tresures!†: ;P
+[CHAT WINDOW TEXT] [Tue Dec 07 16:59:38] Carene Lannal: roe plz
+[CHAT WINDOW TEXT] [Tue Dec 07 16:59:40] Ice: I'll take the ring
+[CHAT WINDOW TEXT] [Tue Dec 07 16:59:50] Constantine sings.
+[CHAT WINDOW TEXT] [Tue Dec 07 16:59:51] Pollux: Sorry guys - they have to go to people i have known on la la for longest
+[CHAT WINDOW TEXT] [Tue Dec 07 17:00:02] †Ðrakes Armor Mule of Tresures!†: *sigh*
+[CHAT WINDOW TEXT] [Tue Dec 07 17:00:16] boost1728 has left as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 17:00:39] Kimli Amen: may i get the ring?
+[CHAT WINDOW TEXT] [Tue Dec 07 17:00:43] Grrr'ark Bloodpaw: [Tell] I'd love any of it, but that's for you to decide.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:00:51] Constantine casts Divine Shield
+[CHAT WINDOW TEXT] [Tue Dec 07 17:00:55] Constantine casts Divine Might
+[CHAT WINDOW TEXT] [Tue Dec 07 17:00:58] †Ðrakes Armor Mule of Tresures!†: he is passing them to people he has known the longest
+[CHAT WINDOW TEXT] [Tue Dec 07 17:00:58] Sir Ulric the Green:  I thank you.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:01:00] Kimli Amen: oh
+[CHAT WINDOW TEXT] [Tue Dec 07 17:01:01] LeBadger has left as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 17:01:02] Kimli Amen: yeah
+[CHAT WINDOW TEXT] [Tue Dec 07 17:01:05] †Ðrakes Armor Mule of Tresures!†: *sigh* 
+[CHAT WINDOW TEXT] [Tue Dec 07 17:01:23] choad77 has left as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 17:01:28] Kimli Amen: tis fine.  not like i didn't get something
+[CHAT WINDOW TEXT] [Tue Dec 07 17:01:57] †Ðrakes Armor Mule of Tresures!†: i came in late and havnt got much but galdor ring and some noob gear for a new toon lol 
+[CHAT WINDOW TEXT] [Tue Dec 07 17:02:02] †Ðrakes Armor Mule of Tresures!†: but its better then nothing!
+[CHAT WINDOW TEXT] [Tue Dec 07 17:02:05] †Ðrakes Armor Mule of Tresures!†: Peal the bells!
+[CHAT WINDOW TEXT] [Tue Dec 07 17:02:08] Kimli Amen: that's true
+[CHAT WINDOW TEXT] [Tue Dec 07 17:02:10] choad77 has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 17:02:16] Wizard of La-La Land: Greetings †Ðrakes Armor Mule of Tresures!†!  I see you have left the mundane and joined us in La-La Land.  What can I do for you?
+[CHAT WINDOW TEXT] [Tue Dec 07 17:02:17] †Ðrakes Armor Mule of Tresures!†: I'd like to browse the newbie store.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:02:17] Wizard of La-La Land: Wise counsel.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:02:20] UTAHVAMP2 has left as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 17:03:23] Pollux: Message me if you've known me for years so i can see your usernames
+[CHAT WINDOW TEXT] [Tue Dec 07 17:03:35] Pollux: i really don;t know who should get the ring of evasion
+[CHAT WINDOW TEXT] [Tue Dec 07 17:03:39] Constantine: What about Bloodpaw, he's sitting here all quite and such.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:03:45] Constantine: Toss him a bone.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:03:46] kimho has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 17:03:52] †Ðrakes Armor Mule of Tresures!†: brb
+[CHAT WINDOW TEXT] [Tue Dec 07 17:03:53] Drake Bloodbringer has left as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 17:04:05] Drake Bloodbringer has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 17:04:13] Wizard of La-La Land: My greetings.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:04:14] Pollux: Ok,  the nice old timers have suggested a newb need it more
+[CHAT WINDOW TEXT] [Tue Dec 07 17:04:17] †Flash†: Ha ha! A good day!
+[CHAT WINDOW TEXT] [Tue Dec 07 17:04:17] Pollux: Soooooooooo
+[CHAT WINDOW TEXT] [Tue Dec 07 17:04:39] †Flash†: i reloged what did i miss o_o
+[CHAT WINDOW TEXT] [Tue Dec 07 17:04:39] Pollux: Which of the newbs intends on STAYING on la la for a long time and can tell me where BOPPI used to live?
+[CHAT WINDOW TEXT] [Tue Dec 07 17:04:45] Grrr'ark Bloodpaw: I got some goodies before you arrived. Yes, give it to someone who can make real good use of it.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:04:48] Cashew137 has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 17:04:49] †Flash†: *raises hand*
+[CHAT WINDOW TEXT] [Tue Dec 07 17:04:51] Pollux: (kinda not fair considering.... *LOL*)
+[CHAT WINDOW TEXT] [Tue Dec 07 17:04:52] Carene Lannal: common woods
+[CHAT WINDOW TEXT] [Tue Dec 07 17:04:58] Wizard of La-La Land: My greetings.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:05:09] Pollux: common woods!!!??? pfft
+[CHAT WINDOW TEXT] [Tue Dec 07 17:05:21] †Flash†: boppi aint that in halfling woods?
+[CHAT WINDOW TEXT] [Tue Dec 07 17:05:26] Pollux: wait - i forgot what they were called now... no
+[CHAT WINDOW TEXT] [Tue Dec 07 17:05:30] Pollux: not common woods
+[CHAT WINDOW TEXT] [Tue Dec 07 17:05:35] Cashew137 has left as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 17:05:35] Pollux: no not halfling woods
+[CHAT WINDOW TEXT] [Tue Dec 07 17:05:43] †Flash†: *shrugs* oh well
+[CHAT WINDOW TEXT] [Tue Dec 07 17:06:02] †Flash†: name seems so familer
+[CHAT WINDOW TEXT] [Tue Dec 07 17:06:06] Carene Lannal: the one south of Tobaro is not the commonwoods?
+[CHAT WINDOW TEXT] [Tue Dec 07 17:06:11] Cashew137 has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 17:06:14] †Flash†: ........ cant think though lol
+[CHAT WINDOW TEXT] [Tue Dec 07 17:06:33] Pollux: that's not where he lived
+[CHAT WINDOW TEXT] [Tue Dec 07 17:06:41] Pollux: I'm not talking about the groll
+[CHAT WINDOW TEXT] [Tue Dec 07 17:06:45] Grrr'ark Bloodpaw: [Tell] are you still there?
+[CHAT WINDOW TEXT] [Tue Dec 07 17:06:49] ~Rakk'nnar~ : [Tell] yes
+[CHAT WINDOW TEXT] [Tue Dec 07 17:06:51] Pollux: not Weiland
+[CHAT WINDOW TEXT] [Tue Dec 07 17:06:51] Kimli Amen: trommel woods
+[CHAT WINDOW TEXT] [Tue Dec 07 17:06:55] Pollux: no!
+[CHAT WINDOW TEXT] [Tue Dec 07 17:06:58] Kimli Amen: hahaha
+[CHAT WINDOW TEXT] [Tue Dec 07 17:06:59] †Flash†: *sigh*
+[CHAT WINDOW TEXT] [Tue Dec 07 17:07:02] Pollux : [Tell] do you want it?
+[CHAT WINDOW TEXT] [Tue Dec 07 17:07:12] †Flash†: Great Northern Forest past gm?
+[CHAT WINDOW TEXT] [Tue Dec 07 17:07:14] Kimli Amen: i never took time to notice it
+[CHAT WINDOW TEXT] [Tue Dec 07 17:07:18] Carene Lannal: you mean the fey Boppi no the player
+[CHAT WINDOW TEXT] [Tue Dec 07 17:07:21] Pollux: Who uses Axes?
+[CHAT WINDOW TEXT] [Tue Dec 07 17:07:24] Grrr'ark Bloodpaw: [Tell] I can take the ring for safekeeping, but I already have one.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:07:30] †Flash†: i have toons that do
+[CHAT WINDOW TEXT] [Tue Dec 07 17:07:34] Pollux : [Tell] no prob
+[CHAT WINDOW TEXT] [Tue Dec 07 17:07:36] Carene Lannal: raenwood
+[CHAT WINDOW TEXT] [Tue Dec 07 17:07:56] Kama Chameleon: ravenwood
+[CHAT WINDOW TEXT] [Tue Dec 07 17:07:58] Carene Lannal: thanks
+[CHAT WINDOW TEXT] [Tue Dec 07 17:08:00] Shree: Victory!
+[CHAT WINDOW TEXT] [Tue Dec 07 17:08:03] †Flash†: Ha ha! A good day!
+[CHAT WINDOW TEXT] [Tue Dec 07 17:08:30] Pollux: BARGIN!
+[CHAT WINDOW TEXT] [Tue Dec 07 17:08:31] Grrr'ark Bloodpaw: [Tell] I think choad there got the gc
+[CHAT WINDOW TEXT] [Tue Dec 07 17:08:35] †Flash†: Thank You
+[CHAT WINDOW TEXT] [Tue Dec 07 17:08:37] ~Rakk'nnar~ : [Tell] oh well
+[CHAT WINDOW TEXT] [Tue Dec 07 17:08:58] Pollux: Flash - with all this sh*t, you better PLAY DAMN GOOD!
+[CHAT WINDOW TEXT] [Tue Dec 07 17:09:10] Tinkersalot has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 17:09:20] †Flash†: *dies*
+[CHAT WINDOW TEXT] [Tue Dec 07 17:09:20] Wizard of La-La Land: My greetings.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:09:26] †Flash†: makes my builds betetr!
+[CHAT WINDOW TEXT] [Tue Dec 07 17:09:28] Max: Well met. Hello.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:09:28] †Flash†: better*
+[CHAT WINDOW TEXT] [Tue Dec 07 17:09:34] Ice: Yes, hello to you..
+[CHAT WINDOW TEXT] [Tue Dec 07 17:09:40] Sir Ulric the Green: Yes?
+[CHAT WINDOW TEXT] [Tue Dec 07 17:09:40] †Flash†: You have my thanks.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:10:02] Pollux: Who wants the +4 composite bow (mighty)
+[CHAT WINDOW TEXT] [Tue Dec 07 17:10:08] Sir Ulric the Green: Yes?
+[CHAT WINDOW TEXT] [Tue Dec 07 17:10:09] Grrr'ark Bloodpaw: [Tell] I'd like the bow :)
+[CHAT WINDOW TEXT] [Tue Dec 07 17:10:14] †Flash†: i like the style
+[CHAT WINDOW TEXT] [Tue Dec 07 17:10:18] Grrr'ark Bloodpaw: [Tell] I have the perfect archer for it
+[CHAT WINDOW TEXT] [Tue Dec 07 17:10:19] Sir Ulric the Green:  I thank you.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:10:26] Pollux : [Tell] DOH!
+[CHAT WINDOW TEXT] [Tue Dec 07 17:10:33] Grrr'ark Bloodpaw: [Tell] ah, nevermind :)
+[CHAT WINDOW TEXT] [Tue Dec 07 17:10:35] Pollux: come guys and roll for it
+[CHAT WINDOW TEXT] [Tue Dec 07 17:10:38] Grrr'ark Bloodpaw: [Tell] it's cool
+[CHAT WINDOW TEXT] [Tue Dec 07 17:10:41] Pollux: You and Grrr
+[CHAT WINDOW TEXT] [Tue Dec 07 17:10:45] Pollux: Ulric and Grrr
+[CHAT WINDOW TEXT] [Tue Dec 07 17:10:50] ~Rakk'nnar~: roll for what?
+[CHAT WINDOW TEXT] [Tue Dec 07 17:10:55] Grrr'ark Bloodpaw: oh, you didn't give it away yet?
+[CHAT WINDOW TEXT] [Tue Dec 07 17:10:55] Pollux: the bow
+[CHAT WINDOW TEXT] [Tue Dec 07 17:11:05] Pollux: no was about to when your msg came in
+[CHAT WINDOW TEXT] [Tue Dec 07 17:11:08] Cashew137 has left as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 17:11:15] Pollux: come on guys roll
+[CHAT WINDOW TEXT] [Tue Dec 07 17:11:18] Cashew137 has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 17:11:20] Sir Ulric the Green uses item's special power.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:11:21] Sir Ulric the Green: (DiCE) (d100) 51
+[CHAT WINDOW TEXT] [Tue Dec 07 17:11:26] Wizard of La-La Land: My greetings.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:11:27] Grrr'ark Bloodpaw: ok, may the best man win ;)
+[CHAT WINDOW TEXT] [Tue Dec 07 17:11:29] Pollux: 51 for Ulric!
+[CHAT WINDOW TEXT] [Tue Dec 07 17:11:29] Grrr'ark Bloodpaw uses item's special power.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:11:30] Grrr'ark Bloodpaw: (DiCE) (d100) 11
+[CHAT WINDOW TEXT] [Tue Dec 07 17:11:32] ~Rakk'nnar~ uses item's special power.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:11:33] ~Rakk'nnar~: (DiCE) (d100) 52
+[CHAT WINDOW TEXT] [Tue Dec 07 17:11:33] Sir Ulric the Green: We have been most successful.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:11:36] ~Rakk'nnar~: I WIN
+[CHAT WINDOW TEXT] [Tue Dec 07 17:11:36] †Flash† uses item's special power.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:11:37] †Flash†: (DiCE) (d100) 60
+[CHAT WINDOW TEXT] [Tue Dec 07 17:11:42] †Flash†: 60
+[CHAT WINDOW TEXT] [Tue Dec 07 17:11:44] †Flash†: :D
+[CHAT WINDOW TEXT] [Tue Dec 07 17:11:47] Kimli Amen uses item's special power.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:11:48] Kimli Amen: (DiCE) (d100) 31
+[CHAT WINDOW TEXT] [Tue Dec 07 17:11:49] †Flash†: muhahah
+[CHAT WINDOW TEXT] [Tue Dec 07 17:11:59] †Flash†: Ha ha! A good day!
+[CHAT WINDOW TEXT] [Tue Dec 07 17:12:02] Kimli Amen: x3 = 93
+[CHAT WINDOW TEXT] [Tue Dec 07 17:12:02] Max: Not bad, not bad at all!
+[CHAT WINDOW TEXT] [Tue Dec 07 17:12:03] Constantine: //i believe it was between the two
+[CHAT WINDOW TEXT] [Tue Dec 07 17:12:05] Kimli Amen: i win :p
+[CHAT WINDOW TEXT] [Tue Dec 07 17:12:28] Grrr'ark Bloodpaw: [Tell] did you get my email?
+[CHAT WINDOW TEXT] [Tue Dec 07 17:12:35] Nathan Reynolds: [Tell] ahhh there you are!!!
+[CHAT WINDOW TEXT] [Tue Dec 07 17:12:39] Pollux: pots in stuff in a bag
+[CHAT WINDOW TEXT] [Tue Dec 07 17:12:45] Nathan Reynolds: [Tell] jsut tested it!
+[CHAT WINDOW TEXT] [Tue Dec 07 17:12:46] Grrr'ark Bloodpaw: [Tell] ;)
+[CHAT WINDOW TEXT] [Tue Dec 07 17:12:49] Grrr'ark Bloodpaw: [Tell] cool
+[CHAT WINDOW TEXT] [Tue Dec 07 17:12:55] Pollux: trumpet?!?!!?
+[CHAT WINDOW TEXT] [Tue Dec 07 17:13:06] Grrr'ark Bloodpaw: [Tell] did you figure out how to run it?
+[CHAT WINDOW TEXT] [Tue Dec 07 17:13:28] Nathan Reynolds: [Tell] yes .- though I always seem to have to start nwn twice
+[CHAT WINDOW TEXT] [Tue Dec 07 17:13:42] TheDevil'sWater has left as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 17:13:42] Max: Not bad, not bad at all!
+[CHAT WINDOW TEXT] [Tue Dec 07 17:13:54] Grrr'ark Bloodpaw: [Tell] it someone logs in simultaneously or something you have to relog.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:14:02] ~Rakk'nnar~ : [Tell] if you see something I would like call for it or grab it for me I have to step away for a few
+[CHAT WINDOW TEXT] [Tue Dec 07 17:14:05] What's New (12/03/2010 225q2): Examine me to read! (right-click, examine)
+[CHAT WINDOW TEXT] [Tue Dec 07 17:14:11] Nathan Reynolds: [Tell] even is I log in alone it seems
+[CHAT WINDOW TEXT] [Tue Dec 07 17:14:19] TheDevil'sWater has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 17:14:31] Grrr'ark Bloodpaw: [Tell] I bet most of the good stuff is gone already though
+[CHAT WINDOW TEXT] [Tue Dec 07 17:14:35] Grrr'ark Bloodpaw: [Tell] but sure
+[CHAT WINDOW TEXT] [Tue Dec 07 17:14:53] Max: that was nice plate
+[CHAT WINDOW TEXT] [Tue Dec 07 17:15:06] Grrr'ark Bloodpaw: [Tell] it helps to have full hp too so you don't lose hp on login
+[CHAT WINDOW TEXT] [Tue Dec 07 17:15:09] Nathan Reynolds: [Tell] hm and the reset doesn't seem to work - if I reset and start again the old stats will show. DO I have to manually delete the log file?
+[CHAT WINDOW TEXT] [Tue Dec 07 17:15:09] thekingreturns has left as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 17:15:14] Constantine uses item's special power.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:15:54] Acquired Item: Taralash
+[CHAT WINDOW TEXT] [Tue Dec 07 17:15:54] Grrr'ark Bloodpaw has just looted Taralash (magical)
+[CHAT WINDOW TEXT] [Tue Dec 07 17:15:56] Pollux: ; )
+[CHAT WINDOW TEXT] [Tue Dec 07 17:16:01] Grrr'ark Bloodpaw: [Tell] wow, thanks
+[CHAT WINDOW TEXT] [Tue Dec 07 17:16:05] †Flash†: Ha ha! A good day!
+[CHAT WINDOW TEXT] [Tue Dec 07 17:16:13] Pollux : [Tell] there ya didn't need the +4 afterall
+[CHAT WINDOW TEXT] [Tue Dec 07 17:16:16] Max: mighty kind of you Pollux
+[CHAT WINDOW TEXT] [Tue Dec 07 17:16:29] †Flash†: Aye......! Thank you@
+[CHAT WINDOW TEXT] [Tue Dec 07 17:16:31] †Flash†: !
+[CHAT WINDOW TEXT] [Tue Dec 07 17:16:33] Kimli Amen: yes
+[CHAT WINDOW TEXT] [Tue Dec 07 17:16:38] †Flash†: You have my thanks.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:16:40] (LWS) The Church of Lloth is growing in power. Current power of Lloth: 60%.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:16:41] Grrr'ark Bloodpaw: [Tell] hehe, I wanted it for the mighty +6, but that's ok. You rock ;)
+[CHAT WINDOW TEXT] [Tue Dec 07 17:16:49] kimho has left as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 17:17:11] kimho has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 17:17:15] Grrr'ark Bloodpaw: [Tell] restarting nwn will reset the log file
+[CHAT WINDOW TEXT] [Tue Dec 07 17:17:15] Pollux : [Tell] it was mighty +6??? wow - i didn't know - what does that do again? use STR instead of dex or somethin?
+[CHAT WINDOW TEXT] [Tue Dec 07 17:17:24] Wizard of La-La Land: My greetings.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:17:29] Nathan Reynolds: [Tell] yes, but a simple relogging won#t I take it
+[CHAT WINDOW TEXT] [Tue Dec 07 17:17:30] Grrr'ark Bloodpaw: [Tell] use str modifier for damage
+[CHAT WINDOW TEXT] [Tue Dec 07 17:17:39] (LWS) The Church of Lloth is growing in power. Current power of Lloth: 70%.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:17:49] Pollux : [Tell] ah
+[CHAT WINDOW TEXT] [Tue Dec 07 17:17:52] Grrr'ark Bloodpaw: [Tell] nope, you have to shut down the game and bring it back up to clear the log file
+[CHAT WINDOW TEXT] [Tue Dec 07 17:18:01] Grrr'ark Bloodpaw: [Tell] but it's cool ;)
+[CHAT WINDOW TEXT] [Tue Dec 07 17:18:07] Nathan Reynolds: [Tell] so why is there a reset button then?
+[CHAT WINDOW TEXT] [Tue Dec 07 17:18:20] Pollux uses item's special power.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:18:22] Pollux: hm hm hm.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:18:24] Grrr'ark Bloodpaw: [Tell] to reset on the go. Have you tried it while hunting?
+[CHAT WINDOW TEXT] [Tue Dec 07 17:18:27] Pollux: brb
+[CHAT WINDOW TEXT] [Tue Dec 07 17:18:30] Marc of Montrose has left as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 17:18:37] †Flash† uses Vest of Escape
+[CHAT WINDOW TEXT] [Tue Dec 07 17:18:41] Grrr'ark Bloodpaw: [Tell] brb
+[CHAT WINDOW TEXT] [Tue Dec 07 17:18:53] Acquired Item: PC Properties
+[CHAT WINDOW TEXT] [Tue Dec 07 17:18:53] (ICS) ICS Initialized.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:18:53] (LTS) LTS Initialized.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:18:53] Grrr'ark Bloodpaw has just looted PC Properties.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:18:53] Your subrace is not recognized by La-La Land.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:18:56] You sense suppressed energies in this place. Magic may be impossible to use here.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:18:56] [Server] You are now in a No PVP area.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:19:00] Wizard of La-La Land: My greetings.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:19:00] Swift: What do you want?
+[CHAT WINDOW TEXT] [Tue Dec 07 17:19:00] (-MESSAGES-) Logging to avoid death is unacceptable.  You will be banned and/or vaultwiped when caught. Yes, we know the difference between this and crashing - dont test us.  Many have already been nailed - we are always watching! muahahahaha!
+[CHAT WINDOW TEXT] [Tue Dec 07 17:19:00] (-MESSAGES-) Please consider contributing to our hosting bill.  Visit http://nwnlalaland.com/ to subscribe
+[CHAT WINDOW TEXT] [Tue Dec 07 17:19:01] Shree: Welcome.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:19:02] Wizard of La-La Land: My greetings.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:19:05] †Flash†: Greetings.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:20:50] Swift: Now, FIRST ONE TO SAY ME ME ME - OINGO BOINGO (GETS THIS ARMOUR) - ---- DON'T ASK IF YOU DON'T USE CLASS 6 ARMOUR!
+[CHAT WINDOW TEXT] [Tue Dec 07 17:20:59] Nathan Reynolds: MEMEMEME
+[CHAT WINDOW TEXT] [Tue Dec 07 17:21:04] Swift: SPLINT MAIL USERS!
+[CHAT WINDOW TEXT] [Tue Dec 07 17:21:05] Shree: oingoboingo
+[CHAT WINDOW TEXT] [Tue Dec 07 17:21:08] Kimli Amen: me me me -oingo boingo
+[CHAT WINDOW TEXT] [Tue Dec 07 17:21:11] †Flash†: Yes.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:21:12] Nathan Reynolds: ah darn
+[CHAT WINDOW TEXT] [Tue Dec 07 17:21:34] †Flash†: ONIGO BOINGO
+[CHAT WINDOW TEXT] [Tue Dec 07 17:21:39] †Flash†: lol i said it how he did ;)
+[CHAT WINDOW TEXT] [Tue Dec 07 17:21:46] Swift: Kimli is the only one who answered correctly and wins +6 Splint Mail
+[CHAT WINDOW TEXT] [Tue Dec 07 17:21:52] Shree: Victory!
+[CHAT WINDOW TEXT] [Tue Dec 07 17:21:52] Kimli Amen: :D
+[CHAT WINDOW TEXT] [Tue Dec 07 17:21:52] †Flash†: Ha ha! A good day!
+[CHAT WINDOW TEXT] [Tue Dec 07 17:21:54] Ice: Good show!
+[CHAT WINDOW TEXT] [Tue Dec 07 17:22:00] Kimli Amen: thanks
+[CHAT WINDOW TEXT] [Tue Dec 07 17:22:18] Swift: PULL OUT YOUR PRIMARY BLADES PLEASE!
+[CHAT WINDOW TEXT] [Tue Dec 07 17:22:31] †Flash†: i use dist on this person!
+[CHAT WINDOW TEXT] [Tue Dec 07 17:22:33] nwnyuan has left as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 17:22:38] †Flash†: fidt*
+[CHAT WINDOW TEXT] [Tue Dec 07 17:22:42] †Flash†: omg
+[CHAT WINDOW TEXT] [Tue Dec 07 17:22:44] †Flash†: fist*
+[CHAT WINDOW TEXT] [Tue Dec 07 17:22:51] Drake Bloodbringer has left as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 17:23:00] Swift: NO KUKRI USERS?
+[CHAT WINDOW TEXT] [Tue Dec 07 17:23:01] Drake Bloodbringer has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 17:23:04] Kimli Amen: i have one
+[CHAT WINDOW TEXT] [Tue Dec 07 17:23:08] Leo Alexander: Hurrah!
+[CHAT WINDOW TEXT] [Tue Dec 07 17:23:09] Wizard of La-La Land: My greetings.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:23:10] Swift: so,ld
+[CHAT WINDOW TEXT] [Tue Dec 07 17:23:18] Swift: LADYMIST
+[CHAT WINDOW TEXT] [Tue Dec 07 17:23:25] Shree: Victory!
+[CHAT WINDOW TEXT] [Tue Dec 07 17:23:27] Kimli Amen: he's in the lizard swamp right now
+[CHAT WINDOW TEXT] [Tue Dec 07 17:23:37] Kimli Amen: :D
+[CHAT WINDOW TEXT] [Tue Dec 07 17:23:40] Leo Alexander: Hurrah!
+[CHAT WINDOW TEXT] [Tue Dec 07 17:23:41] Kimli Amen: thanks
+[CHAT WINDOW TEXT] [Tue Dec 07 17:23:49] Swift: oh and stormwalker
+[CHAT WINDOW TEXT] [Tue Dec 07 17:23:52] Leo Alexander: mememe
+[CHAT WINDOW TEXT] [Tue Dec 07 17:23:54] Kimli Amen: :D
+[CHAT WINDOW TEXT] [Tue Dec 07 17:23:57] Shree: Victory!
+[CHAT WINDOW TEXT] [Tue Dec 07 17:23:59] Swift: leo?
+[CHAT WINDOW TEXT] [Tue Dec 07 17:24:07] Leo Alexander: yes?
+[CHAT WINDOW TEXT] [Tue Dec 07 17:24:10] Swift: you need kukri?
+[CHAT WINDOW TEXT] [Tue Dec 07 17:24:17] Leo Alexander: yup for me new toon
+[CHAT WINDOW TEXT] [Tue Dec 07 17:24:27] Leo Alexander: ranger cleric wm dual kukris
+[CHAT WINDOW TEXT] [Tue Dec 07 17:24:28] Kimli Amen: yeah. the sib to my kukri user
+[CHAT WINDOW TEXT] [Tue Dec 07 17:24:29] Swift: only base damage - 2d6 and freedom
+[CHAT WINDOW TEXT] [Tue Dec 07 17:24:30] Constantine: Where's all the ladymist stormwalker cutting star characters now?
+[CHAT WINDOW TEXT] [Tue Dec 07 17:24:40] Shree: //lol
+[CHAT WINDOW TEXT] [Tue Dec 07 17:24:42] ~Rakk'nnar~: hehe
+[CHAT WINDOW TEXT] [Tue Dec 07 17:24:50] Leo Alexander: I thank you for this.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:24:52] Kimli Amen: mine is in the lizard swamp
+[CHAT WINDOW TEXT] [Tue Dec 07 17:25:12] kimho has left as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 17:25:27] Grrr'ark Bloodpaw: [Tell] I added the reset button to be able to clear the parser input on the go. But if you hit start again the whole file will be read over again
+[CHAT WINDOW TEXT] [Tue Dec 07 17:25:39] Drake Bloodbringer has left as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 17:25:50] Drake Bloodbringer has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 17:25:53] (LWS) The Church of Tymora is growing in power. Current power of Tymora: 90%.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:25:56] kimho has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 17:25:59] Wizard of La-La Land: My greetings.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:26:06] Wizard of La-La Land: My greetings.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:27:19] Dundain_Steel has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 17:27:31] Wizard of La-La Land: My greetings.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:27:56] Marc of Montrose has left as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 17:27:57] Turko Sparkledust: what gives?
+[CHAT WINDOW TEXT] [Tue Dec 07 17:27:59] (LWS) The Church of Lloth is growing in power. Current power of Lloth: 80%.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:28:17] Marc of Montrose has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 17:28:20] Max casting unknown spell
+[CHAT WINDOW TEXT] [Tue Dec 07 17:28:22] Max casts unknown spell
+[CHAT WINDOW TEXT] [Tue Dec 07 17:28:26] Wizard of La-La Land: My greetings.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:28:27] Ice: guy is leaving..giving away stuff
+[CHAT WINDOW TEXT] [Tue Dec 07 17:28:40] Linu Alexander: ;( gonna miss you Marc!
+[CHAT WINDOW TEXT] [Tue Dec 07 17:28:48] Linu Alexander: hate seeing people go
+[CHAT WINDOW TEXT] [Tue Dec 07 17:29:42] Turko Sparkledust: I don't want to be greedy
+[CHAT WINDOW TEXT] [Tue Dec 07 17:29:48] Constantine sings.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:29:51] Linu Alexander casting unknown spell
+[CHAT WINDOW TEXT] [Tue Dec 07 17:29:53] Linu Alexander casts unknown spell
+[CHAT WINDOW TEXT] [Tue Dec 07 17:30:00] Linu Alexander casting unknown spell
+[CHAT WINDOW TEXT] [Tue Dec 07 17:30:02] Linu Alexander casts unknown spell
+[CHAT WINDOW TEXT] [Tue Dec 07 17:30:23] Linu Alexander: ;o
+[CHAT WINDOW TEXT] [Tue Dec 07 17:30:38] Zed: We shall meet again.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:30:41] Nathan Reynolds: Bye.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:30:41] Marc of Montrose has left as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 17:30:44] Sir Ulric the Green: Until we meet again.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:30:52] Turko Sparkledust: thanks naked dude
+[CHAT WINDOW TEXT] [Tue Dec 07 17:30:57] Drake Bloodbringer has left as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 17:30:57] Marc of Montrose has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 17:31:09] Drake Bloodbringer has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 17:31:18] Wizard of La-La Land: My greetings.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:31:20] Grrr'ark Bloodpaw: [Tell] how many chars have you got, really?
+[CHAT WINDOW TEXT] [Tue Dec 07 17:31:21] Max: Not bad, not bad at all!
+[CHAT WINDOW TEXT] [Tue Dec 07 17:31:25] Binky, Leader of The Knights of Stardust, King of The Mountain Faeries: WHO NEEDS REGEN?
+[CHAT WINDOW TEXT] [Tue Dec 07 17:31:25] ‡Revenge‡: Yes.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:31:31] Turko Sparkledust: me
+[CHAT WINDOW TEXT] [Tue Dec 07 17:31:31] ‡Revenge‡: tanks
+[CHAT WINDOW TEXT] [Tue Dec 07 17:31:31] Sir Ulric the Green: Yes?
+[CHAT WINDOW TEXT] [Tue Dec 07 17:31:33] urchin wilde has left as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 17:31:33] Binky, Leader of The Knights of Stardust, King of The Mountain Faeries: [Tell] about 15?
+[CHAT WINDOW TEXT] [Tue Dec 07 17:31:33] Constantine: moi
+[CHAT WINDOW TEXT] [Tue Dec 07 17:31:34] Max: me
+[CHAT WINDOW TEXT] [Tue Dec 07 17:31:34] Nathan Reynolds: depends what its on
+[CHAT WINDOW TEXT] [Tue Dec 07 17:31:36] Grrr'ark Bloodpaw: wait wait
+[CHAT WINDOW TEXT] [Tue Dec 07 17:31:38] Grrr'ark Bloodpaw: that ring
+[CHAT WINDOW TEXT] [Tue Dec 07 17:31:41] Turko Sparkledust: ring!
+[CHAT WINDOW TEXT] [Tue Dec 07 17:31:42] Grrr'ark Bloodpaw: has pp tag on it
+[CHAT WINDOW TEXT] [Tue Dec 07 17:31:45] Binky, Leader of The Knights of Stardust, King of The Mountain Faeries: ok all WHO NEED REGEN COME TO COUCH AND ROLL
+[CHAT WINDOW TEXT] [Tue Dec 07 17:31:53] Grrr'ark Bloodpaw: don't move it to a char below lvl 10
+[CHAT WINDOW TEXT] [Tue Dec 07 17:31:56] Max uses item's special power.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:31:57] Max: (DiCE) (d100) 20
+[CHAT WINDOW TEXT] [Tue Dec 07 17:32:01] Max: bleh
+[CHAT WINDOW TEXT] [Tue Dec 07 17:32:03] Constantine: Who's going to guard the rock in benzor?
+[CHAT WINDOW TEXT] [Tue Dec 07 17:32:05] urchin wilde has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 17:32:06] Turko Sparkledust uses item's special power.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:32:08] Nathan Reynolds uses item's special power.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:32:09] Constantine uses item's special power.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:32:10] Grrr'ark Bloodpaw: [Tell] stop
+[CHAT WINDOW TEXT] [Tue Dec 07 17:32:10] Constantine: (DiCE) (d100) 91
+[CHAT WINDOW TEXT] [Tue Dec 07 17:32:12] Sir Ulric the Green uses item's special power.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:32:13] Sir Ulric the Green: (DiCE) (d100) 89
+[CHAT WINDOW TEXT] [Tue Dec 07 17:32:13] Shree uses item's special power.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:32:14] Nathan Reynolds uses item's special power.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:32:14] Wizard of La-La Land: My greetings.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:32:14] Shree: (DiCE) (d100) 43
+[CHAT WINDOW TEXT] [Tue Dec 07 17:32:15] Nathan Reynolds: (DiCE) (d100) 31
+[CHAT WINDOW TEXT] [Tue Dec 07 17:32:15] ‡Revenge‡ uses item's special power.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:32:16] ‡Revenge‡: (DiCE) (d100) 25
+[CHAT WINDOW TEXT] [Tue Dec 07 17:32:18] Turko Sparkledust uses item's special power.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:32:19] ‡Revenge‡: By the pits of Hell!
+[CHAT WINDOW TEXT] [Tue Dec 07 17:32:20] Grrr'ark Bloodpaw: [Tell] that's the pp'ed ring you tried to give me
+[CHAT WINDOW TEXT] [Tue Dec 07 17:32:22] Max: Not bad, not bad at all!
+[CHAT WINDOW TEXT] [Tue Dec 07 17:32:22] Ice uses item's special power.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:32:22] ~Rakk'nnar~ uses item's special power.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:32:23] ~Rakk'nnar~: (DiCE) (d100) 66
+[CHAT WINDOW TEXT] [Tue Dec 07 17:32:26] ‡Revenge‡: Into the flames we leap!
+[CHAT WINDOW TEXT] [Tue Dec 07 17:32:28] ‡Revenge‡: They cannot stand against us! Strike them down!
+[CHAT WINDOW TEXT] [Tue Dec 07 17:32:29] Turko Sparkledust uses item's special power.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:32:30] Ice uses item's special power.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:32:30] Turko Sparkledust: (DiCE) (d100) 70
+[CHAT WINDOW TEXT] [Tue Dec 07 17:32:30] ‡Revenge‡: My blood calls for yours and it *will* be satisfied.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:32:31] Ice: (DiCE) (d100) 32
+[CHAT WINDOW TEXT] [Tue Dec 07 17:32:36] Binky, Leader of The Knights of Stardust, King of The Mountain Faeries: [Tell] oh
+[CHAT WINDOW TEXT] [Tue Dec 07 17:32:44] Turko Sparkledust: God's take this...!
+[CHAT WINDOW TEXT] [Tue Dec 07 17:32:45] Grrr'ark Bloodpaw: [Tell] it won't transfer, and it'll freeze anyone below lvl 11
+[CHAT WINDOW TEXT] [Tue Dec 07 17:32:46] Drake Bloodbringer has left as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 17:32:59] Binky, Leader of The Knights of Stardust, King of The Mountain Faeries: Constantine are you below level 11?
+[CHAT WINDOW TEXT] [Tue Dec 07 17:33:00] Drake Bloodbringer has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 17:33:04] Constantine: no
+[CHAT WINDOW TEXT] [Tue Dec 07 17:33:06] Nathan Reynolds: [Tell] oh one or two more things I'd like to see stats for!
+[CHAT WINDOW TEXT] [Tue Dec 07 17:33:14] Binky, Leader of The Knights of Stardust, King of The Mountain Faeries: Apparently this item is PP - do you read it like that too?
+[CHAT WINDOW TEXT] [Tue Dec 07 17:33:23] Grrr'ark Bloodpaw: [Tell] what's that?
+[CHAT WINDOW TEXT] [Tue Dec 07 17:33:42] Constantine: if you drop and pick it up, doesn't it say who it is from?
+[CHAT WINDOW TEXT] [Tue Dec 07 17:33:42] Nathan Reynolds: [Tell] number of sneak attacks, death attacks, and most of all: number of critical hits
+[CHAT WINDOW TEXT] [Tue Dec 07 17:34:13] Binky, Leader of The Knights of Stardust, King of The Mountain Faeries: don't know don't care ; )
+[CHAT WINDOW TEXT] [Tue Dec 07 17:34:15] Binky, Leader of The Knights of Stardust, King of The Mountain Faeries: have fun
+[CHAT WINDOW TEXT] [Tue Dec 07 17:34:17] Grrr'ark Bloodpaw: [Tell] that's on the todo list
+[CHAT WINDOW TEXT] [Tue Dec 07 17:34:19] Marc of Montrose has left as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 17:34:21] †Flash†: cya :(
+[CHAT WINDOW TEXT] [Tue Dec 07 17:34:25] Nathan Reynolds: [Tell] ahh =D
+[CHAT WINDOW TEXT] [Tue Dec 07 17:34:31] Grrr'ark Bloodpaw: a guy got frozen earlier
+[CHAT WINDOW TEXT] [Tue Dec 07 17:34:34] Grrr'ark Bloodpaw: careful with that stuff
+[CHAT WINDOW TEXT] [Tue Dec 07 17:34:44] †Flash† uses Rod of the Ghost
+[CHAT WINDOW TEXT] [Tue Dec 07 17:34:47] Marc of Montrose has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 17:34:47] choad77 has left as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 17:34:48] Nathan Reynolds: [Tell] gotta see my 12-20 crit range at work :=)
+[CHAT WINDOW TEXT] [Tue Dec 07 17:34:55] choad77 has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 17:34:56] Wizard of La-La Land: My greetings.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:34:57] †Flash†: hes back!
+[CHAT WINDOW TEXT] [Tue Dec 07 17:34:59] Shree: Victory!
+[CHAT WINDOW TEXT] [Tue Dec 07 17:35:01] Shree: Welcome.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:35:46] Grrr'ark Bloodpaw: [Tell] try coming back with Blinky and drop the ring on the ground
+[CHAT WINDOW TEXT] [Tue Dec 07 17:35:59] Marc of Montrose : [Tell] i gave it to Constantine
+[CHAT WINDOW TEXT] [Tue Dec 07 17:36:14] Grrr'ark Bloodpaw: [Tell] by barter menu?
+[CHAT WINDOW TEXT] [Tue Dec 07 17:36:18] Marc of Montrose : [Tell] yeh
+[CHAT WINDOW TEXT] [Tue Dec 07 17:36:19] Grrr'ark Bloodpaw: [Tell] did you get the ring?
+[CHAT WINDOW TEXT] [Tue Dec 07 17:36:29] choad77 has left as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 17:36:31] Constantine : [Tell] you want?
+[CHAT WINDOW TEXT] [Tue Dec 07 17:36:35] Grrr'ark Bloodpaw: [Tell] then it probably jumped back to you, like when you tried to give it to me.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:36:40] choad77 has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 17:36:43] Grrr'ark Bloodpaw: [Tell] nah, did it not jump back?
+[CHAT WINDOW TEXT] [Tue Dec 07 17:36:43] (LWS) The Church of Bane is growing in power. Current power of Bane: 60%.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:36:44] LeBadger has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 17:36:48] Grrr'ark Bloodpaw: [Tell] oh, nvm. He got it
+[CHAT WINDOW TEXT] [Tue Dec 07 17:36:49] Wizard of La-La Land: My greetings.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:36:50] Marc of Montrose: i'll log Binky agina and check
+[CHAT WINDOW TEXT] [Tue Dec 07 17:36:51] †Flash† uses item's special power.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:36:53] Marc of Montrose has left as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 17:37:10] Grrr'ark Bloodpaw: [Tell] he tried to give it to me last time, but it jumped back
+[CHAT WINDOW TEXT] [Tue Dec 07 17:37:13] Marc of Montrose has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 17:37:27] Constantine : [Tell] dropped it and picked it up, and it didn't mention it was stolen
+[CHAT WINDOW TEXT] [Tue Dec 07 17:37:28] Binky, Leader of The Knights of Stardust, King of The Mountain Faeries: Nope
+[CHAT WINDOW TEXT] [Tue Dec 07 17:37:30] Grrr'ark Bloodpaw: [Tell] if you don't have it then nvm
+[CHAT WINDOW TEXT] [Tue Dec 07 17:37:34] Binky, Leader of The Knights of Stardust, King of The Mountain Faeries: Constantine kept the ring
+[CHAT WINDOW TEXT] [Tue Dec 07 17:37:46] Grrr'ark Bloodpaw: ok, had to ask
+[CHAT WINDOW TEXT] [Tue Dec 07 17:37:52] Grrr'ark Bloodpaw: all good then :)
+[CHAT WINDOW TEXT] [Tue Dec 07 17:38:01] Grrr'ark Bloodpaw: [Tell] that's weird
+[CHAT WINDOW TEXT] [Tue Dec 07 17:38:03] Nathan Reynolds: [Tell] how are the exams btw? :)
+[CHAT WINDOW TEXT] [Tue Dec 07 17:38:03] GreaseNevwinter has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 17:38:03] Binky, Leader of The Knights of Stardust, King of The Mountain Faeries: Yeh, but I'll keep Paxus and Slade Characters incase i feel like playing one day
+[CHAT WINDOW TEXT] [Tue Dec 07 17:38:05] Acquired Item: Lesser Ring of Regeneration
+[CHAT WINDOW TEXT] [Tue Dec 07 17:38:05] Grrr'ark Bloodpaw has just looted Lesser Ring of Regeneration.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:38:10] (LWS) The Church of Tyr is growing in power. Current power of Tyr: 30%.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:38:15] Wizard of La-La Land: My greetings.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:38:17] Binky, Leader of The Knights of Stardust, King of The Mountain Faeries: Thanks for taking all my stuff guys!
+[CHAT WINDOW TEXT] [Tue Dec 07 17:38:19] GreasEspoon: Well, look what we have here. Future corpses.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:38:31] Blasto-Shiz  Chango: thanks marc!
+[CHAT WINDOW TEXT] [Tue Dec 07 17:38:38] Grrr'ark Bloodpaw: [Tell] ah, it got bugged earlier. Lost the tag :S
+[CHAT WINDOW TEXT] [Tue Dec 07 17:38:39] Binky, Leader of The Knights of Stardust, King of The Mountain Faeries: For those who know me or have played with me - THANKS FOR THE GOOD TIMES!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[CHAT WINDOW TEXT] [Tue Dec 07 17:38:40] Constantine : [Tell] maybe it was a different one
+[CHAT WINDOW TEXT] [Tue Dec 07 17:38:46] Binky, Leader of The Knights of Stardust, King of The Mountain Faeries: AWW
+[CHAT WINDOW TEXT] [Tue Dec 07 17:38:46] Max: Goodbye.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:38:47] Merlin the Dark: thank you as well
+[CHAT WINDOW TEXT] [Tue Dec 07 17:38:49] †Flash†: cya ;(
+[CHAT WINDOW TEXT] [Tue Dec 07 17:38:49] Shree: thanks Marc. very much appreciated man :)
+[CHAT WINDOW TEXT] [Tue Dec 07 17:38:49] Binky, Leader of The Knights of Stardust, King of The Mountain Faeries: CHEERS!
+[CHAT WINDOW TEXT] [Tue Dec 07 17:38:51] Ice: Goodbye then.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:38:53] †Flash†: will miss you@
+[CHAT WINDOW TEXT] [Tue Dec 07 17:38:55] Nathan Reynolds: Bye.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:38:56] GreasEspoon: lol giving away 
+[CHAT WINDOW TEXT] [Tue Dec 07 17:38:56] †Flash†: !!!
+[CHAT WINDOW TEXT] [Tue Dec 07 17:38:57] Merlin the Dark: thanks
+[CHAT WINDOW TEXT] [Tue Dec 07 17:39:02] Binky, Leader of The Knights of Stardust, King of The Mountain Faeries: LA LA LAND IS THE BEST SERVER TO PLAY ON!
+[CHAT WINDOW TEXT] [Tue Dec 07 17:39:05] Shree: Victory!
+[CHAT WINDOW TEXT] [Tue Dec 07 17:39:07] †Flash†:  COME BACK SOON!
+[CHAT WINDOW TEXT] [Tue Dec 07 17:39:08] Max: i agree
+[CHAT WINDOW TEXT] [Tue Dec 07 17:39:09] Grrr'ark Bloodpaw: [Tell] man, you won't ever step by again?
+[CHAT WINDOW TEXT] [Tue Dec 07 17:39:12] †Flash†: Ha ha! A good day!
+[CHAT WINDOW TEXT] [Tue Dec 07 17:39:18] Binky, Leader of The Knights of Stardust, King of The Mountain Faeries: MAYBE
+[CHAT WINDOW TEXT] [Tue Dec 07 17:39:28] Binky, Leader of The Knights of Stardust, King of The Mountain Faeries: THAT'S WHY I'M KEEPING PAXUS AND SLADE - JUST INCASE
+[CHAT WINDOW TEXT] [Tue Dec 07 17:39:33] Max uses item's special power.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:39:36] Grrr'ark Bloodpaw: good, man
+[CHAT WINDOW TEXT] [Tue Dec 07 17:39:41] †Flash†: WOOT~!
+[CHAT WINDOW TEXT] [Tue Dec 07 17:39:45] Grrr'ark Bloodpaw: let me know if you decide to come back
+[CHAT WINDOW TEXT] [Tue Dec 07 17:39:50] Shree: Victory!
+[CHAT WINDOW TEXT] [Tue Dec 07 17:39:51] Binky, Leader of The Knights of Stardust, King of The Mountain Faeries: BUT JUST SO YOU ALL KNOW - I HAD A BLAST WHILE I WAS HERE - LA LA IS AWESOME
+[CHAT WINDOW TEXT] [Tue Dec 07 17:39:59] Grrr'ark Bloodpaw: the stuff is yours when that day comes
+[CHAT WINDOW TEXT] [Tue Dec 07 17:40:07] Ice: YES
+[CHAT WINDOW TEXT] [Tue Dec 07 17:40:08] Binky, Leader of The Knights of Stardust, King of The Mountain Faeries: AND A BIG THANKS TO 'D' IF YOU SEE HIM 
+[CHAT WINDOW TEXT] [Tue Dec 07 17:40:16] †Flash†: Farewell.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:40:24] Blasto-Shiz  Chango: cya, thanks again marc
+[CHAT WINDOW TEXT] [Tue Dec 07 17:40:30] Binky, Leader of The Knights of Stardust, King of The Mountain Faeries: NO GO AND SLAUGHTER STUFF!!!!!!!!!!!!!!!!!!!!!!!!
+[CHAT WINDOW TEXT] [Tue Dec 07 17:40:30] Max: Goodbye.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:40:32] Shree: Goodbye.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:40:36] Binky, Leader of The Knights of Stardust, King of The Mountain Faeries: *now!
+[CHAT WINDOW TEXT] [Tue Dec 07 17:40:40] Binky, Leader of The Knights of Stardust, King of The Mountain Faeries: BYE BYE
+[CHAT WINDOW TEXT] [Tue Dec 07 17:40:43] Blasto-Shiz  Chango: Bye.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:40:43] ~Rakk'nnar~: *sniff* *howls*
+[CHAT WINDOW TEXT] [Tue Dec 07 17:40:45] Binky, Leader of The Knights of Stardust, King of The Mountain Faeries: Bye then.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:40:50] Nathan Reynolds: Bye.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:40:50] Marc of Montrose has left as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 17:40:53] choad77 has left as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 17:41:02] TheDevil'sWater has left as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 17:41:02] choad77 has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 17:41:06] Grrr'ark Bloodpaw: [Tell] so.. ring of evo to huor?
+[CHAT WINDOW TEXT] [Tue Dec 07 17:41:17] ~Rakk'nnar~ : [Tell] yes brb
+[CHAT WINDOW TEXT] [Tue Dec 07 17:41:22] NuNrg has left as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 17:41:24] Shree: :(
+[CHAT WINDOW TEXT] [Tue Dec 07 17:41:31] Grrr'ark Bloodpaw: :/
+[CHAT WINDOW TEXT] [Tue Dec 07 17:41:31] TheDevil'sWater has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 17:41:33] †Flash†: sad day in lala ;(
+[CHAT WINDOW TEXT] [Tue Dec 07 17:41:37] NuNrg has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 17:41:41] †Flash†: *moaps arround*
+[CHAT WINDOW TEXT] [Tue Dec 07 17:41:53] (LFR) Galduil Jalisurr is looking for a Temple Rez. Corpse is located in Benzor - Temple to Tymora.  
+[CHAT WINDOW TEXT] [Tue Dec 07 17:41:57] NuNrg has left as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 17:41:59] Nathan Reynolds: [Tell] now if you wanna get really ambitious, you could to a pie chart with percentages of total damage and total kill in party
+[CHAT WINDOW TEXT] [Tue Dec 07 17:42:06] NuNrg has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 17:42:15] †Flash†: now i need to organize all this stuff
+[CHAT WINDOW TEXT] [Tue Dec 07 17:42:33] Grrr'ark Bloodpaw: [Tell] pie chart?
+[CHAT WINDOW TEXT] [Tue Dec 07 17:42:47] Nathan Reynolds: [Tell] yup, pie as in cake
+[CHAT WINDOW TEXT] [Tue Dec 07 17:42:54] Grrr'ark Bloodpaw: [Tell] oh, like that
+[CHAT WINDOW TEXT] [Tue Dec 07 17:42:55] Constantine: Farewell.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:42:56] Turko Sparkledust uses item's special power.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:42:58] Nathan Reynolds: [Tell] so y round graphic thingy
+[CHAT WINDOW TEXT] [Tue Dec 07 17:43:03] ~Huor~: I'm going to give some stuff away too
+[CHAT WINDOW TEXT] [Tue Dec 07 17:43:13] Grrr'ark Bloodpaw: [Tell] not sure if there's support for that in java, but I'll check. Good idea.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:43:13] †Flash†: haha
+[CHAT WINDOW TEXT] [Tue Dec 07 17:43:16] mancalledhorse has left as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 17:43:16] BunnytheFierce has left as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 17:43:18] †Flash†: dont get us drunk ;)
+[CHAT WINDOW TEXT] [Tue Dec 07 17:43:26] †Flash†: Ha ha! A good day!
+[CHAT WINDOW TEXT] [Tue Dec 07 17:43:27] †Flash† drinks.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:43:29] †Flash†: *Burp*
+[CHAT WINDOW TEXT] [Tue Dec 07 17:43:29] choad77 has left as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 17:43:39] GreasEspoon: Well, look what we have here. Future corpses.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:43:41] †Flash†: *drunken monk*
+[CHAT WINDOW TEXT] [Tue Dec 07 17:43:44] choad77 has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 17:43:50] GreasEspoon: afk lol
+[CHAT WINDOW TEXT] [Tue Dec 07 17:43:51] †Flash†: They cannot stand against us! Strike them down!
+[CHAT WINDOW TEXT] [Tue Dec 07 17:43:54] †Flash†: My blood calls for yours and it *will* be satisfied.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:44:12] Grrr'ark Bloodpaw: [Tell] you have to deal damage for it to pop up
+[CHAT WINDOW TEXT] [Tue Dec 07 17:44:21] Nathan Reynolds: [Tell] yup noticed
+[CHAT WINDOW TEXT] [Tue Dec 07 17:44:30] Nathan Reynolds: [Tell] which brings me to another thing
+[CHAT WINDOW TEXT] [Tue Dec 07 17:44:34] urchin wilde has left as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 17:44:34] Grrr'ark Bloodpaw: [Tell] have you tried it yet or is this the first time?
+[CHAT WINDOW TEXT] [Tue Dec 07 17:44:35] Nathan Reynolds: [Tell] again, more complex
+[CHAT WINDOW TEXT] [Tue Dec 07 17:44:40] Nathan Reynolds: [Tell] fiurst time
+[CHAT WINDOW TEXT] [Tue Dec 07 17:44:48] urchin wilde has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 17:44:53] Grrr'ark Bloodpaw: [Tell] so you haven't seen the table?
+[CHAT WINDOW TEXT] [Tue Dec 07 17:45:14] Nathan Reynolds: [Tell] character stats - like max AB, rolls that hit it; creatures with max ab, rolls that hit etx
+[CHAT WINDOW TEXT] [Tue Dec 07 17:45:26] Nathan Reynolds: [Tell] table?
+[CHAT WINDOW TEXT] [Tue Dec 07 17:45:30] Grrr'ark Bloodpaw: [Tell] to-do list
+[CHAT WINDOW TEXT] [Tue Dec 07 17:45:34] Grrr'ark Bloodpaw: [Tell] already on it
+[CHAT WINDOW TEXT] [Tue Dec 07 17:45:46] Grrr'ark Bloodpaw: [Tell] yes, a table will display
+[CHAT WINDOW TEXT] [Tue Dec 07 17:46:01] Grrr'ark Bloodpaw: [Tell] attack me
+[CHAT WINDOW TEXT] [Tue Dec 07 17:46:05] Nathan Reynolds now dislikes you!
+
+[CHAT WINDOW TEXT] [Tue Dec 07 17:46:06] Nathan Reynolds: [Tell] have only read the readme
+[CHAT WINDOW TEXT] [Tue Dec 07 17:46:09] Nathan Reynolds: No.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:46:18] Grrr'ark Bloodpaw: [Tell] kk, no pvp zone
+[CHAT WINDOW TEXT] [Tue Dec 07 17:46:21] urchin wilde has left as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 17:46:48] Nathan Reynolds: [Tell] how are the exams then? DOne by now?
+[CHAT WINDOW TEXT] [Tue Dec 07 17:46:52] Grrr'ark Bloodpaw: [Tell] you'll get the idea of how it displays once you hit something
+[CHAT WINDOW TEXT] [Tue Dec 07 17:47:09] Nathan Reynolds: [Tell] oh I have hit something with it - iwth Percy
+[CHAT WINDOW TEXT] [Tue Dec 07 17:47:11] Grrr'ark Bloodpaw: [Tell] done with the first one. Three to go. 17th, 19th and 21st.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:47:23] Nathan Reynolds: [Tell] yuk
+[CHAT WINDOW TEXT] [Tue Dec 07 17:47:33] Grrr'ark Bloodpaw: [Tell] yep, yuk
+[CHAT WINDOW TEXT] [Tue Dec 07 17:47:36] Nathan Reynolds: [Tell] so no spare time then I figure :(
+[CHAT WINDOW TEXT] [Tue Dec 07 17:47:40] Drake Bloodbringer has left as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 17:47:49] Drake Bloodbringer has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 17:47:53] UTAHVAMP2 has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 17:47:58] Grrr'ark Bloodpaw: [Tell] no not really. Was going to, but then Marc went beserke with his giveaway
+[CHAT WINDOW TEXT] [Tue Dec 07 17:48:20] Nathan Reynolds: --==MAX HIT== 
+[CHAT WINDOW TEXT] [Tue Dec 07 17:48:25] mancalledhorse has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 17:48:27] Grrr'ark Bloodpaw: [Tell] berserk*
+[CHAT WINDOW TEXT] [Tue Dec 07 17:48:43] Nathan Reynolds: [Tell] hm can I print it in game?
+[CHAT WINDOW TEXT] [Tue Dec 07 17:48:53] Grrr'ark Bloodpaw: [Tell] copy-paste the lines
+[CHAT WINDOW TEXT] [Tue Dec 07 17:49:05] Grrr'ark Bloodpaw: [Tell] it cannot affect the game itself in any way
+[CHAT WINDOW TEXT] [Tue Dec 07 17:49:08] Nathan Reynolds: [Tell] see above - didn#t quite work
+[CHAT WINDOW TEXT] [Tue Dec 07 17:49:16] Nathan Reynolds: --==KILLS==
+[CHAT WINDOW TEXT] [Tue Dec 07 17:49:24] Grrr'ark Bloodpaw: there's nothing to output
+[CHAT WINDOW TEXT] [Tue Dec 07 17:49:29] Grrr'ark Bloodpaw: [Whisper] Welcome to La-La Land and the Land of Nordock. READ the Journal Entries that were just placed in your journal. It will save your arse from getting banned. If you ask a DM a question that is answered in your journal, you will be killed without warning or answer. Thank you, please drive thru :)
+[CHAT WINDOW TEXT] [Tue Dec 07 17:49:29] You have sent a Party Invitation to Nathan Reynolds.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:49:30] Nathan Reynolds has joined the party.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:49:34] Server Guide: Welcome, traveller, to the La La Land of Nordock! What would you like to know?
+[CHAT WINDOW TEXT] [Tue Dec 07 17:49:35] Grrr'ark Bloodpaw: Send me in!
+[CHAT WINDOW TEXT] [Tue Dec 07 17:49:35] Server Guide: Where to then?
+[CHAT WINDOW TEXT] [Tue Dec 07 17:49:37] Grrr'ark Bloodpaw: Normal Start Location
+[CHAT WINDOW TEXT] [Tue Dec 07 17:49:40] You sense suppressed energies in this place. Magic may be impossible to use here.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:49:40] [Server] You are now in a No PVP area.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:49:48] Grrr'ark Bloodpaw: come on
+[CHAT WINDOW TEXT] [Tue Dec 07 17:49:59] oo00O00oo has left as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 17:50:17] Drake Bloodbringer has left as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 17:50:35] Krackalackn has left as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 17:50:49] Krackalackn has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 17:51:11] Drake Bloodbringer has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 17:51:28] Krackalackn has left as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 17:51:33] mancalledhorse has left as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 17:51:39] Krackalackn has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 17:52:40] Dundain_Steel has left as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 17:52:44] [Server] You are now in a Party PVP area.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:52:53] Grrr'ark Bloodpaw attacks Oak Tree : *critical hit* : (18 + 41 = 59 : Threat Roll: 11 + 41 = 52)
+[CHAT WINDOW TEXT] [Tue Dec 07 17:52:53] Grrr'ark Bloodpaw attacks Oak Tree : *hit* : (12 + 36 = 48)
+[CHAT WINDOW TEXT] [Tue Dec 07 17:52:53] Grrr'ark Bloodpaw attacks Oak Tree : *hit* : (2 + 31 = 33)
+[CHAT WINDOW TEXT] [Tue Dec 07 17:52:53] Grrr'ark Bloodpaw damages Oak Tree: 26 (23 Physical 3 Cold)
+[CHAT WINDOW TEXT] [Tue Dec 07 17:52:53] Oak Tree : Damage Resistance absorbs 2 damage
+[CHAT WINDOW TEXT] [Tue Dec 07 17:52:53] Grrr'ark Bloodpaw damages Oak Tree: 22 (18 Physical 4 Cold)
+[CHAT WINDOW TEXT] [Tue Dec 07 17:52:53] Oak Tree : Damage Resistance absorbs 2 damage
+[CHAT WINDOW TEXT] [Tue Dec 07 17:52:53] Grrr'ark Bloodpaw damages Oak Tree: 72 (60 Physical 12 Cold)
+[CHAT WINDOW TEXT] [Tue Dec 07 17:52:53] Oak Tree : Damage Resistance absorbs 2 damage
+[CHAT WINDOW TEXT] [Tue Dec 07 17:52:53] You must equip your WoodCutters Axe to get wood from trees.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:52:53] You must equip your WoodCutters Axe to get wood from trees.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:52:53] You must equip your WoodCutters Axe to get wood from trees.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:52:58] Nathan Reynolds attacks Chicken : *hit* : (9 + 49 = 58)
+[CHAT WINDOW TEXT] [Tue Dec 07 17:52:58] Nathan Reynolds attacks Chicken : *miss* : (1 + 44 = 45)
+[CHAT WINDOW TEXT] [Tue Dec 07 17:52:58] Nathan Reynolds damages Chicken: 13 (13 Fire)
+[CHAT WINDOW TEXT] [Tue Dec 07 17:52:58] Nathan Reynolds is too experienced for you to learn much from this fight.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:52:58] Nathan Reynolds killed Chicken
+[CHAT WINDOW TEXT] [Tue Dec 07 17:53:03] Grrr'ark Bloodpaw : Initiative Roll : 4 : (1 + 3 = 4)
+[CHAT WINDOW TEXT] [Tue Dec 07 17:53:04] Sneak Attack : Grrr'ark Bloodpaw attacks Chicken : *critical hit* : (16 + 41 = 57 : Threat Roll: 14 + 41 = 55)
+[CHAT WINDOW TEXT] [Tue Dec 07 17:53:04] Sneak Attack : Grrr'ark Bloodpaw attacks Chicken : *critical hit* : (17 + 36 = 53 : Threat Roll: 5 + 36 = 41)
+[CHAT WINDOW TEXT] [Tue Dec 07 17:53:04] Grrr'ark Bloodpaw damages Chicken: 85 (75 Physical 10 Cold)
+[CHAT WINDOW TEXT] [Tue Dec 07 17:53:04] Nathan Reynolds is too experienced for you to learn much from this fight.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:53:04] Grrr'ark Bloodpaw killed Chicken
+[CHAT WINDOW TEXT] [Tue Dec 07 17:53:04] Sneak Attack : Grrr'ark Bloodpaw attacks Chicken : *critical hit* : (14 + 31 = 45 : Threat Roll: 12 + 31 = 43)
+[CHAT WINDOW TEXT] [Tue Dec 07 17:53:04] Nathan Reynolds attacks Chicken : *hit* : (9 + 49 = 58)
+[CHAT WINDOW TEXT] [Tue Dec 07 17:53:05] Nathan Reynolds attacks Chicken : *hit* : (3 + 44 = 47)
+[CHAT WINDOW TEXT] [Tue Dec 07 17:53:05] Nathan Reynolds damages Chicken: 15 (15 Fire)
+[CHAT WINDOW TEXT] [Tue Dec 07 17:53:05] Nathan Reynolds is too experienced for you to learn much from this fight.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:53:05] Nathan Reynolds killed Chicken
+[CHAT WINDOW TEXT] [Tue Dec 07 17:53:05] Dundain_Steel has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 17:53:05] mancalledhorse has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 17:53:06] Sneak Attack : Grrr'ark Bloodpaw attacks Chicken : *hit* : (10 + 26 = 36)
+[CHAT WINDOW TEXT] [Tue Dec 07 17:53:06] (LWS) The Church of Bane is growing in power. Current power of Bane: 70%.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:53:06] Sneak Attack : Grrr'ark Bloodpaw attacks Chicken : *critical hit* : (15 + 43 = 58 : Threat Roll: 2 + 43 = 45)
+[CHAT WINDOW TEXT] [Tue Dec 07 17:53:06] Grrr'ark Bloodpaw damages Chicken: 45 (41 Physical 4 Cold)
+[CHAT WINDOW TEXT] [Tue Dec 07 17:53:06] Nathan Reynolds is too experienced for you to learn much from this fight.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:53:06] Grrr'ark Bloodpaw killed Chicken
+[CHAT WINDOW TEXT] [Tue Dec 07 17:53:07] Nathan Reynolds attacks Chicken : *hit* : (12 + 39 = 51)
+[CHAT WINDOW TEXT] [Tue Dec 07 17:53:07] Nathan Reynolds damages Chicken: 13 (13 Fire)
+[CHAT WINDOW TEXT] [Tue Dec 07 17:53:07] Nathan Reynolds is too experienced for you to learn much from this fight.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:53:07] Nathan Reynolds killed Chicken
+[CHAT WINDOW TEXT] [Tue Dec 07 17:53:08] Off Hand : Sneak Attack : Grrr'ark Bloodpaw attacks Chicken : *critical hit* : (15 + 41 = 56 : Threat Roll: 12 + 41 = 53)
+[CHAT WINDOW TEXT] [Tue Dec 07 17:53:08] Off Hand : Sneak Attack : Grrr'ark Bloodpaw attacks Chicken : *critical hit* : (17 + 36 = 53 : Threat Roll: 8 + 36 = 44)
+[CHAT WINDOW TEXT] [Tue Dec 07 17:53:08] Grrr'ark Bloodpaw damages Chicken: 72 (67 Physical 5 Cold)
+[CHAT WINDOW TEXT] [Tue Dec 07 17:53:08] Nathan Reynolds is too experienced for you to learn much from this fight.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:53:08] Grrr'ark Bloodpaw killed Chicken
+[CHAT WINDOW TEXT] [Tue Dec 07 17:53:08] Nathan Reynolds attacks Chicken : *critical hit* : (20 + 49 = 69 : Threat Roll: 8 + 49 = 57)
+[CHAT WINDOW TEXT] [Tue Dec 07 17:53:09] Nathan Reynolds damages Chicken: 15 (15 Fire)
+[CHAT WINDOW TEXT] [Tue Dec 07 17:53:09] Nathan Reynolds is too experienced for you to learn much from this fight.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:53:09] Nathan Reynolds killed Chicken
+[CHAT WINDOW TEXT] [Tue Dec 07 17:53:10] Sneak Attack : Grrr'ark Bloodpaw attacks Chicken : *hit* : (7 + 41 = 48)
+[CHAT WINDOW TEXT] [Tue Dec 07 17:53:10] Sneak Attack : Grrr'ark Bloodpaw attacks Chicken : *critical hit* : (17 + 36 = 53 : Threat Roll: 13 + 36 = 49)
+[CHAT WINDOW TEXT] [Tue Dec 07 17:53:10] Grrr'ark Bloodpaw damages Chicken: 47 (41 Physical 6 Cold)
+[CHAT WINDOW TEXT] [Tue Dec 07 17:53:10] Nathan Reynolds is too experienced for you to learn much from this fight.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:53:10] Grrr'ark Bloodpaw killed Chicken
+[CHAT WINDOW TEXT] [Tue Dec 07 17:53:10] Sneak Attack : Grrr'ark Bloodpaw attacks Chicken : *miss* : (1 + 31 = 32)
+[CHAT WINDOW TEXT] [Tue Dec 07 17:53:15] Grrr'ark Bloodpaw: [Party] see it now?
+[CHAT WINDOW TEXT] [Tue Dec 07 17:53:25] Nathan Reynolds: [Party] saw it before :)
+[CHAT WINDOW TEXT] [Tue Dec 07 17:53:27] Grrr'ark Bloodpaw: [Party] kk
+[CHAT WINDOW TEXT] [Tue Dec 07 17:53:30] Nathan Reynolds: [Party] with the other character
+[CHAT WINDOW TEXT] [Tue Dec 07 17:53:32] Grrr'ark Bloodpaw: [Party] use print now
+[CHAT WINDOW TEXT] [Tue Dec 07 17:53:39] Nathan Reynolds: [Party] but hte print dfamage doesn't work for me
+[CHAT WINDOW TEXT] [Tue Dec 07 17:53:45] Nathan Reynolds: [Party] ahh
+[CHAT WINDOW TEXT] [Tue Dec 07 17:53:45] Grrr'ark Bloodpaw: [Party] it does now
+[CHAT WINDOW TEXT] [Tue Dec 07 17:53:52] Grrr'ark Bloodpaw: [Party] the only difference is that you used party chat
+[CHAT WINDOW TEXT] [Tue Dec 07 17:54:05] Nathan Reynolds: [Party] --==DAMAGE==-- Grrr'ark Bloodpaw: 369 | Nathan Reynolds: 86 
+[CHAT WINDOW TEXT] [Tue Dec 07 17:54:13] Nathan Reynolds: [Party] damn those sneaks!
+[CHAT WINDOW TEXT] [Tue Dec 07 17:54:17] Grrr'ark Bloodpaw: [Party] the print area uses a special list which is filled with anyone who speaks in party chat
+[CHAT WINDOW TEXT] [Tue Dec 07 17:54:27] Nathan Reynolds: [Party] --==KILLS==-- Grrr'ark Bloodpaw: 4 | Nathan Reynolds: 6 
+[CHAT WINDOW TEXT] [Tue Dec 07 17:54:29] Nathan Reynolds attacks Oak Tree : *hit* : (8 + 49 = 57)
+[CHAT WINDOW TEXT] [Tue Dec 07 17:54:29] Nathan Reynolds attacks Oak Tree : *hit* : (10 + 44 = 54)
+[CHAT WINDOW TEXT] [Tue Dec 07 17:54:29] Nathan Reynolds damages Oak Tree: 13 (13 Fire)
+[CHAT WINDOW TEXT] [Tue Dec 07 17:54:29] Nathan Reynolds damages Oak Tree: 27 (18 Physical 9 Fire)
+[CHAT WINDOW TEXT] [Tue Dec 07 17:54:29] Nathan Reynolds damages Oak Tree: 16 (16 Fire)
+[CHAT WINDOW TEXT] [Tue Dec 07 17:54:29] Nathan Reynolds damages Oak Tree: 32 (20 Physical 12 Fire)
+[CHAT WINDOW TEXT] [Tue Dec 07 17:54:31] Nathan Reynolds attacks Oak Tree : *critical hit* : (20 + 39 = 59 : Threat Roll: 2 + 39 = 41)
+[CHAT WINDOW TEXT] [Tue Dec 07 17:54:32] Nathan Reynolds damages Oak Tree: 11 (11 Fire)
+[CHAT WINDOW TEXT] [Tue Dec 07 17:54:32] Nathan Reynolds damages Oak Tree: 64 (42 Physical 22 Fire)
+[CHAT WINDOW TEXT] [Tue Dec 07 17:54:34] Grrr'ark Bloodpaw attacks Oak Tree : *hit* : (2 + 41 = 43)
+[CHAT WINDOW TEXT] [Tue Dec 07 17:54:34] Grrr'ark Bloodpaw attacks Oak Tree : *critical hit* : (16 + 36 = 52 : Threat Roll: 17 + 36 = 53)
+[CHAT WINDOW TEXT] [Tue Dec 07 17:54:34] Grrr'ark Bloodpaw attacks Oak Tree : *critical hit* : (17 + 31 = 48 : Threat Roll: 15 + 31 = 46)
+[CHAT WINDOW TEXT] [Tue Dec 07 17:54:34] Grrr'ark Bloodpaw damages Oak Tree: 68 (62 Physical 6 Cold)
+[CHAT WINDOW TEXT] [Tue Dec 07 17:54:34] Oak Tree : Damage Resistance absorbs 2 damage
+[CHAT WINDOW TEXT] [Tue Dec 07 17:54:34] Grrr'ark Bloodpaw damages Oak Tree: 73 (66 Physical 7 Cold)
+[CHAT WINDOW TEXT] [Tue Dec 07 17:54:34] Oak Tree : Damage Resistance absorbs 2 damage
+[CHAT WINDOW TEXT] [Tue Dec 07 17:54:34] Grrr'ark Bloodpaw damages Oak Tree: 24 (18 Physical 6 Cold)
+[CHAT WINDOW TEXT] [Tue Dec 07 17:54:34] Oak Tree : Damage Resistance absorbs 2 damage
+[CHAT WINDOW TEXT] [Tue Dec 07 17:54:34] You must equip your WoodCutters Axe to get wood from trees.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:54:34] You must equip your WoodCutters Axe to get wood from trees.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:54:34] You must equip your WoodCutters Axe to get wood from trees.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:54:35] urchin wilde has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 17:54:36] Grrr'ark Bloodpaw attacks Oak Tree : *hit* : (3 + 26 = 29)
+[CHAT WINDOW TEXT] [Tue Dec 07 17:54:36] Grrr'ark Bloodpaw attacks Oak Tree : *hit* : (6 + 43 = 49)
+[CHAT WINDOW TEXT] [Tue Dec 07 17:54:37] Grrr'ark Bloodpaw damages Oak Tree: 27 (21 Physical 6 Cold)
+[CHAT WINDOW TEXT] [Tue Dec 07 17:54:37] Oak Tree : Damage Resistance absorbs 2 damage
+[CHAT WINDOW TEXT] [Tue Dec 07 17:54:37] Grrr'ark Bloodpaw damages Oak Tree: 21 (20 Physical 1 Cold)
+[CHAT WINDOW TEXT] [Tue Dec 07 17:54:37] Oak Tree : Damage Resistance absorbs 2 damage
+[CHAT WINDOW TEXT] [Tue Dec 07 17:54:37] You must equip your WoodCutters Axe to get wood from trees.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:54:37] You must equip your WoodCutters Axe to get wood from trees.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:54:37] (LWS) The Church of Tymora is growing in power. Current power of Tymora: 100%.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:54:38] Off Hand : Grrr'ark Bloodpaw attacks Oak Tree : *hit* : (12 + 41 = 53)
+[CHAT WINDOW TEXT] [Tue Dec 07 17:54:38] Off Hand : Grrr'ark Bloodpaw attacks Oak Tree : *critical hit* : (16 + 36 = 52 : Threat Roll: 12 + 36 = 48)
+[CHAT WINDOW TEXT] [Tue Dec 07 17:54:38] Grrr'ark Bloodpaw damages Oak Tree: 49 (40 Physical 9 Cold)
+[CHAT WINDOW TEXT] [Tue Dec 07 17:54:38] Oak Tree : Damage Resistance absorbs 2 damage
+[CHAT WINDOW TEXT] [Tue Dec 07 17:54:38] Grrr'ark Bloodpaw damages Oak Tree: 21 (16 Physical 5 Cold)
+[CHAT WINDOW TEXT] [Tue Dec 07 17:54:38] Oak Tree : Damage Resistance absorbs 2 damage
+[CHAT WINDOW TEXT] [Tue Dec 07 17:54:38] You must equip your WoodCutters Axe to get wood from trees.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:54:38] You must equip your WoodCutters Axe to get wood from trees.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:54:40] Grrr'ark Bloodpaw attacks Oak Tree : *critical hit* : (20 + 41 = 61 : Threat Roll: 12 + 41 = 53)
+[CHAT WINDOW TEXT] [Tue Dec 07 17:54:40] Grrr'ark Bloodpaw attacks Oak Tree : *hit* : (8 + 36 = 44)
+[CHAT WINDOW TEXT] [Tue Dec 07 17:54:40] Grrr'ark Bloodpaw attacks Oak Tree : *hit* : (12 + 31 = 43)
+[CHAT WINDOW TEXT] [Tue Dec 07 17:54:40] Grrr'ark Bloodpaw damages Oak Tree: 25 (19 Physical 6 Cold)
+[CHAT WINDOW TEXT] [Tue Dec 07 17:54:40] Oak Tree : Damage Resistance absorbs 2 damage
+[CHAT WINDOW TEXT] [Tue Dec 07 17:54:40] Grrr'ark Bloodpaw damages Oak Tree: 23 (21 Physical 2 Cold)
+[CHAT WINDOW TEXT] [Tue Dec 07 17:54:40] Oak Tree : Damage Resistance absorbs 2 damage
+[CHAT WINDOW TEXT] [Tue Dec 07 17:54:40] Grrr'ark Bloodpaw damages Oak Tree: 73 (64 Physical 9 Cold)
+[CHAT WINDOW TEXT] [Tue Dec 07 17:54:40] Oak Tree : Damage Resistance absorbs 2 damage
+[CHAT WINDOW TEXT] [Tue Dec 07 17:54:40] You must equip your WoodCutters Axe to get wood from trees.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:54:40] You must equip your WoodCutters Axe to get wood from trees.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:54:40] You must equip your WoodCutters Axe to get wood from trees.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:54:48] Grrr'ark Bloodpaw: [Party] so, yeah
+[CHAT WINDOW TEXT] [Tue Dec 07 17:55:03] Nathan Reynolds: [Party] ahh
+[CHAT WINDOW TEXT] [Tue Dec 07 17:55:29] Nathan Reynolds: [Party] and her ethe party thing reset thingy is different it seems
+[CHAT WINDOW TEXT] [Tue Dec 07 17:55:42] Grrr'ark Bloodpaw: [Party] the check party checkbox makes the parser stop checking for party members
+[CHAT WINDOW TEXT] [Tue Dec 07 17:55:51] Nathan Reynolds: [Party] I can reset the party list and only those who have spolen since are shown
+[CHAT WINDOW TEXT] [Tue Dec 07 17:56:27] Grrr'ark Bloodpaw: [Party] so if you have some guy in the party who's not fighting, just in it to chat, you can just untick it to stop the program from adding him to the print list
+[CHAT WINDOW TEXT] [Tue Dec 07 17:56:45] oo00O00oo has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 17:56:55] urchin wilde has left as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 17:57:01] Grrr'ark Bloodpaw: [Party] but you'll have to ask him to be quiet while you check ;)
+[CHAT WINDOW TEXT] [Tue Dec 07 17:57:02] Grando Marinsen: 'ello there.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:57:05] Chris Waynolt: What brings you here, stranger?
+[CHAT WINDOW TEXT] [Tue Dec 07 17:57:05] Grando Marinsen: I'm a merchant from the city of Tobaro...well, was anyway.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:57:06] Chris Waynolt: You still a merchant? Because I want to trade.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:57:10] urchin wilde has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 17:57:29] Grrr'ark Bloodpaw: [Party] any questions?
+[CHAT WINDOW TEXT] [Tue Dec 07 17:57:31] Grrr'ark Bloodpaw: [Party] I have to go
+[CHAT WINDOW TEXT] [Tue Dec 07 17:57:44] Nathan Reynolds: [Party] why the restirction to login? :/
+[CHAT WINDOW TEXT] [Tue Dec 07 17:57:45] (LWS) The Church of Loviatar is growing in power. Current power of Loviatar: 80%.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:58:20] NuNrg has left as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 17:58:46] Grrr'ark Bloodpaw: [Party] Well..
+[CHAT WINDOW TEXT] [Tue Dec 07 17:58:51] Shawnendose has joined as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 17:59:02] Grrr'ark Bloodpaw: [Party] because I made it for myself, and it's a powerful tool.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:59:09] Grrr'ark Bloodpaw: [Party] And I include friends
+[CHAT WINDOW TEXT] [Tue Dec 07 17:59:20] Nathan Reynolds: [Tell] =D
+[CHAT WINDOW TEXT] [Tue Dec 07 17:59:21] LeBadger has left as a player..
+[CHAT WINDOW TEXT] [Tue Dec 07 17:59:32] Grrr'ark Bloodpaw: [Party] but the restriction is there to avoid friends of friends, and people I don't know.
+[CHAT WINDOW TEXT] [Tue Dec 07 17:59:41] Nathan Reynolds: [Tell] keeps me lala loyal, cos I use opther logins on other servers
+[CHAT WINDOW TEXT] [Tue Dec 07 17:59:51] Grrr'ark Bloodpaw: [Party] It's mainly a tool to polish builds
+[CHAT WINDOW TEXT] [Tue Dec 07 17:59:59] Grrr'ark Bloodpaw: [Party] oh
+[CHAT WINDOW TEXT] [Tue Dec 07 18:00:14] Grrr'ark Bloodpaw: [Party] well I only know Cashew ;)
+[CHAT WINDOW TEXT] [Tue Dec 07 18:00:23] Nathan Reynolds: [Party] cos you never know how much info they get on your login, they might also get your password, or your reg numbers
+[CHAT WINDOW TEXT] [Tue Dec 07 18:00:36] Nathan Reynolds: [Party] so I try to avoid that by using other names
+[CHAT WINDOW TEXT] [Tue Dec 07 18:00:46] Chris Waynolt casting unknown spell
+[CHAT WINDOW TEXT] [Tue Dec 07 18:00:48] Chris Waynolt casts unknown spell
+[CHAT WINDOW TEXT] [Tue Dec 07 18:00:52] Chris Waynolt casting unknown spell
+[CHAT WINDOW TEXT] [Tue Dec 07 18:00:54] Chris Waynolt casts unknown spell
+[CHAT WINDOW TEXT] [Tue Dec 07 18:00:58] Chris Waynolt casting unknown spell
+[CHAT WINDOW TEXT] [Tue Dec 07 18:01:00] Chris Waynolt casts unknown spell
+[CHAT WINDOW TEXT] [Tue Dec 07 18:01:04] Grrr'ark Bloodpaw: [Tell] I don't really know
+[CHAT WINDOW TEXT] [Tue Dec 07 18:01:21] Nathan Reynolds: [Party] haven't looked into the server log thingy, to see what they really get, but there is a way to identify a player evben when the main server is down, and  I think that is how its done
+[CHAT WINDOW TEXT] [Tue Dec 07 18:01:35] Grrr'ark Bloodpaw: [Tell] but I don't think so. It's stored in the ini file, and transmitting that would be bad. And then we would have heard of it
+[CHAT WINDOW TEXT] [Tue Dec 07 18:01:40] Nathan Reynolds: [Party] anyways, thanks for this version already :) see you soon, on your little spare time
+[CHAT WINDOW TEXT] [Tue Dec 07 18:01:54] Grrr'ark Bloodpaw: [Party] alright
+[CHAT WINDOW TEXT] [Tue Dec 07 18:01:56] Grrr'ark Bloodpaw: [Party] later!

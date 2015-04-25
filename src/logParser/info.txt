@@ -1,0 +1,56 @@
+
+Regular:
+- Defensive Stance          - Tested
+- Flurry of Blows           - Tested
+- Sneak Attack              - Tested
+- Death Attack              - Tested
+- Power Attack              - Same as IPA
+- Improved Power Attack     - Tested
+- Expertise                 - Same as IPA
+- Improved Expertise        - Same as IPA
+- Off Hand                  - Tested
+- Attack of Opportunity     - Same as Off Hand
+
+[Worst case]
+[CHAT WINDOW TEXT] [Thu Jan 13 18:21:21] Attaock of Opportunity: Off Hand: Improved Power Attack : Sneak Attack + Death Attack : Urug Grug attacks Fighter LVL 3 : *hit* : (7 + 26 = 33)
+
+Attempt:
+- Knockdown                 - Same as IKD
+- Improved Knockdown        - Tested
+- Disarm                    - Same as IKD
+- Improved Disarm           - Same as IKD
+- Called Shot               - Tested
+- Ki Damage                 - Tested
+- Cleave                    - Same as GC
+- Great Cleave              - Tested
+- Smite Good/Evil           - Not tested
+
+[Worst case]
+[CHAT WINDOW TEXT] [Thu Jan 13 18:21:21] Off Hand: Improved Power Attack : Sneak Attack + Death Attack : Urug Grug attempts Great Cleave on Fighter LVL 3 : *hit* : (7 + 26 = 33)
+
+Ignoreable:
+- Rapid Shot                - Doesn't Show
+
+Defensive Stance
+Ki Damage
+[CHAT WINDOW TEXT] [Tue Jan 11 20:08:38] Off Hand : Defensive Stance : Fighter/Weapon Master/Dwarven Defender attempts Ki Damage on "Character Master" Experience and Gold : *hit* : (19 + 55 = 74 : Threat Roll: 1 + 55 = 56)
+
+Called Shot
+[CHAT WINDOW TEXT] [Tue Jan 11 20:19:10] Qilintha attempts Called Shot: Arm on "Character Master" Experience and Gold : *failed* : (12 + 43 = 55)
+[CHAT WINDOW TEXT] [Tue Jan 11 20:19:10] Qilintha attempts Called Shot: Leg on "Character Master" Experience and Gold : *failed* : (15 + 38 = 53)
+
+Flurry of Blows
+Sneak Attack (and Death Attack)
+Improved Knockdown
+[CHAT WINDOW TEXT] [Tue Jan 11 21:44:00] Flurry of Blows : Sneak Attack : Monk/Rogue/Assassin attempts Improved Knockdown on Fighter LVL 20 : *hit* : (16 + 32 = 48)
+
+Sneak Attack + Death Attack
+[CHAT WINDOW TEXT] [Tue Jan 11 21:46:29] Sneak Attack + Death Attack : Monk/Rogue/Assassin attacks Fighter LVL 20 : *hit* : (9 + 32 = 41)
+[CHAT WINDOW TEXT] [Tue Jan 11 21:46:29] Sneak Attack + Death Attack : Monk/Rogue/Assassin attacks Fighter LVL 20 : *hit* : (10 + 35 = 45)
+
+Improved Power Attack
+Great Cleave
+[CHAT WINDOW TEXT] [Thu Jan 13 18:21:21] Improved Power Attack : Urug Grug attempts Great Cleave on Fighter LVL 3 : *hit* : (7 + 26 = 33)
+
+Knockdown
+[CHAT WINDOW TEXT] [Wed Jun 08 11:05:46] Half-Orc Bandit attempts Knockdown on Tyrmons Minion : *hit* : (13 + 35 = 48)
