@@ -39,7 +39,7 @@ public class JFrameParser extends javax.swing.JFrame implements ListDataListener
     private static int logNumber = 1;
     private static final String PROPERTY_LOG_FOLDER_LOCATION = "NWNlogsFolder";
     private static final String PROPERTY_INI_PLAYERNAME = "Player"; //location: NWN/nwplayer.ini
-    private static String inputFileLocation;
+    private static String combatLogLocation;
     private static StringBuilder iniFileLocation; //Is null if not initialized. Currently only initialized by checkLoginINI.
     private static final String TEXT_FILE_EXTENSION = ".txt";
     private static final String INI_FILE_EXTENSION = ".ini";
@@ -52,23 +52,16 @@ public class JFrameParser extends javax.swing.JFrame implements ListDataListener
     private final HitPercentageTableModel hitPercentageTableModel = new HitPercentageTableModel();
     private final SpellsAndSavesTableModel spellsAndSavesTableModel = new SpellsAndSavesTableModel();
     private static Properties parserProperties = new Properties();
-    private static final File FILE_PARSER_INFO = new File("HalgrothsLogParserInfo.txt");
-    private static File currentFile;
+    private static final File PARSER_PROPERTIES_FILE = new File("HalgrothsLogParserInfo.txt");
+    private static File combatLog;
     private static File newFile;
     private Parser parser;
     private AbstractParyListModel abstractParyListModel = new AbstractParyListModel();
 
-    /** Creates new form JFrameParser */
-    public JFrameParser() throws FileNotFoundException {
-        try {
-            UIManager.setLookAndFeel(new WindowsLookAndFeel());
-        } catch (UnsupportedLookAndFeelException ex) {
-            Logger.getLogger(JFrameParser.class.getName()).log(Level.SEVERE, null, ex);
-        }
-        
-        
+    public JFrameParser() {
+        tryToSetLookAndFeel();
         initComponents();
-        loadFrame();
+        setWindowSizeAndPosition();
         jTableGeneralStats.setModel(generalStatsTableModel);
         jTableGeneralStats.setAutoCreateRowSorter(true);
         jTableGeneralStats.getRowSorter().toggleSortOrder(1);
@@ -95,57 +88,91 @@ public class JFrameParser extends javax.swing.JFrame implements ListDataListener
         jTableSpellsAndSaves.getRowSorter().toggleSortOrder(1);
     }
 
-    /*
-     * Loads window with previous window size and position
-     */
-    private void loadFrame() throws FileNotFoundException {
+    private void tryToSetLookAndFeel() {
         try {
-            parserProperties.load(new FileReader(FILE_PARSER_INFO));
-            int extendedState = Integer.parseInt(parserProperties.getProperty("State", String.valueOf(this.getExtendedState())));
-            if (extendedState != MAXIMIZED_BOTH) {
-                this.setBounds(
-                        Integer.parseInt(parserProperties.getProperty("X", String.valueOf(this.getX()))),
-                        Integer.parseInt(parserProperties.getProperty("Y", String.valueOf(this.getY()))),
-                        Integer.parseInt(parserProperties.getProperty("W", String.valueOf(this.getWidth()))),
-                        Integer.parseInt(parserProperties.getProperty("H", String.valueOf(this.getHeight()))));
-            } else {
-                this.setExtendedState(MAXIMIZED_BOTH);
-            }
-        } catch (IOException ex) {
-            Logger.getLogger(JFrameParser.class.getName()).log(Level.SEVERE, null, ex);
+            UIManager.setLookAndFeel(new WindowsLookAndFeel());
+        } catch (UnsupportedLookAndFeelException ex) {
+            Logger.getLogger(JFrameParser.class.getName()).log(Level.SEVERE, "Couldn't set Windows Look and Feel", ex);
         }
     }
     
-    void saveFrame() throws IOException {
+    private void setWindowSizeAndPosition() {
+        try {
+            tryToLoadPreviousSettings();
+        } catch (IOException ex) {
+            Logger.getLogger(JFrameParser.class.getName()).log(Level.INFO, "Could not find pervious properties. Using defaults.", ex);
+        }
+    }
+    
+    //TODO: Load defaults
+    private void tryToLoadPreviousSettings() throws IOException {
+        parserProperties.load(new FileReader(PARSER_PROPERTIES_FILE));
+        int extendedState = Integer.parseInt(parserProperties.getProperty("State", String.valueOf(this.getExtendedState())));
+        if (extendedState != MAXIMIZED_BOTH) {
+            this.setBounds(
+                    Integer.parseInt(parserProperties.getProperty("X", String.valueOf(this.getX()))),
+                    Integer.parseInt(parserProperties.getProperty("Y", String.valueOf(this.getY()))),
+                    Integer.parseInt(parserProperties.getProperty("W", String.valueOf(this.getWidth()))),
+                    Integer.parseInt(parserProperties.getProperty("H", String.valueOf(this.getHeight()))));
+        } else {
+            this.setExtendedState(MAXIMIZED_BOTH);
+        }
+    }
+    
+    private void saveFrame() throws IOException {
         parserProperties.setProperty("State", String.valueOf(this.getExtendedState()));
         parserProperties.setProperty("X", String.valueOf(this.getX()));
         parserProperties.setProperty("Y", String.valueOf(this.getY()));
         parserProperties.setProperty("W", String.valueOf(this.getWidth()));
         parserProperties.setProperty("H", String.valueOf(this.getHeight()));
-        parserProperties.store(new FileWriter(FILE_PARSER_INFO), null);
+        parserProperties.store(new FileWriter(PARSER_PROPERTIES_FILE), null);
     }
 
     public static void setLogNumber(int newLogNumber) {
         logNumber = newLogNumber;
     }
 
-    private void loadFile(int logNumber) throws FileNotFoundException, IOException {
-        inputFileLocation = getLogDirectory();
-        if(inputFileLocation.contains("wrongDirectory"));
-        else{
-            currentFile = new File(inputFileLocation + "\\nwclientLog" + logNumber + TEXT_FILE_EXTENSION);
-            try {
-//                parser = new Parser(currentFile, generalStatsTableModel, damageDealtTableModel, damageTakenTableModel, hitPercentageTableModel, spellsAndSavesTableModel, abstractParyListModel, damageReducedTableModel);
-                parser = new Parser(currentFile, abstractParyListModel);
-                parser.addParserListener(generalStatsTableModel);
-                parser.addParserListener(damageDealtTableModel);
-                parser.addParserListener(damageTakenTableModel);
-                parser.addParserListener(damageReducedTableModel);
-                parser.addParserListener(hitPercentageTableModel);
-                parser.addParserListener(spellsAndSavesTableModel);
-            } catch (IOException ex) {
-                Logger.getLogger(JFrameParser.class.getName()).log(Level.SEVERE, "Could not locate input file at location: " + currentFile, ex);
-            }
+    //TODO: Revise everything below. Tried to clean up slightly but it's still horribly messy.
+    private void runParser(int logNumber) {
+        try {
+            combatLogLocation = tryToGetLogDirectory();
+            combatLog = new File(combatLogLocation + "\\nwclientLog" + logNumber + TEXT_FILE_EXTENSION);
+            tryToOpenLogfile(combatLog);
+            parser.startParsing();
+        } catch (FileNotFoundException ex) {
+            JOptionPane.showMessageDialog(null, "The specified folder does not exist. Please select log directory again.");
+            Logger.getLogger(JFrameParser.class.getName()).log(Level.SEVERE, "Could not locate input file at location: " + combatLog, ex);
+        } catch (IOException ex) {
+            JOptionPane.showMessageDialog(null, "You have not set the location of the log files. Please select log directory.");
+            Logger.getLogger(JFrameParser.class.getName()).log(Level.SEVERE, "Could not locate input file at location: " + combatLog, ex);
+        } catch (SecurityException ex) {
+            Logger.getLogger(JFrameParser.class.getName()).log(Level.SEVERE, "Not allowed access to: " + combatLog, ex);
+        }
+    }
+    
+//    create and load default properties
+    private static String tryToGetLogDirectory() throws FileNotFoundException, IOException {
+        Reader reader;
+        reader = new FileReader(PARSER_PROPERTIES_FILE);
+        parserProperties.load(reader);
+        reader.close();
+        File inputDir = new File(parserProperties.getProperty(PROPERTY_LOG_FOLDER_LOCATION, "C:\\Program Files\\NeverwinterNights\\NWN\\logs"));
+        if(inputDir.exists()){
+            return parserProperties.getProperty(PROPERTY_LOG_FOLDER_LOCATION);
+        }
+        return "";
+    }
+    
+    //TODO: Revise this calling procedure. Wrong method name, and exceptions are never thrown.
+    private void tryToOpenLogfile(File file) throws FileNotFoundException, SecurityException {
+        if (file.exists()) {
+            parser = new Parser(combatLog, abstractParyListModel);
+            parser.addParserListener(generalStatsTableModel);
+            parser.addParserListener(damageDealtTableModel);
+            parser.addParserListener(damageTakenTableModel);
+            parser.addParserListener(damageReducedTableModel);
+            parser.addParserListener(hitPercentageTableModel);
+            parser.addParserListener(spellsAndSavesTableModel);
         }
     }
 
@@ -531,58 +558,37 @@ public class JFrameParser extends javax.swing.JFrame implements ListDataListener
         }
         Properties defaultProperties = new Properties();
         try {
-            if (!FILE_PARSER_INFO.exists()) {
-                FILE_PARSER_INFO.createNewFile();
-                Reader reader = new FileReader(FILE_PARSER_INFO);
+            if (!PARSER_PROPERTIES_FILE.exists()) {
+                PARSER_PROPERTIES_FILE.createNewFile();
+                Reader reader = new FileReader(PARSER_PROPERTIES_FILE);
                 defaultProperties.load(reader);
                 reader.close();
                 defaultProperties.setProperty(PROPERTY_LOG_FOLDER_LOCATION, url);
-                defaultProperties.store(new FileWriter(FILE_PARSER_INFO), url);
+                defaultProperties.store(new FileWriter(PARSER_PROPERTIES_FILE), url);
             } else {
                 defaultProperties.remove(PROPERTY_LOG_FOLDER_LOCATION);
                 defaultProperties.setProperty(PROPERTY_LOG_FOLDER_LOCATION, url);
-                defaultProperties.store(new FileWriter(FILE_PARSER_INFO), url);
+                defaultProperties.store(new FileWriter(PARSER_PROPERTIES_FILE), url);
             }
         } catch (IOException ex) {
             Logger.getLogger(JFrameParser.class.getName()).log(Level.SEVERE, null, ex);
         }
     }//GEN-LAST:event_jButtonSelectLogDirectoryActionPerformed
 
-    private static String getLogDirectory() throws FileNotFoundException, IOException{
-        if(!FILE_PARSER_INFO.exists()){
-            JOptionPane.showMessageDialog(null, "You have not set the location of the log files. Please select log directory.");
-        }
-        else{
-//            create and load default properties
-            
-            Reader reader = new FileReader(FILE_PARSER_INFO);
-            parserProperties.load(reader);
-            reader.close();
-            File inputDir = new File(parserProperties.getProperty(PROPERTY_LOG_FOLDER_LOCATION, "C:\\Program Files\\NeverwinterNights\\NWN\\logs"));
-            if(inputDir.exists()){
-                return parserProperties.getProperty(PROPERTY_LOG_FOLDER_LOCATION);
-            }
-            else{
-                JOptionPane.showMessageDialog(null, "The specified folder does not exist. Please select log directory again.");
-            }
-        }
-        return "wrongDirectory";
-    }
-
     /*
      * Creates a new file with incremented log number. Tests if this file exists and whether it is newer than the current one.
      * "newer" ? newFile : oldFile
      */
     public static File searchForNewInputFile() {
-        newFile = new File(inputFileLocation + LOG_FILENAME + (logNumber + 1) + TEXT_FILE_EXTENSION);
+        newFile = new File(combatLogLocation + LOG_FILENAME + (logNumber + 1) + TEXT_FILE_EXTENSION);
 //        System.out.println(currentFile + ": " + currentFile.lastModified());
 //        System.out.println(newFile + ": " + newFile.lastModified());
-        if(newFile.exists() && (newFile.lastModified() > currentFile.lastModified())){ //29.06.2012 - changed from >= to > because it really shouldn't matter and > is a safer choice when avoiding duplicate file entries
+        if(newFile.exists() && (newFile.lastModified() > combatLog.lastModified())){ //29.06.2012 - changed from >= to > because it really shouldn't matter and > is a safer choice when avoiding duplicate file entries
             setLogNumber(logNumber + 1);
-            currentFile = newFile;
+            combatLog = newFile;
             return newFile;
         }
-        else return currentFile;
+        else return combatLog;
     }
 
     /**
@@ -597,7 +603,7 @@ public class JFrameParser extends javax.swing.JFrame implements ListDataListener
 //        This null check is to prevent appending aditional locations to the file if the user press Start multiple times.
         if(iniFileLocation == null){
             iniFileLocation = new StringBuilder();
-            iniFileLocation.append(getLogDirectory()).delete(inputFileLocation.length()-5, inputFileLocation.length());
+            iniFileLocation.append(tryToGetLogDirectory()).delete(combatLogLocation.length()-5, combatLogLocation.length());
         }
         File nwnPlayerINI = new File(iniFileLocation.toString() + INI_PLAYER_FILENAME + INI_FILE_EXTENSION);
         if(nwnPlayerINI.exists()){
@@ -614,16 +620,10 @@ public class JFrameParser extends javax.swing.JFrame implements ListDataListener
 
     private void jButtonStartActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonStartActionPerformed
         if (parser != null) {
-            parser.clear();
             parser.stopUpdate();
+            parser.clear();
         }
-        try {
-            loadFile(1);
-        } catch (FileNotFoundException ex) {
-            Logger.getLogger(JFrameParser.class.getName()).log(Level.SEVERE, null, ex);
-        } catch (IOException ex) {
-            Logger.getLogger(JFrameParser.class.getName()).log(Level.SEVERE, null, ex);
-        }
+        runParser(1);
     }//GEN-LAST:event_jButtonStartActionPerformed
 
     private void jTextFieldUniquesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextFieldUniquesActionPerformed
@@ -1317,11 +1317,7 @@ public class JFrameParser extends javax.swing.JFrame implements ListDataListener
         java.awt.EventQueue.invokeLater(new Runnable() {
 
             public void run() {
-                try {
-                    new JFrameParser().setVisible(true);
-                } catch (FileNotFoundException ex) {
-                    Logger.getLogger(JFrameParser.class.getName()).log(Level.SEVERE, null, ex);
-                }
+                new JFrameParser().setVisible(true);
             }
         });
     }

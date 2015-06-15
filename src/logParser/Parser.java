@@ -55,7 +55,6 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.Comparator;
-import java.util.Iterator;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import java.util.regex.Matcher;
@@ -93,15 +92,12 @@ public class Parser {
         void dataUpdated(ArrayList<Attacker> attackers);
     }
 
+    public Parser() {
+        this(new File(""), new AbstractParyListModel());
+    }
+    
     @SuppressWarnings("CallToThreadStartDuringObjectConstruction")
-    public Parser(File inputFile, AbstractParyListModel partyListModel) throws IOException {
-//    public Parser(File inputFile, ParserListener listener, ParserListener listener2, ParserListener listener3, ParserListener listener4, ParserListener listener5, AbstractParyListModel partyListModel, ParserListener listener6) throws IOException {
-//        this.listener = listener;
-//        this.listener2 = listener2;
-//        this.listener3 = listener3;
-//        this.listener4 = listener4;
-//        this.listener5 = listener5;
-//        this.listener6 = listener6;
+    public Parser(File inputFile, AbstractParyListModel partyListModel) {
 
 //        Set up abstractPartyListModel
         abstractParyListModel = partyListModel;
@@ -109,6 +105,9 @@ public class Parser {
 //        ParserJFrame.setAbstractPartyListModel(abstractParyListModel);
 
         thread = new ParserThread(inputFile);
+    }
+    
+    public void startParsing(){
         thread.start();
     }
     
@@ -116,6 +115,10 @@ public class Parser {
         parserListeners.add(listener);
     }
 
+    protected boolean isParserListenerRegistered(ParserListener listener){
+        return parserListeners.contains(listener);
+    }
+    
     public void restart(){
         thread.start();
     }
@@ -126,8 +129,7 @@ public class Parser {
     }
 
     private void fireDataChanged() {
-        for (Iterator<ParserListener> iterator = parserListeners.iterator(); iterator.hasNext();) {
-            ParserListener listener = iterator.next();
+        for (ParserListener listener : parserListeners) {
             listener.dataUpdated(getAttackerList());
         }
     }

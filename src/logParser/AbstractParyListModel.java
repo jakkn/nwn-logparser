@@ -18,12 +18,12 @@ public class AbstractParyListModel extends AbstractListModel {
     private ArrayList listeners;
 
     public AbstractParyListModel() {
+        this(new ArrayList<Attacker>());
     }
     
     public AbstractParyListModel(ArrayList<Attacker> list) {
-        arrayList = list;
+        this.arrayList = list;
     }
-    
     public void setList(ArrayList<Attacker> list){
         arrayList = list;
     }
