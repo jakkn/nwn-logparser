@@ -76,13 +76,6 @@ public class Parser {
     private StringBuilder lootString = new StringBuilder();
     private StringBuilder serverInfoString = new StringBuilder();
     private final ArrayList<ParserListener> parserListeners = new ArrayList<ParserListener>();
-//    Entries made unneccesary by adding to list and corresponding addParserListener method. Clean up later if found to cause no trouble!
-//    private final ParserListener listener;
-//    private final ParserListener listener2;
-//    private final ParserListener listener3;
-//    private final ParserListener listener4;
-//    private final ParserListener listener5;
-//    private final ParserListener listener6;
     private volatile boolean shouldStop = false;
     private static UptimeStopwatch stopWatch = null;
     private String loginRegex1 = "\\[.*]\\s\\[.*]\\s";
@@ -102,7 +95,6 @@ public class Parser {
 //        Set up abstractPartyListModel
         abstractParyListModel = partyListModel;
         abstractParyListModel.setList(partyList);
-//        ParserJFrame.setAbstractPartyListModel(abstractParyListModel);
 
         thread = new ParserThread(inputFile);
     }
@@ -234,109 +226,42 @@ public class Parser {
                     }
                     Thread.sleep(1000);
                 }
-                fireDataChanged();
-//                printToConsole();
             } catch (Exception ex) {
                 Logger.getLogger(Parser.class.getName()).log(Level.SEVERE, null, ex);
             }
         }
     }
     
-    private Comparator<Attacker> DamageComparator = new Comparator<Attacker>() {
-
-        public int compare(Attacker attacker, Attacker anotherAttacker) {
-            return anotherAttacker.getTotalDamage() - attacker.getTotalDamage();
-        }
+    private Comparator<Attacker> DamageComparator         = (Attacker attacker, Attacker anotherAttacker) -> anotherAttacker.getTotalDamage() - attacker.getTotalDamage();
+    private Comparator<Attacker> DamagePerHitComparator   = (Attacker attacker, Attacker anotherAttacker) -> anotherAttacker.getAverageDamage() - attacker.getAverageDamage();
+    private Comparator<Attacker> MaxHitComparator         = (Attacker attacker, Attacker anotherAttacker) -> anotherAttacker.getMaxNormalHit() - attacker.getMaxNormalHit();
+    private Comparator<Attacker> KillsComparator          = (Attacker attacker, Attacker anotherAttacker) -> anotherAttacker.getKills() - attacker.getKills();
+    private Comparator<Attacker> XPComparator             = (Attacker attacker, Attacker anotherAttacker) -> anotherAttacker.getXpGained() - attacker.getXpGained();
+    private Comparator<Attacker> DamageTakenComparator    = (Attacker attacker, Attacker anotherAttacker) -> anotherAttacker.getTotalDamageTaken() - attacker.getTotalDamageTaken();
+    private Comparator<Attacker> MaxDamageTakenComparator = (Attacker attacker, Attacker anotherAttacker) -> anotherAttacker.getMaxDamageTaken() - attacker.getMaxDamageTaken();
+    private Comparator<Attacker> MaxAbComparator          = (Attacker attacker, Attacker anotherAttacker) -> anotherAttacker.getMaxAB() - attacker.getMaxAB();
+    private Comparator<Attacker> AbComparator             = (Attacker attacker, Attacker anotherAttacker) -> anotherAttacker.getABCompare() - attacker.getABCompare();
+    private Comparator<Attacker> AcComparator             = (Attacker attacker, Attacker anotherAttacker) -> anotherAttacker.getArmorClass() - attacker.getArmorClass();
+    
+    private Comparator<Attacker> PercentageHitComparator = (Attacker attacker, Attacker anotherAttacker) -> {
+        String s1 = anotherAttacker.percentageHit();
+        String s2 = attacker.percentageHit();
+        return (int) (Double.parseDouble(s1.replaceAll(",", ".").substring(0, s1.length()-1)) - Double.parseDouble(s2.replaceAll(",", ".").substring(0, s2.length()-1)));
     };
-    private Comparator<Attacker> DamagePerHitComparator = new Comparator<Attacker>() {
-
-        public int compare(Attacker attacker, Attacker anotherAttacker) {
-            return anotherAttacker.getAverageDamage() - attacker.getAverageDamage();
-        }
+    private Comparator<Attacker> PercentageCriticalHitOfHitsComparator = (Attacker attacker, Attacker anotherAttacker) -> {
+        String s1 = anotherAttacker.percentageCriticalHitOfHits();
+        String s2 = attacker.percentageCriticalHitOfHits();
+        return (int) (Double.parseDouble(s1.replace(",", ".").substring(0, s1.length()-1)) - Double.parseDouble(s2.replace(",", ".").substring(0, s2.length()-1)));
     };
-    private Comparator<Attacker> MaxHitComparator = new Comparator<Attacker>() {
-
-        public int compare(Attacker attacker, Attacker anotherAttacker) {
-            return anotherAttacker.getMaxNormalHit() - attacker.getMaxNormalHit();
-        }
+    private Comparator<Attacker> PercentageMissComparator = (Attacker attacker, Attacker anotherAttacker) -> {
+        String s1 = anotherAttacker.percentageMissOfTotal();
+        String s2 = attacker.percentageMissOfTotal();
+        return (int) (Double.parseDouble(s1.replace(",", ".").substring(0, s1.length()-1)) - Double.parseDouble(s2.replace(",", ".").substring(0, s2.length()-1)));
     };
-    private Comparator<Attacker> KillsComparator = new Comparator<Attacker>() {
-
-        public int compare(Attacker attacker, Attacker anotherAttacker) {
-            return anotherAttacker.getKills() - attacker.getKills();
-        }
-    };
-    private Comparator<Attacker> XPComparator = new Comparator<Attacker>() {
-
-        public int compare(Attacker attacker, Attacker anotherAttacker) {
-            return anotherAttacker.getXpGained() - attacker.getXpGained();
-        }
-    };
-    private Comparator<Attacker> DamageTakenComparator = new Comparator<Attacker>() {
-
-        public int compare(Attacker attacker, Attacker anotherAttacker) {
-            return anotherAttacker.getTotalDamageTaken() - attacker.getTotalDamageTaken();
-        }
-    };
-    private Comparator<Attacker> MaxDamageTakenComparator = new Comparator<Attacker>() {
-
-        public int compare(Attacker attacker, Attacker anotherAttacker) {
-            return anotherAttacker.getMaxDamageTaken() - attacker.getMaxDamageTaken();
-        }
-    };
-    private Comparator<Attacker> MaxAbComparator = new Comparator<Attacker>() {
-
-        public int compare(Attacker attacker, Attacker anotherAttacker) {
-            return anotherAttacker.getMaxAB() - attacker.getMaxAB();
-        }
-    };
-    private Comparator<Attacker> AbComparator = new Comparator<Attacker>() {
-
-        public int compare(Attacker attacker, Attacker anotherAttacker) {
-            return anotherAttacker.getABCompare() - attacker.getABCompare();
-        }
-    };
-    private Comparator<Attacker> AcComparator = new Comparator<Attacker>() {
-
-        public int compare(Attacker attacker, Attacker anotherAttacker) {
-            return anotherAttacker.getArmorClass() - attacker.getArmorClass();
-        }
-    };
-    private Comparator<Attacker> PercentageHitComparator = new Comparator<Attacker>() {
-
-        public int compare(Attacker attacker, Attacker anotherAttacker) {
-//            return (anotherAttacker.getHit() + anotherAttacker.getCriticalHit() / anotherAttacker.getNumberOfAttacks()) -
-//                    (attacker.getHit() + attacker.getCriticalHit() / attacker.getNumberOfAttacks());
-            String s1 = anotherAttacker.percentageHit();
-            String s2 = attacker.percentageHit();
-//            return anotherAttacker.percentageHit().compareTo(attacker.percentageHit());
-            return (int) (Double.parseDouble(s1.replaceAll(",", ".").substring(0, s1.length()-1)) - Double.parseDouble(s2.replaceAll(",", ".").substring(0, s2.length()-1)));
-        }
-    };
-    private Comparator<Attacker> PercentageCriticalHitOfHitsComparator = new Comparator<Attacker>() {
-
-        public int compare(Attacker attacker, Attacker anotherAttacker) {
-            String s1 = anotherAttacker.percentageCriticalHitOfHits();
-            String s2 = attacker.percentageCriticalHitOfHits();
-//            return s1.substring(0, s1.length()).compareTo(s2.substring(0, s2.length()));
-            return (int) (Double.parseDouble(s1.replace(",", ".").substring(0, s1.length()-1)) - Double.parseDouble(s2.replace(",", ".").substring(0, s2.length()-1)));
-        }
-    };
-    private Comparator<Attacker> PercentageMissComparator = new Comparator<Attacker>() {
-
-        public int compare(Attacker attacker, Attacker anotherAttacker) {
-            String s1 = anotherAttacker.percentageMissOfTotal();
-            String s2 = attacker.percentageMissOfTotal();
-            return (int) (Double.parseDouble(s1.replace(",", ".").substring(0, s1.length()-1)) - Double.parseDouble(s2.replace(",", ".").substring(0, s2.length()-1)));
-        }
-    };
-    private Comparator<Attacker> PercentageConcealComparator = new Comparator<Attacker>() {
-
-        public int compare(Attacker attacker, Attacker anotherAttacker) {
-            String s1 = anotherAttacker.percentageConceal();
-            String s2 = attacker.percentageConceal();
-            return (int) (Double.parseDouble(s1.replace(",", ".").substring(0, s1.length()-1)) - Double.parseDouble(s2.replace(",", ".").substring(0, s2.length()-1)));
-        }
+    private Comparator<Attacker> PercentageConcealComparator = (Attacker attacker, Attacker anotherAttacker) -> {
+        String s1 = anotherAttacker.percentageConceal();
+        String s2 = attacker.percentageConceal();
+        return (int) (Double.parseDouble(s1.replace(",", ".").substring(0, s1.length()-1)) - Double.parseDouble(s2.replace(",", ".").substring(0, s2.length()-1)));
     };
 
     public void printToTextArea() {
