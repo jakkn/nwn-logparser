@@ -86,33 +86,51 @@ public class Parser {
     }
 
     public Parser() {
-        this(new File(""), new AbstractParyListModel());
+        this(new AbstractParyListModel());
     }
     
     @SuppressWarnings("CallToThreadStartDuringObjectConstruction")
-    public Parser(File inputFile, AbstractParyListModel partyListModel) {
+    public Parser(AbstractParyListModel partyListModel) {
 
 //        Set up abstractPartyListModel
         abstractParyListModel = partyListModel;
         abstractParyListModel.setList(partyList);
 
-        thread = new ParserThread(inputFile);
+        thread = new ParserThread();
     }
     
+    /**
+     * Must only be called once. See thread.start()
+     */
     public void startParsing(){
         thread.start();
+    }
+    
+    public void restart(){
+        shouldStop = true;
+        thread = new ParserThread();
+        startParsing();
+    }
+    
+    /**
+     * For testing
+     * @return 
+     */
+    protected Thread getParserThread(){
+        return this.thread;
     }
     
     public void addParserListener(ParserListener listener){
         parserListeners.add(listener);
     }
 
+    /**
+     * For testing
+     * @param listener
+     * @return 
+     */
     protected boolean isParserListenerRegistered(ParserListener listener){
         return parserListeners.contains(listener);
-    }
-    
-    public void restart(){
-        thread.start();
     }
     
     public void stopUpdate() {
@@ -131,8 +149,8 @@ public class Parser {
         private File nwClientLogFile;
         private String playername_from_inifile;
 
-        private ParserThread(File file) {
-            this.nwClientLogFile = file;
+        private ParserThread() {
+            this.nwClientLogFile = JFrameParser.getCombatLog();
         }
 
         @Override

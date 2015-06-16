@@ -166,7 +166,7 @@ public class JFrameParser extends javax.swing.JFrame implements ListDataListener
     //TODO: Revise this calling procedure. Wrong method name, and exceptions are never thrown.
     private void tryToOpenLogfile(File file) throws FileNotFoundException, SecurityException {
         if (file.exists()) {
-            parser = new Parser(combatLog, abstractParyListModel);
+            parser = new Parser(abstractParyListModel);
             parser.addParserListener(generalStatsTableModel);
             parser.addParserListener(damageDealtTableModel);
             parser.addParserListener(damageTakenTableModel);
@@ -575,6 +575,10 @@ public class JFrameParser extends javax.swing.JFrame implements ListDataListener
         }
     }//GEN-LAST:event_jButtonSelectLogDirectoryActionPerformed
 
+    static File getCombatLog() {
+        return combatLog;
+    }
+    
     /*
      * Creates a new file with incremented log number. Tests if this file exists and whether it is newer than the current one.
      * "newer" ? newFile : oldFile

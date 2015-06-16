@@ -57,8 +57,10 @@ public class ParserTest {
     public void testRestart() {
         System.out.println("restart");
         Parser instance = new Parser();
+        Thread thread = instance.getParserThread();
         instance.restart();
-        fail("The test case is a prototype.");
+        Thread thread2 = instance.getParserThread();
+        assertTrue("Restarting parser starts new thread", thread != thread2 && !thread.isAlive());
     }
 
     /**
