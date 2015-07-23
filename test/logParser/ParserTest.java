@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package logParser;
 
 import java.util.ArrayList;
@@ -19,6 +14,8 @@ import static org.junit.Assert.*;
  */
 public class ParserTest {
     
+    Parser instance;
+    
     public ParserTest() {
     }
     
@@ -32,6 +29,7 @@ public class ParserTest {
     
     @Before
     public void setUp() {
+        instance = new Parser();
     }
     
     @After
@@ -43,10 +41,9 @@ public class ParserTest {
      */
     @Test
     public void testAddParserListener() {
-        System.out.println("addParserListener");
         Parser.ParserListener listener = (ArrayList<Attacker> attackers) -> {throw new UnsupportedOperationException("Not supported yet.");};
-        Parser instance = new Parser();
         instance.addParserListener(listener);
+        
         assertTrue("Registering ParserLiseteners works", instance.isParserListenerRegistered(listener));
     }
 
@@ -55,12 +52,14 @@ public class ParserTest {
      */
     @Test
     public void testRestart() {
-        System.out.println("restart");
-        Parser instance = new Parser();
+        instance.startParsing();
         Thread thread = instance.getParserThread();
         instance.restart();
         Thread thread2 = instance.getParserThread();
-        assertTrue("Restarting parser starts new thread", thread != thread2 && !thread.isAlive());
+        
+        assertFalse("Restarting parser kills old thread", thread.isAlive());
+        assertTrue("Restarting parser creates new thread", thread != thread2);
+        assertTrue("Restarting parser starts new thread", thread2.isAlive());
     }
 
     /**
@@ -68,11 +67,11 @@ public class ParserTest {
      */
     @Test
     public void testStopUpdate() {
-        System.out.println("stopUpdate");
-        Parser instance = null;
+        Parser instance = new Parser();
+        instance.startParsing();
+        Thread thread = instance.getParserThread();
         instance.stopUpdate();
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        assertTrue("Stopping parser kills thread", !thread.isAlive());
     }
 
     /**
@@ -80,7 +79,6 @@ public class ParserTest {
      */
     @Test
     public void testPrintToTextArea() {
-        System.out.println("printToTextArea");
         Parser instance = null;
         instance.printToTextArea();
         // TODO review the generated test code and remove the default call to fail.
@@ -92,7 +90,6 @@ public class ParserTest {
      */
     @Test
     public void testPrintToSpellTextArea() {
-        System.out.println("printToSpellTextArea");
         String text = "";
         Parser instance = null;
         instance.printToSpellTextArea(text);
@@ -105,7 +102,6 @@ public class ParserTest {
      */
     @Test
     public void testGetAttackerList() {
-        System.out.println("getAttackerList");
         Parser instance = null;
         ArrayList<Attacker> expResult = null;
         ArrayList<Attacker> result = instance.getAttackerList();
@@ -119,7 +115,6 @@ public class ParserTest {
      */
     @Test
     public void testGetPartyList() {
-        System.out.println("getPartyList");
         Parser instance = null;
         ArrayList<Attacker> expResult = null;
         ArrayList<Attacker> result = instance.getPartyList();
@@ -133,7 +128,6 @@ public class ParserTest {
      */
     @Test
     public void testDisplayTotalKills() {
-        System.out.println("displayTotalKills");
         Parser instance = null;
         String expResult = "";
         String result = instance.displayTotalKills();
@@ -147,7 +141,6 @@ public class ParserTest {
      */
     @Test
     public void testDisplayUniques() {
-        System.out.println("displayUniques");
         Parser instance = null;
         String expResult = "";
         String result = instance.displayUniques();
@@ -161,7 +154,6 @@ public class ParserTest {
      */
     @Test
     public void testStartStopwatch() {
-        System.out.println("startStopwatch");
         String stopwatchPattern = "";
         Parser.startStopwatch(stopwatchPattern);
         // TODO review the generated test code and remove the default call to fail.
@@ -173,7 +165,6 @@ public class ParserTest {
      */
     @Test
     public void testStopStopwatch() {
-        System.out.println("stopStopwatch");
         Parser.stopStopwatch();
         // TODO review the generated test code and remove the default call to fail.
         fail("The test case is a prototype.");
@@ -184,7 +175,6 @@ public class ParserTest {
      */
     @Test
     public void testAddToAttackerList() {
-        System.out.println("addToAttackerList");
         String name = "";
         Parser instance = null;
         instance.addToAttackerList(name);
@@ -197,7 +187,6 @@ public class ParserTest {
      */
     @Test
     public void testRemoveFromAttackerList() {
-        System.out.println("removeFromAttackerList");
         String name = "";
         Parser instance = null;
         instance.removeFromAttackerList(name);
@@ -210,7 +199,6 @@ public class ParserTest {
      */
     @Test
     public void testClear() {
-        System.out.println("clear");
         Parser instance = null;
         instance.clear();
         // TODO review the generated test code and remove the default call to fail.
@@ -222,7 +210,6 @@ public class ParserTest {
      */
     @Test
     public void testClearParty() {
-        System.out.println("clearParty");
         Parser instance = null;
         instance.clearParty();
         // TODO review the generated test code and remove the default call to fail.

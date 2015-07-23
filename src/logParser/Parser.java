@@ -147,10 +147,10 @@ public class Parser {
     private class ParserThread extends Thread {
 
         private File nwClientLogFile;
-        private String playername_from_inifile;
+        private String username;
 
         private ParserThread() {
-            this.nwClientLogFile = JFrameParser.getCombatLog();
+            this.nwClientLogFile = ParserView.getCombatLog();
         }
 
         @Override
@@ -159,12 +159,12 @@ public class Parser {
             try {
                 long pos = 0;
                 long oldLength = 0;
-                playername_from_inifile = JFrameParser.checkLoginINI();
+                username = ParserView.readUsernameFromFile();
 
                 RandomAccessFile fileIn;
                 while (!shouldStop) {
                     if (oldLength == nwClientLogFile.length()) {
-                        File newNwClientLogFile = JFrameParser.searchForNewInputFile();
+                        File newNwClientLogFile = ParserView.searchForNewInputFile();
                         if (this.nwClientLogFile != newNwClientLogFile) {
                             nwClientLogFile = newNwClientLogFile;
                             pos = 0;
@@ -181,14 +181,14 @@ public class Parser {
 //                            Since the stopwatch is triggered on the first server message, this must be here.
 //                            This means that the clock will start and continue to run before the trueLogin check.
 //                            To stop the watch a stop method has been added just before the return statement.
-                            if(lineString.matches(loginRegex1 + playername_from_inifile + loginRegex2)) startStopwatch(lineString);
+                            if(lineString.matches(loginRegex1 + username + loginRegex2)) startStopwatch(lineString);
                             
                             if (lineString.contains("[Tell]") || lineString.contains("[Whisper]") || lineString.contains("[Talk]")) {
                                 continue;
                             } else if (lineString.isEmpty()) {
                                 continue;
                             } else if (lineString.matches(".*\\].*\\]\\s+.*:\\s\\[Party\\].*")) {
-                                if (JFrameParser.jCheckBoxAutoCheckParty.isSelected()) {
+                                if (ParserView.jCheckBoxAutoCheckParty.isSelected()) {
 //                                        System.out.println(lineString);
                                     setPartyMember(lineString);
                                 } else {
@@ -381,7 +381,7 @@ public class Parser {
             outputString.append(attacker.getName()).append(": ").append(attacker.percentageConceal()).append(" | ");
         }
         outputString.delete(outputString.length() - 3, outputString.length() - 1);
-        JFrameParser.jTextAreaPrintInfo.setText(outputString.toString());
+        ParserView.jTextAreaPrintInfo.setText(outputString.toString());
     }
 
     /**
@@ -393,11 +393,11 @@ public class Parser {
         Matcher m = LINE_PATTERN.matcher(text);
         String outputText = m.replaceAll("$1");
         outputText = outputText.trim();
-        JFrameParser.jTextAreaSpellInfo.append(outputText + "\n");
+        ParserView.jTextAreaSpellInfo.append(outputText + "\n");
 
 //        Scroll to end
-        Document doc = JFrameParser.jTextAreaSpellInfo.getDocument();
-        JFrameParser.jTextAreaSpellInfo.setCaretPosition(doc.getLength());
+        Document doc = ParserView.jTextAreaSpellInfo.getDocument();
+        ParserView.jTextAreaSpellInfo.setCaretPosition(doc.getLength());
     }
 
     /**
@@ -447,10 +447,10 @@ public class Parser {
      * Is only set to work on jTextPaneLoot.
      */
     private void appendTextToJTextPaneLoot() {
-        Document doc = JFrameParser.jTextPaneLoot.getDocument();
+        Document doc = ParserView.jTextPaneLoot.getDocument();
 //        JFrameParser.jTextPaneLoot.replaceSelection(textToAppend + "\n");
-        JFrameParser.jTextPaneLoot.setText(lootString.toString());
-        JFrameParser.jTextPaneLoot.setCaretPosition(doc.getLength());
+        ParserView.jTextPaneLoot.setText(lootString.toString());
+        ParserView.jTextPaneLoot.setCaretPosition(doc.getLength());
     }
 
     /**
@@ -458,10 +458,10 @@ public class Parser {
      * Is only set to work on jTextPaneServerInfo.
      */
     private void appendTextToJTextPaneServerInfo() {
-        Document doc = JFrameParser.jTextPaneServerInfo.getDocument();
+        Document doc = ParserView.jTextPaneServerInfo.getDocument();
 //        JFrameParser.jTextPaneLoot.replaceSelection(textToAppend + "\n");
-        JFrameParser.jTextPaneServerInfo.setText(serverInfoString.toString());
-        JFrameParser.jTextPaneServerInfo.setCaretPosition(doc.getLength());
+        ParserView.jTextPaneServerInfo.setText(serverInfoString.toString());
+        ParserView.jTextPaneServerInfo.setCaretPosition(doc.getLength());
     }
 
     private int getNumberOfUniques() {
@@ -485,10 +485,10 @@ public class Parser {
     }
 
     private void clearTextAreas() {
-        JFrameParser.jTextAreaPrintInfo.setText("");
-        JFrameParser.jTextAreaSpellInfo.setText("");
-        JFrameParser.jTextPaneLoot.setText("");
-        JFrameParser.jTextPaneServerInfo.setText("");
+        ParserView.jTextAreaPrintInfo.setText("");
+        ParserView.jTextAreaSpellInfo.setText("");
+        ParserView.jTextPaneLoot.setText("");
+        ParserView.jTextPaneServerInfo.setText("");
     }
 
     public ArrayList<Attacker> getAttackerList() {

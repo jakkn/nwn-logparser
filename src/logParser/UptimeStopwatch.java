@@ -78,7 +78,7 @@ public class UptimeStopwatch implements ActionListener {
      * @param e - the event.
      */
     public void actionPerformed(ActionEvent e) {
-        JFrameParser.jTextFieldUptime.setText("Uptime: " + getUptime());
+        ParserView.jTextFieldUptime.setText("Uptime: " + getUptime());
     }
 
     /**
@@ -94,6 +94,6 @@ public class UptimeStopwatch implements ActionListener {
      */
     public void stop(){
         timer.stop();
-        JFrameParser.jTextFieldUptime.setText("Uptime: 00:00:00");
+        ParserView.jTextFieldUptime.setText("Uptime: 00:00:00");
     }
 }
