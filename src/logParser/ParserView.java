@@ -35,7 +35,7 @@ import javax.swing.table.AbstractTableModel;
  *
  * @author Jakob
  */
-public class ParserView extends javax.swing.JFrame implements ListDataListener{
+public class ParserView extends javax.swing.JFrame implements ListDataListener, ParserObserver {
 
     private static int logNumber = 1;
     private static final String PROPERTY_LOG_FOLDER_LOCATION = "NWNlogsFolder";
@@ -57,8 +57,16 @@ public class ParserView extends javax.swing.JFrame implements ListDataListener{
     private static File newFile;
     private Parser parser;
     private AbstractParyListModel abstractParyListModel = new AbstractParyListModel();
+    private ControllerInterface controller;
+    private ModelInterface model;
 
-    public ParserView() {
+    public ParserView(ControllerInterface controller, ModelInterface model) {
+        this.controller = controller;
+        this.model = model;
+        model.registerObserver( (ParserObserver)this );
+    }
+
+    public void createView() {
         tryToSetLookAndFeel();
         initComponents();
         setWindowSizeAndPosition();
@@ -133,7 +141,7 @@ public class ParserView extends javax.swing.JFrame implements ListDataListener{
     }
 
     //TODO: Revise everything below. Tried to clean up slightly but it's still horribly messy.
-    private void runParser(int logNumber) {
+    private void run(int logNumber) {
         try {
             install_path = tryToGetLogDirectory();
             combatLog = new File(install_path + "\\nwclientLog" + logNumber + TEXT_FILE_EXTENSION);
@@ -1314,10 +1322,12 @@ public class ParserView extends javax.swing.JFrame implements ListDataListener{
      * @param args the command line arguments
      */
     public static void main(String args[]) {
+        ParserModel model = new ParserModel();
+        ControllerInterface controller = new ParserController(model);
         java.awt.EventQueue.invokeLater(new Runnable() {
 
             public void run() {
-                new ParserView().setVisible(true);
+                new ParserView(controller, model).setVisible(true);
             }
         });
     }
