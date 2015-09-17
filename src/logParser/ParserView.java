@@ -1,6 +1,18 @@
 /*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
+ * Copyright (C) 2015 jakob
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
 /*
@@ -38,13 +50,6 @@ import javax.swing.table.AbstractTableModel;
 public class ParserView extends javax.swing.JFrame implements ListDataListener, ParserObserver {
 
     private static int logNumber = 1;
-    private static final String PROPERTY_LOG_FOLDER_LOCATION = "NWNlogsFolder";
-    private static final String PROPERTY_INI_PLAYERNAME = "Player"; //location: NWN/nwplayer.ini
-    private static String install_path;
-    private static final String TEXT_FILE_EXTENSION = ".txt";
-    private static final String INI_FILE_EXTENSION = ".ini";
-    private static final String LOG_FILENAME = "\\nwclientLog";
-    private static final String INI_PLAYER_FILENAME = "\\nwnplayer";
     private final GeneralStatsTableModel generalStatsTableModel = new GeneralStatsTableModel();
     private final DamageDealtTableModel damageDealtTableModel = new DamageDealtTableModel();
     private final DamageTakenTableModel damageTakenTableModel = new DamageTakenTableModel();
@@ -52,7 +57,6 @@ public class ParserView extends javax.swing.JFrame implements ListDataListener, 
     private final HitPercentageTableModel hitPercentageTableModel = new HitPercentageTableModel();
     private final SpellsAndSavesTableModel spellsAndSavesTableModel = new SpellsAndSavesTableModel();
     private static Properties parserProperties = new Properties();
-    private static final File PARSER_PROPERTIES_FILE = new File("HalgrothsLogParserInfo.txt");
     private static File combatLog;
     private static File newFile;
     private Parser parser;
@@ -138,37 +142,6 @@ public class ParserView extends javax.swing.JFrame implements ListDataListener, 
 
     public static void setLogNumber(int newLogNumber) {
         logNumber = newLogNumber;
-    }
-
-    //TODO: Revise everything below. Tried to clean up slightly but it's still horribly messy.
-    private void run(int logNumber) {
-        try {
-            install_path = tryToGetLogDirectory();
-            combatLog = new File(install_path + "\\nwclientLog" + logNumber + TEXT_FILE_EXTENSION);
-            tryToOpenLogfile(combatLog);
-            parser.startParsing();
-        } catch (FileNotFoundException ex) {
-            JOptionPane.showMessageDialog(null, "The specified folder does not exist. Please select log directory again.");
-            Logger.getLogger(ParserView.class.getName()).log(Level.SEVERE, "Could not locate input file at location: " + combatLog, ex);
-        } catch (IOException ex) {
-            JOptionPane.showMessageDialog(null, "You have not set the location of the log files. Please select log directory.");
-            Logger.getLogger(ParserView.class.getName()).log(Level.SEVERE, "Could not locate input file at location: " + combatLog, ex);
-        } catch (SecurityException ex) {
-            Logger.getLogger(ParserView.class.getName()).log(Level.SEVERE, "Not allowed access to: " + combatLog, ex);
-        }
-    }
-    
-//    create and load default properties
-    private static String tryToGetLogDirectory() throws FileNotFoundException, IOException {
-        Reader reader;
-        reader = new FileReader(PARSER_PROPERTIES_FILE);
-        parserProperties.load(reader);
-        reader.close();
-        File inputDir = new File(parserProperties.getProperty(PROPERTY_LOG_FOLDER_LOCATION, "C:\\Program Files\\NeverwinterNights\\NWN\\logs"));
-        if(inputDir.exists()){
-            return parserProperties.getProperty(PROPERTY_LOG_FOLDER_LOCATION);
-        }
-        return "";
     }
     
     //TODO: Revise this calling procedure. Wrong method name, and exceptions are never thrown.
