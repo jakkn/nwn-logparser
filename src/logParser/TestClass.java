@@ -13,7 +13,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 /**
  *
- * @author Jakob
+ * @author Jakob Dagsland Knutsen (JDK)
  */
 public class TestClass {
 

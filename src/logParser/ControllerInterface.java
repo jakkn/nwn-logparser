@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2015 jakob
+ * Copyright (C) 2015 Jakob Dagsland Knutsen (JDK)
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -18,7 +18,7 @@ package logParser;
 
 /**
  *
- * @author jakob
+ * @author Jakob Dagsland Knutsen (JDK)
  */
 public interface ControllerInterface {
     void pause();

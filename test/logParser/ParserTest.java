@@ -10,7 +10,7 @@ import static org.junit.Assert.*;
 
 /**
  *
- * @author jakob
+ * @author Jakob Dagsland Knutsen (JDK)
  */
 public class ParserTest {
     

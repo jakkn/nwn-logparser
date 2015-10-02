@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2015 jakob
+ * Copyright (C) 2015 Jakob Dagsland Knutsen (JDK)
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -22,7 +22,7 @@ import java.io.Reader;
 
 /**
  * Methods are identical to java.util.Properties, only with the removal of whitespace character as delimiter.
- * @author jakob
+ * @author Jakob Dagsland Knutsen (JDK)
  */
 public class IniProperties extends java.util.Properties {
 

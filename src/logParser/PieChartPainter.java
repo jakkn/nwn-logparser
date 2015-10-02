@@ -6,7 +6,7 @@ package logParser;
 
 /**
  *
- * @author Jakob
+ * @author Jakob Dagsland Knutsen (JDK)
  */
 import java.awt.*;
 import java.awt.event.*;
