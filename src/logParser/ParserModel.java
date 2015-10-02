@@ -22,9 +22,11 @@ package logParser;
  */
 public class ParserModel implements ModelInterface {
 
+    PathManager pathManager;
+    
     @Override
     public void initialize() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        pathManager = new PathManager();
     }
 
     @Override

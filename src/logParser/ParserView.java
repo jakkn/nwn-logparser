@@ -63,11 +63,13 @@ public class ParserView extends javax.swing.JFrame implements ListDataListener, 
     private AbstractParyListModel abstractParyListModel = new AbstractParyListModel();
     private ControllerInterface controller;
     private ModelInterface model;
+    private PathManager pathManager;
 
     public ParserView(ControllerInterface controller, ModelInterface model) {
         this.controller = controller;
         this.model = model;
         model.registerObserver( (ParserObserver)this );
+        this.pathManager = new PathManager();
     }
 
     public void createView() {
@@ -118,7 +120,7 @@ public class ParserView extends javax.swing.JFrame implements ListDataListener, 
     
     //TODO: Load defaults
     private void tryToLoadPreviousSettings() throws IOException {
-        parserProperties.load(new FileReader(PARSER_PROPERTIES_FILE));
+        parserProperties.load(new FileReader(Constants.APPLICATION_PROPERTIES));
         int extendedState = Integer.parseInt(parserProperties.getProperty("State", String.valueOf(this.getExtendedState())));
         if (extendedState != MAXIMIZED_BOTH) {
             this.setBounds(
@@ -137,7 +139,7 @@ public class ParserView extends javax.swing.JFrame implements ListDataListener, 
         parserProperties.setProperty("Y", String.valueOf(this.getY()));
         parserProperties.setProperty("W", String.valueOf(this.getWidth()));
         parserProperties.setProperty("H", String.valueOf(this.getHeight()));
-        parserProperties.store(new FileWriter(PARSER_PROPERTIES_FILE), null);
+        parserProperties.store(new FileWriter(Constants.APPLICATION_PROPERTIES), null);
     }
 
     public static void setLogNumber(int newLogNumber) {
@@ -539,17 +541,17 @@ public class ParserView extends javax.swing.JFrame implements ListDataListener, 
         }
         Properties defaultProperties = new Properties();
         try {
-            if (!PARSER_PROPERTIES_FILE.exists()) {
-                PARSER_PROPERTIES_FILE.createNewFile();
-                Reader reader = new FileReader(PARSER_PROPERTIES_FILE);
+            if (!new File(Constants.DEFAULT_PROPERTIES).exists()) {
+//                Constants.APPLICATION_PROPERTIES.createNewFile();
+                Reader reader = new FileReader(Constants.APPLICATION_PROPERTIES);
                 defaultProperties.load(reader);
                 reader.close();
-                defaultProperties.setProperty(PROPERTY_LOG_FOLDER_LOCATION, url);
-                defaultProperties.store(new FileWriter(PARSER_PROPERTIES_FILE), url);
+                defaultProperties.setProperty(Constants.PROPERTY_LOG_FOLDER_LOCATION, url);
+                defaultProperties.store(new FileWriter(Constants.APPLICATION_PROPERTIES), url);
             } else {
-                defaultProperties.remove(PROPERTY_LOG_FOLDER_LOCATION);
-                defaultProperties.setProperty(PROPERTY_LOG_FOLDER_LOCATION, url);
-                defaultProperties.store(new FileWriter(PARSER_PROPERTIES_FILE), url);
+                defaultProperties.remove(Constants.PROPERTY_LOG_FOLDER_LOCATION);
+                defaultProperties.setProperty(Constants.PROPERTY_LOG_FOLDER_LOCATION, url);
+                defaultProperties.store(new FileWriter(Constants.APPLICATION_PROPERTIES), url);
             }
         } catch (IOException ex) {
             Logger.getLogger(ParserView.class.getName()).log(Level.SEVERE, null, ex);
@@ -564,8 +566,8 @@ public class ParserView extends javax.swing.JFrame implements ListDataListener, 
      * Creates a new file with incremented log number. Tests if this file exists and whether it is newer than the current one.
      * "newer" ? newFile : oldFile
      */
-    public static File searchForNewInputFile() {
-        newFile = new File(install_path + LOG_FILENAME + (logNumber + 1) + TEXT_FILE_EXTENSION);
+    public File searchForNewInputFile() {
+        newFile = new File(pathManager.getNWNInstallPath().toString() + Constants.LOG_FILENAME + (logNumber + 1) + Constants.TEXT_FILE_EXTENSION);
 //        System.out.println(currentFile + ": " + currentFile.lastModified());
 //        System.out.println(newFile + ": " + newFile.lastModified());
         if(newFile.exists() && (newFile.lastModified() > combatLog.lastModified())){ //29.06.2012 - changed from >= to > because it really shouldn't matter and > is a safer choice when avoiding duplicate file entries
@@ -580,8 +582,8 @@ public class ParserView extends javax.swing.JFrame implements ListDataListener, 
      * Method to check login name in nwnplayer.ini
      * @return Player username, or empty string if file not found
      */
-    public static String readUsernameFromFile() {
-        File nwnplayer_ini = new File(install_path + INI_PLAYER_FILENAME + INI_FILE_EXTENSION);
+    public String readUsernameFromFile() {
+        File nwnplayer_ini = new File(pathManager.getNWNInstallPath() + Constants.INI_PLAYER_FILENAME + Constants.INI_FILE_EXTENSION);
         try {
             return tryToReadUsername(nwnplayer_ini);
         } catch (IOException ex) {
@@ -595,7 +597,7 @@ public class ParserView extends javax.swing.JFrame implements ListDataListener, 
         try (FileInputStream in = new FileInputStream(nwnplayer_ini)) {
             nwnplayerProperties.load(in);
         }
-        String username = nwnplayerProperties.getProperty(PROPERTY_INI_PLAYERNAME);
+        String username = nwnplayerProperties.getProperty(Constants.PROPERTY_INI_PLAYERNAME);
         return username;
     }
 
@@ -604,7 +606,7 @@ public class ParserView extends javax.swing.JFrame implements ListDataListener, 
             parser.stopUpdate();
             parser.clear();
         }
-        runParser(1);
+//        runParser(1);
     }//GEN-LAST:event_jButtonStartActionPerformed
 
     private void jTextFieldUniquesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextFieldUniquesActionPerformed
@@ -1294,16 +1296,16 @@ public class ParserView extends javax.swing.JFrame implements ListDataListener, 
     /**
      * @param args the command line arguments
      */
-    public static void main(String args[]) {
-        ParserModel model = new ParserModel();
-        ControllerInterface controller = new ParserController(model);
-        java.awt.EventQueue.invokeLater(new Runnable() {
-
-            public void run() {
-                new ParserView(controller, model).setVisible(true);
-            }
-        });
-    }
+//    public static void main(String args[]) {
+//        ParserModel model = new ParserModel();
+//        ControllerInterface controller = new ParserController(model);
+//        java.awt.EventQueue.invokeLater(new Runnable() {
+//
+//            public void run() {
+//                new ParserView(controller, model).setVisible(true);
+//            }
+//        });
+//    }
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButtonCrash;
     private javax.swing.JButton jButtonPrintInfo;

@@ -76,8 +76,8 @@ import javax.swing.text.Document;
 public class Parser {
 
     private ParserThread thread;
-    private ArrayList<Attacker> attackerList = new ArrayList<Attacker>();
-    private ArrayList<Attacker> partyList = new ArrayList<Attacker>();
+    private ArrayList<Attacker> attackerList = new ArrayList<>();
+    private ArrayList<Attacker> partyList = new ArrayList<>();
     private AbstractParyListModel abstractParyListModel;
     private int unusableInputLength = 41;
     private ArrayList<String> codeInput;
@@ -87,7 +87,7 @@ public class Parser {
     private int numberOfUniques = 0;
     private StringBuilder lootString = new StringBuilder();
     private StringBuilder serverInfoString = new StringBuilder();
-    private final ArrayList<ParserListener> parserListeners = new ArrayList<ParserListener>();
+    private final ArrayList<ParserListener> parserListeners = new ArrayList<>();
     private volatile boolean shouldStop = false;
     private static UptimeStopwatch stopWatch = null;
     private String loginRegex1 = "\\[.*]\\s\\[.*]\\s";
@@ -162,7 +162,7 @@ public class Parser {
         private String username;
 
         private ParserThread() {
-            this.nwClientLogFile = ParserView.getCombatLog();
+//            this.nwClientLogFile = getCombatLog();
         }
 
         @Override
@@ -171,17 +171,17 @@ public class Parser {
             try {
                 long pos = 0;
                 long oldLength = 0;
-                username = ParserView.readUsernameFromFile();
+//                username = view.readUsernameFromFile();
 
                 RandomAccessFile fileIn;
                 while (!shouldStop) {
                     if (oldLength == nwClientLogFile.length()) {
-                        File newNwClientLogFile = ParserView.searchForNewInputFile();
-                        if (this.nwClientLogFile != newNwClientLogFile) {
-                            nwClientLogFile = newNwClientLogFile;
-                            pos = 0;
-                            oldLength = 0;
-                        }
+//                        File newNwClientLogFile = ParserView.searchForNewInputFile();
+//                        if (this.nwClientLogFile != newNwClientLogFile) {
+//                            nwClientLogFile = newNwClientLogFile;
+//                            pos = 0;
+//                            oldLength = 0;
+//                        }
                     }
                     if (oldLength < nwClientLogFile.length()) {
                         oldLength = nwClientLogFile.length();
