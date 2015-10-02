@@ -1,8 +1,21 @@
-*.class
-
 # Mobile Tools for Java (J2ME)
 ##############################
 .mtj.tmp/
+
+# NetBeans specific #
+##############################
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+.nb-gradle/
+
+# Class Files #
+##############################
+*.class
 
 # Package Files #
 ##############################
@@ -12,13 +25,33 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
-/build/
 
-# Other #
+# Vim.gitignore #
 ##############################
-*.swp
-logparser.sublime-workspace
-nbproject/private
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+*.un~
+Session.vim
+.netrwhist
+*~
+
+# SublimeText.gitignore #
+##############################
+# cache files for sublime text
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+
+# workspace files are user-specific
+*.sublime-workspace
+
+# project files should be checked into the repository, unless a significant
+# proportion of contributors will probably not be using SublimeText
+# *.sublime-project
+
+# sftp configuration file
+sftp-config.json
+
 
 # OS generated files #
 ##############################
