@@ -2,6 +2,12 @@
 ##############################
 .mtj.tmp/
 
+# Intellij specific #
+##############################
+.idea/workspace.xml
+.idea/tasks.xml
+out/
+
 # NetBeans specific #
 ##############################
 nbproject/private/
