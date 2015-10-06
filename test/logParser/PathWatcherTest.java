@@ -24,11 +24,13 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.nio.file.StandardOpenOption;
+import java.nio.file.StandardWatchEventKinds;
+import java.nio.file.WatchEvent;
 import java.util.Arrays;
 import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import junit.framework.Assert;
+import org.junit.Assert;
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
@@ -41,8 +43,8 @@ import org.junit.Test;
  */
 public class PathWatcherTest {
     
-    private LogObserverTester logObserver;
-    private File standardTestFile;
+    private pathObserverTester pathObserver;
+    private Path standardTestFile;
     private Thread pwThread;
     
     public PathWatcherTest() {}
@@ -64,16 +66,20 @@ public class PathWatcherTest {
         } catch (IOException ex) {
             Logger.getLogger(PathWatcherTest.class.getName()).log(Level.SEVERE,
                     "Failed to initialize test environment. Check file "
-                            + "creations.", ex);
+                    + "creations.", ex);
         }
     }
     
     private void tryToInitTestEnvironment() throws IOException {
         standardTestFile = createTestFile(TestConstants.STANDARD_TESTFILE);
-        PathWatcher pw = new PathWatcher(Paths.get(TestConstants.TESTDIR));
-        logObserver = new LogObserverTester();
-        pw.registerObserver(logObserver);
-        
+
+        PathWatcher pw = new PathWatcher();
+        pathObserver = new pathObserverTester();
+        pw.observe(Paths.get(TestConstants.TESTDIR), pathObserver,
+                StandardWatchEventKinds.ENTRY_CREATE,
+                StandardWatchEventKinds.ENTRY_MODIFY,
+                StandardWatchEventKinds.ENTRY_DELETE);
+
         pwThread = new Thread(pw);
         pwThread.start();
     }
@@ -85,21 +91,21 @@ public class PathWatcherTest {
 
     @Test
     public void verifyFileWrites() {
-        int nFileModifications = 100;
+        int nFileModifications = 10;
         
-        writeTo(standardTestFile, nFileModifications);
+        int nWrites = writeTo(standardTestFile, nFileModifications);
         
-        assertNumberOfWritesEquals(nFileModifications);
+        assertWriteNotificationsEquals(nWrites);
     }
     
-    private static File createTestFile(String path) throws IOException {
+    private static Path createTestFile(String path) throws IOException {
         assert path != null : "file path should not be null";
         assert !path.equals("") : "file path should not be empty";
         
         Path filepath = Paths.get(TestConstants.TESTDIR).resolve(path);
         boolean success = filepath.toFile().createNewFile();
         assert success : "file creation failed: " + filepath.toString();
-        return filepath.toFile();
+        return filepath;
     }
 
     private static void createDirectory(String path) {
@@ -122,70 +128,69 @@ public class PathWatcherTest {
         assert success : "File delete failed: " + file.getPath();
     }
 
-    private void writeTo(File file, int nTimes) {
-        assert file.canWrite() : "Cannot write to file";
-        try {
-            tryToWrite(file, nTimes);
-        } catch (IOException ex) {
-            Logger.getLogger(PathWatcherTest.class.getName()).log(Level.SEVERE, "Filewrite failed during test", ex);
+    private int writeTo(Path file, int nTimes) {
+        assert file.toFile().canWrite() : "Cannot write to file";
+        
+        List<String> input = Arrays.asList("testinput");
+        Charset utf8 = StandardCharsets.UTF_8;
+        
+        for (int i = 0; i < nTimes; i++) {
+            try {
+                tryToWrite(file, utf8, input);
+            } catch (IOException ex) {
+                Logger.getLogger(PathWatcherTest.class.getName()).log(
+                        Level.SEVERE, "Filewrite failed during test", ex);
+                return i;
+            }
         }
+        return nTimes;
     }
     
-//    private void tryToWrite(File file, int nTimes) throws IOException {
-//        try (Writer writer = new BufferedWriter(new OutputStreamWriter(
-//              new FileOutputStream(file), "utf-8"))) {
-//            for (int j = 0; j < nTimes; j++) {
-//                writer.write( String.valueOf(j) );
-//            }
-//        }
-//    }
-    private void tryToWrite(File file, int nTimes) throws IOException {
-        Charset utf8 = StandardCharsets.UTF_8;
-        List<String> input = Arrays.asList("testinput");
-        for (int j = 0; j < nTimes; j++) {
-            Files.write(file.toPath(), input, utf8, StandardOpenOption.WRITE, StandardOpenOption.APPEND, StandardOpenOption.SYNC);
-        }
+    private void tryToWrite(Path file, Charset charset, List<String> input)
+        throws IOException
+    {
+        Files.write(file,
+                    input,
+                    charset,
+                    StandardOpenOption.WRITE,
+                    StandardOpenOption.APPEND,
+                    StandardOpenOption.SYNC);
     }
 
-    private void assertNumberOfWritesEquals(int expectedFileModifications) {
+    private void assertWriteNotificationsEquals(int expectedFileModifications) {
         Assert.assertTrue(expectedFileModifications + " writes matches "
-                + logObserver.modififiedNotifications + " notifications",
-                logObserver.modififiedNotifications == expectedFileModifications);
+                + pathObserver.modififiedNotifications + " notifications",
+                pathObserver.modififiedNotifications == expectedFileModifications);
     }
 
-    private void assertNumberOfCreationsEquals(int expectedFileCreations) {
+    private void assertCreateNotificationsEquals(int expectedFileCreations) {
         Assert.assertTrue(expectedFileCreations + " creations matches "
-                + logObserver.createdNotifications + " notifications",
-                logObserver.createdNotifications == expectedFileCreations);
+                + pathObserver.createdNotifications + " notifications",
+                pathObserver.createdNotifications == expectedFileCreations);
     }
 
-    private static class LogObserverTester implements LogObserver {
+    private static class pathObserverTester implements PathObserver {
 
         private Path lastCreatePath, lastDeletePath, lastModifyPath;
         private int createdNotifications, deletedNotifications, modififiedNotifications;
         
-        public LogObserverTester() {
+        public pathObserverTester() {
             lastCreatePath = lastDeletePath = lastModifyPath = null;
             createdNotifications = deletedNotifications = modififiedNotifications = 0;
         }
 
         @Override
-        public void newFile(Path path) {
-            ++createdNotifications;
-            lastCreatePath = path;
-        }
-
-        @Override
-        public void updatedFile(Path path) {
-            ++modififiedNotifications;
-            lastModifyPath = path;
-        }
-
-        @Override
-        public void deletedFile(Path path) {
-            ++deletedNotifications;
-            lastDeletePath = path;
+        public void handleEvent(Path path, WatchEvent event) {
+            if (event.kind() == StandardWatchEventKinds.ENTRY_CREATE) {
+                createdNotifications += event.count();
+                lastCreatePath = (Path) event.context();
+            } else if (event.kind() == StandardWatchEventKinds.ENTRY_MODIFY) {
+                modififiedNotifications += event.count();
+                lastModifyPath = (Path) event.context();
+            } else if (event.kind() == StandardWatchEventKinds.ENTRY_DELETE) {
+                deletedNotifications += event.count();
+                lastDeletePath = (Path) event.context();
+            }
         }
     }
-
 }

@@ -17,8 +17,11 @@
 package logParser;
 
 import java.io.IOException;
+import java.nio.file.ClosedWatchServiceException;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 /**
  *
@@ -43,18 +46,25 @@ public class NWNLogParser {
             printUsage();
         }
  
-        // register directory and process its events
         Path path = Paths.get(args[0]);
-        new PathWatcher(path).run();
-        System.out.println("The above is a thread so this should never output, "
-                + "unless said thread dies. If you see this, thread just went X.X");
+        PathWatcher pw = new PathWatcher();
+        ParserModel model = new ParserModel();
+        try {
+            pw.observe(path, model);
+        } catch (IOException | ClosedWatchServiceException ex) {
+            Logger.getLogger(PathWatcher.class.getName()).log(Level.SEVERE,
+                    "Failed to start observing log directory. "
+                    + "Verify path: " + path, ex);
+            return;
+        }
         
-//        ParserModel model = new ParserModel();
-//        ControllerInterface controller = new ParserController(model);
-//        java.awt.EventQueue.invokeLater(new Runnable() {
-//            public void run() {
-//                new ParserView(controller, model).setVisible(true);
-//            }
-//        });
+        
+        Thread thread = new Thread(pw);
+        thread.run();
+
+        ControllerInterface controller = new ParserController(model);
+        java.awt.EventQueue.invokeLater(() -> {
+            new ParserView(controller, model).setVisible(true);
+        });
     }
 }

@@ -63,13 +63,11 @@ public class ParserView extends javax.swing.JFrame implements ListDataListener, 
     private AbstractParyListModel abstractParyListModel = new AbstractParyListModel();
     private ControllerInterface controller;
     private ModelInterface model;
-    private PathManager pathManager;
 
     public ParserView(ControllerInterface controller, ModelInterface model) {
         this.controller = controller;
         this.model = model;
         model.registerObserver( (ParserObserver)this );
-        this.pathManager = new PathManager();
     }
 
     public void createView() {
@@ -560,36 +558,6 @@ public class ParserView extends javax.swing.JFrame implements ListDataListener, 
 
     static File getCombatLog() {
         return combatLog;
-    }
-    
-    /*
-     * Creates a new file with incremented log number. Tests if this file exists and whether it is newer than the current one.
-     * "newer" ? newFile : oldFile
-     */
-    public File searchForNewInputFile() {
-        newFile = new File(pathManager.getNWNInstallPath().toString() + Constants.LOG_FILENAME + (logNumber + 1) + Constants.TEXT_FILE_EXTENSION);
-//        System.out.println(currentFile + ": " + currentFile.lastModified());
-//        System.out.println(newFile + ": " + newFile.lastModified());
-        if(newFile.exists() && (newFile.lastModified() > combatLog.lastModified())){ //29.06.2012 - changed from >= to > because it really shouldn't matter and > is a safer choice when avoiding duplicate file entries
-            setLogNumber(logNumber + 1);
-            combatLog = newFile;
-            return newFile;
-        }
-        else return combatLog;
-    }
-
-    /**
-     * Method to check login name in nwnplayer.ini
-     * @return Player username, or empty string if file not found
-     */
-    public String readUsernameFromFile() {
-        File nwnplayer_ini = new File(pathManager.getNWNInstallPath() + Constants.INI_PLAYER_FILENAME + Constants.INI_FILE_EXTENSION);
-        try {
-            return tryToReadUsername(nwnplayer_ini);
-        } catch (IOException ex) {
-            Logger.getLogger(ParserView.class.getName()).log(Level.SEVERE, "Failed to read username. Verify path to nwnplayer.ini: " + nwnplayer_ini, ex);
-            return "";
-        }
     }
 
     private static String tryToReadUsername(File nwnplayer_ini) throws FileNotFoundException, IOException {

@@ -17,13 +17,12 @@
 package logParser;
 
 import java.nio.file.Path;
+import java.nio.file.WatchEvent;
 
 /**
  *
  * @author Jakob Dagsland Knutsen (JDK)
  */
-public interface LogObserver {
-    public void newFile(Path path);
-    public void updatedFile(Path path);
-    public void deletedFile(Path path);
+public interface PathObserver {
+    void handleEvent(Path path, WatchEvent event);
 }

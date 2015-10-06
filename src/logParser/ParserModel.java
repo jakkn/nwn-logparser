@@ -16,17 +16,34 @@
  */
 package logParser;
 
+import java.nio.file.Path;
+import java.nio.file.WatchEvent;
+
 /**
  *
  * @author Jakob Dagsland Knutsen (JDK)
  */
-public class ParserModel implements ModelInterface {
+public class ParserModel implements ModelInterface, PathObserver {
 
-    PathManager pathManager;
+    public ParserModel() {}
+    
+    /**
+     * Method to check login name in nwnplayer.ini
+     * @return Player username, or empty string if file not found
+     */
+    public String readUsernameFromFile() {
+        //TODO: Below is extracted from old view for reference
+//        File nwnplayer_ini = new File(pathManager.getNWNInstallPath() + Constants.INI_PLAYER_FILENAME + Constants.INI_FILE_EXTENSION);
+//        try {
+//            return tryToReadUsername(nwnplayer_ini);
+//        } catch (IOException ex) {
+//            Logger.getLogger(ParserView.class.getName()).log(Level.SEVERE, "Failed to read username. Verify path to nwnplayer.ini: " + nwnplayer_ini, ex);
+//        }
+        throw new UnsupportedOperationException("Not supported yet.");
+    }
     
     @Override
     public void initialize() {
-        pathManager = new PathManager();
     }
 
     @Override
@@ -53,5 +70,19 @@ public class ParserModel implements ModelInterface {
     public void removeObserver(ParserObserver o) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
-    
+
+    @Override
+    public void handleEvent(Path path, WatchEvent event) {
+        //TODO: Below is extracted from execution in old View for reference.
+//        if(isLogfile(path)) {
+//            newFile = new File(pathManager.getNWNInstallPath().toString() + Constants.LOG_FILENAME + (logNumber + 1) + Constants.TEXT_FILE_EXTENSION);
+//            if(newFile.exists() && (newFile.lastModified() > combatLog.lastModified())){ //29.06.2012 - changed from >= to > because it really shouldn't matter and > is a safer choice when avoiding duplicate file entries
+//                setLogNumber(logNumber + 1);
+//                combatLog = newFile;
+//                return newFile;
+//            }
+//        }
+        throw new UnsupportedOperationException("Not supported yet.");
+    }
+
 }

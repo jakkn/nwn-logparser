@@ -21,106 +21,126 @@ package logParser;
  * @author Jakob Dagsland Knutsen (JDK)
  */
 
+import com.sun.nio.file.SensitivityWatchEventModifier;
 import java.nio.file.*;
 import java.io.*;
+import java.nio.file.WatchEvent.Kind;
+import java.nio.file.WatchService;
 import java.util.*;
+import java.util.Map;
+import java.util.concurrent.ConcurrentHashMap;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
-public class PathWatcher implements Runnable, LogObservable {
+/**
+ * A PathWatcher monitors directory paths and notifies the registered
+ * observers of changes that occur within the path. Observers register
+ * through the observe method. Due to the fact that registering the
+ * same path with a watch service more than once will return the
+ * existing watch key and overwrite the events, a path watcher cannot
+ * be used to register observers with different events. Thus, each path
+ * watcher has its own watch service (instead of one static watch
+ * service), and care must be taken not to use the same path watcher
+ * for objects with conflicting path & event interests.
+ */
+public class PathWatcher implements Runnable {
 
-    private final WatchService watchService;
-    private final Map<WatchKey,Path> watchKeys;
-    private final List<LogObserver> logObservers;
+    private final WatchService WATCH_SERVICE;
+    private final Map<WatchKey, List<PathObserver>> WATCH_KEYS;
 
-    PathWatcher(Path path) throws IOException {
-        this.watchService = FileSystems.getDefault().newWatchService();
-        this.watchKeys = new HashMap<>();
-        this.logObservers = new ArrayList<>();
-        
-        registerPathWithWatchService(path);
+    PathWatcher() {
+        this.WATCH_SERVICE = createWatchService();
+        this.WATCH_KEYS = new ConcurrentHashMap<>();
     }
 
-    private void registerPathWithWatchService(Path path) throws IOException {
-        WatchKey key = path.register(watchService,
-                StandardWatchEventKinds.ENTRY_CREATE,
-                StandardWatchEventKinds.ENTRY_DELETE,
-                StandardWatchEventKinds.ENTRY_MODIFY);
-        watchKeys.put(key, path);
+    private WatchService createWatchService(){
+        try {
+            return FileSystems.getDefault().newWatchService();
+        } catch (IOException ex) {
+            Logger.getLogger(PathWatcher.class.getName()).log(Level.SEVERE,
+                    "Filesystem error.", ex);
+        }
+        // Bad practice but cannot think of alternative
+        return null;
+    }
+
+    /**
+     * Nonrecursive path observation
+     *
+     * @param path the path to observe. If the same path is registered twice, the events
+     *             for this path will be overwritten for all observers registered to this path
+     * @param observer the object to register for path observation
+     * @param events events the observer wants to be notified of for this path
+     * @throws IOException if an I/O error occurs
+     * @throws ClosedWatchServiceException if the watch service is closed
+     */
+    public void observe(Path path, PathObserver observer, Kind<Path> ... events)
+        throws IOException, ClosedWatchServiceException
+    {
+        WatchKey key = path.register(WATCH_SERVICE, events, SensitivityWatchEventModifier.HIGH);
+
+        WATCH_KEYS.compute(key, (WatchKey k, List<PathObserver> list) -> {
+            if(list != null) {
+                list.add(observer);
+                return list;
+            } else {
+                List<PathObserver> newList = new ArrayList<>(1);
+                newList.add(observer); 
+                return newList;
+            }
+        });
     }
 
     @Override
     public void run() {
-        while(true) {
+        while (true) {
             
             WatchKey key;
             try {
-                key = watchService.take();
+                key = WATCH_SERVICE.take();
             } catch (InterruptedException e) {
-                return; // Enables Thread.interrupt() to kill the thread
+                // Enables Thread.interrupt() to kill the thread
+                return;
             }
             if (!pathIsValid(key)) {
                 continue;
             }
-            processPendingEvents(key);
+            notifyPathObservers(key);
             resetKey(key);
-            if (watchKeys.isEmpty()) {
+            if (WATCH_KEYS.isEmpty()) {
                 break;
             }
         }
     }
 
     private boolean pathIsValid(WatchKey key) {
-        boolean validPath = watchKeys.get(key) != null;
+        boolean validPath = (WATCH_KEYS.get(key) != null);
         if(!validPath) {
-            System.err.println("Retreived a WatchKey linked to null path.");
+            Logger.getLogger(PathWatcher.class.getName()).log(Level.WARNING,
+                    "Retreived a WatchKey linked to null path. "
+                    + "Investigate key->path pair creation.");
         }
         return validPath;
     }
 
-    private void processPendingEvents(WatchKey key) {
-        key.pollEvents().stream().forEach((event) -> {
-            handleOverflow(event);
-//            System.out.format("%s: %s\n", event.kind().name(), absolutePath(key, event));
-            notifyLogObservers(event.kind(), absolutePath(key, event));
+    private void notifyPathObservers(WatchKey key) {
+        key.pollEvents().stream().forEach(watchEvent -> {
+            WATCH_KEYS.get(key).stream().forEach(pathObserver -> {
+                pathObserver.handleEvent(absolutePath(key, watchEvent), watchEvent);
+            });
         });
+    }
+
+    private Path absolutePath(WatchKey key, WatchEvent<?> event){
+        Path watchKeyPath = (Path) key.watchable();
+        Path eventPath = (Path) event.context();
+        return watchKeyPath.resolve(eventPath);
     }
     
     private void resetKey(WatchKey key) {
         boolean keyStillValid = key.reset();
         if (!keyStillValid) {
-            watchKeys.remove(key);
+            WATCH_KEYS.remove(key);
         }
     }
-
-    private void handleOverflow(WatchEvent<?> event) {
-        if (event.kind() == StandardWatchEventKinds.OVERFLOW){
-                System.err.println("OVERFLOW WatchEvent encountered. Log "
-                        + "information may have been lost.");
-        }
-    }
-
-    private Path absolutePath(WatchKey key, WatchEvent<?> event){
-        Path watchkeyPath = watchKeys.get(key);
-        Path eventPath = (Path) event.context();
-        return watchkeyPath.resolve(eventPath);
-    }
-
-    @Override
-    public void registerObserver(LogObserver o) {
-        logObservers.add(o);
-    }
-    
-    @Override
-    public void removeObserver(LogObserver o) {
-        logObservers.remove(o);
-    }
-    
-    @Override
-    public void notifyLogObservers(WatchEvent.Kind<?> kind, Path path) {
-        logObservers.stream().forEach((observer) -> {
-            if      (kind == StandardWatchEventKinds.ENTRY_CREATE) observer.newFile(path);
-            else if (kind == StandardWatchEventKinds.ENTRY_MODIFY) observer.updatedFile(path);
-            else if (kind == StandardWatchEventKinds.ENTRY_DELETE) observer.deletedFile(path);
-        });
-    }
-
 }
