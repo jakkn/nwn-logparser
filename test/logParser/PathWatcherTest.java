@@ -92,9 +92,9 @@ public class PathWatcherTest {
     @Test
     public void verifyFileWrites() {
         int nFileModifications = 10;
-        
+
         int nWrites = writeTo(standardTestFile, nFileModifications);
-        
+
         assertWriteNotificationsEquals(nWrites);
     }
     
@@ -130,7 +130,6 @@ public class PathWatcherTest {
 
     private int writeTo(Path file, int nTimes) {
         assert file.toFile().canWrite() : "Cannot write to file";
-        
         List<String> input = Arrays.asList("testinput");
         Charset utf8 = StandardCharsets.UTF_8;
         
@@ -158,37 +157,42 @@ public class PathWatcherTest {
     }
 
     private void assertWriteNotificationsEquals(int expectedFileModifications) {
+        // Wait for all write notifications to propagate through the system.
+        // Quick and simple, but dirty and breaks test; endless wait if something
+        // goes wrong.
+        while(expectedFileModifications > pathObserver.modifyNotifications);
+
         Assert.assertTrue(expectedFileModifications + " writes matches "
-                + pathObserver.modififiedNotifications + " notifications",
-                pathObserver.modififiedNotifications == expectedFileModifications);
+                + pathObserver.modifyNotifications + " notifications",
+                pathObserver.modifyNotifications == expectedFileModifications);
     }
 
     private void assertCreateNotificationsEquals(int expectedFileCreations) {
         Assert.assertTrue(expectedFileCreations + " creations matches "
-                + pathObserver.createdNotifications + " notifications",
-                pathObserver.createdNotifications == expectedFileCreations);
+                + pathObserver.createNotifications + " notifications",
+                pathObserver.createNotifications == expectedFileCreations);
     }
 
     private static class pathObserverTester implements PathObserver {
 
         private Path lastCreatePath, lastDeletePath, lastModifyPath;
-        private int createdNotifications, deletedNotifications, modififiedNotifications;
+        private int createNotifications, deleteNotifications, modifyNotifications;
         
         public pathObserverTester() {
             lastCreatePath = lastDeletePath = lastModifyPath = null;
-            createdNotifications = deletedNotifications = modififiedNotifications = 0;
+            createNotifications = deleteNotifications = modifyNotifications = 0;
         }
 
         @Override
         public void handleEvent(Path path, WatchEvent event) {
             if (event.kind() == StandardWatchEventKinds.ENTRY_CREATE) {
-                createdNotifications += event.count();
+                createNotifications += event.count();
                 lastCreatePath = (Path) event.context();
             } else if (event.kind() == StandardWatchEventKinds.ENTRY_MODIFY) {
-                modififiedNotifications += event.count();
+                modifyNotifications += event.count();
                 lastModifyPath = (Path) event.context();
             } else if (event.kind() == StandardWatchEventKinds.ENTRY_DELETE) {
-                deletedNotifications += event.count();
+                deleteNotifications += event.count();
                 lastDeletePath = (Path) event.context();
             }
         }
